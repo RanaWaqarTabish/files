@@ -1,0 +1,10 @@
+"","Comparison","p_value"
+"1","PC vs NC (Shannon)",3.40509253487265e-05
+"2","PC vs NC (Simpson)",0.00413697395033362
+"3","PC vs NC (Observed)",0.502887506326857
+"4","Fiber vs PC (Shannon)",0.0988779477342587
+"5","Fiber vs PC (Simpson)",0.203669018345091
+"6","Fiber vs PC (Observed)",0.715688573655495
+"7","Combined vs Single (Shannon)",0.632115149716268
+"8","Combined vs Single (Simpson)",0.520390792133869
+"9","Combined vs Single (Observed)",0.455378557681812

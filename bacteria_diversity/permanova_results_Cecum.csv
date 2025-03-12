@@ -1,0 +1,7 @@
+"Comparison","R2","p_value"
+"All Treatments",0.200644386858047,0.001
+"NC vs PC (Baseline Shift)",0.357816150564913,0.001
+"All Fiber Treatments vs PC",0.139247736363218,0.059
+"Combination vs Single Fiber Sources",0.135857920729267,0.068
+"OH_SBP vs SH_SBP Comparison",0.0423518419348893,0.635
+"WM vs SBP Combinations",0.0937827687346583,0.332
