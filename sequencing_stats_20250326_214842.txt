@@ -1,0 +1,35 @@
+===== 16S SEQUENCING ANALYSIS STATISTICS =====
+Generated: 2025-03-26 21:48:53 
+
+SEQUENCING DEPTH STATISTICS:
+Average sequencing depth: 57437 reads per sample
+Min sequencing depth: 12188 reads per sample
+Max sequencing depth: 117310 reads per sample
+
+RAREFACTION IMPACT:
+Rarefaction depth used: 24791 reads per sample
+Number of samples dropped at rarefaction depth of 24791: 5 
+Percentage of samples dropped: 7.14 %
+
+TAXA STATISTICS:
+Total number of ASVs in the original dataset: 2391 
+Total number of ASVs in the rarefied dataset: 2391 
+ASVs lost after rarefaction: 0 
+
+NUMBER OF TAXA BY TREATMENT GROUP (RAREFIED DATA):
+  Treatment Taxa_Count
+4        SF        593
+6        NC        557
+1        RF        449
+2        LC        441
+3        SC        441
+7        RC        310
+5        LF        304
+
+Treatment with highest taxa count: SF with 593 taxa
+Treatment with lowest taxa count: LF with 304 taxa
+
+SAMPLES PER TREATMENT GROUP:
+
+LC LF NC RC RF SC SF 
+10 10 10 10 10 10 10 
