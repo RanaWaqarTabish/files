@@ -1,0 +1,202 @@
+=======================================================================
+ENZYMATIC PATHWAY ANALYSIS RESULTS
+=======================================================================
+Analysis Date: 2025-03-28 17:09:58 
+
+DATASET OVERVIEW
+-----------------
+Total EC numbers mapped: 3887 
+Total pathways in reference database: 172 
+
+COMPARISON SUMMARY
+-----------------
+NC_vs_SF 
+  Significant pathways: 5 
+  Upregulated pathways: 4 
+  Downregulated pathways: 1 
+
+  Top upregulated pathways:
+    Amino sugar and nucleotide sugar metabolism (log2FC = 2.23, p = 1.74e-03, EC count = 2)
+    Biosynthesis of various nucleotide sugars (log2FC = 2.23, p = 1.74e-03, EC count = 2)
+    Starch and sucrose metabolism (log2FC = 2.19, p = 1.74e-03, EC count = 1)
+    Metabolic pathways (log2FC = 1.08, p = 1.74e-03, EC count = 3)
+
+  Top downregulated pathways:
+    Galactose metabolism (log2FC = -1.22, p = 2.96e-03, EC count = 1)
+
+SF_vs_RF 
+  Significant pathways: 14 
+  Upregulated pathways: 13 
+  Downregulated pathways: 1 
+
+  Top upregulated pathways:
+    Starch and sucrose metabolism (log2FC = 4.25, p = 8.32e-05, EC count = 1)
+    Glycosaminoglycan degradation (log2FC = 4.19, p = 4.05e-03, EC count = 1)
+    Secondary bile acid biosynthesis (log2FC = 4.00, p = 1.19e-03, EC count = 1)
+    Biosynthesis of secondary metabolites (log2FC = 2.46, p = 8.32e-05, EC count = 6)
+    Butanoate metabolism (log2FC = 2.26, p = 8.82e-04, EC count = 1)
+
+  Top downregulated pathways:
+    Glycerophospholipid metabolism (log2FC = -1.57, p = 3.55e-03, EC count = 1)
+
+RF_vs_LF 
+  Significant pathways: 27 
+  Upregulated pathways: 1 
+  Downregulated pathways: 26 
+
+  Top upregulated pathways:
+    Riboflavin metabolism (log2FC = 3.07, p = 1.18e-03, EC count = 1)
+
+  Top downregulated pathways:
+    Taurine and hypotaurine metabolism (log2FC = -4.24, p = 2.63e-04, EC count = 1)
+    Biosynthesis of various nucleotide sugars (log2FC = -3.47, p = 2.31e-03, EC count = 3)
+    Xylene degradation (log2FC = -3.06, p = 2.86e-03, EC count = 1)
+    Steroid hormone biosynthesis (log2FC = -3.05, p = 2.25e-03, EC count = 1)
+    Steroid degradation (log2FC = -3.00, p = 1.96e-03, EC count = 2)
+
+SF_vs_LF 
+  Significant pathways: 61 
+  Upregulated pathways: 20 
+  Downregulated pathways: 41 
+
+  Top upregulated pathways:
+    Histidine metabolism (log2FC = 4.66, p = 5.29e-04, EC count = 2)
+    Peptidoglycan biosynthesis (log2FC = 4.35, p = 1.02e-03, EC count = 1)
+    Inositol phosphate metabolism (log2FC = 4.14, p = 4.48e-03, EC count = 1)
+    Secondary bile acid biosynthesis (log2FC = 3.61, p = 3.56e-03, EC count = 1)
+    Toluene degradation (log2FC = 1.81, p = 4.24e-04, EC count = 1)
+
+  Top downregulated pathways:
+    beta-Alanine metabolism (log2FC = -3.47, p = 3.83e-03, EC count = 1)
+    Isoquinoline alkaloid biosynthesis (log2FC = -2.79, p = 8.00e-05, EC count = 2)
+    Tropane, piperidine and pyridine alkaloid biosynthesis (log2FC = -2.79, p = 8.00e-05, EC count = 2)
+    Glycine, serine and threonine metabolism (log2FC = -2.54, p = 1.30e-04, EC count = 3)
+    Ether lipid metabolism (log2FC = -2.22, p = 1.55e-04, EC count = 1)
+
+SC_vs_RC 
+  Significant pathways: 49 
+  Upregulated pathways: 49 
+  Downregulated pathways: 0 
+
+  Top upregulated pathways:
+    Histidine metabolism (log2FC = 7.97, p = 3.93e-15, EC count = 3)
+    D-Amino acid metabolism (log2FC = 5.25, p = 6.33e-04, EC count = 2)
+    Aminoacyl-tRNA biosynthesis (log2FC = 4.78, p = 1.34e-06, EC count = 1)
+    Nitrogen cycle (log2FC = 4.56, p = 4.60e-04, EC count = 1)
+    Biosynthesis of secondary metabolites (log2FC = 4.50, p = 3.93e-15, EC count = 9)
+
+RC_vs_LC 
+  Significant pathways: 79 
+  Upregulated pathways: 0 
+  Downregulated pathways: 79 
+
+  Top downregulated pathways:
+    Histidine metabolism (log2FC = -9.96, p = 3.85e-27, EC count = 3)
+    Secondary bile acid biosynthesis (log2FC = -5.98, p = 3.27e-06, EC count = 1)
+    Tropane, piperidine and pyridine alkaloid biosynthesis (log2FC = -5.92, p = 5.33e-04, EC count = 1)
+    Sphingolipid metabolism (log2FC = -5.46, p = 6.59e-05, EC count = 2)
+    Peptidoglycan biosynthesis (log2FC = -5.05, p = 1.62e-04, EC count = 1)
+
+SC_vs_LC 
+  Significant pathways: 54 
+  Upregulated pathways: 7 
+  Downregulated pathways: 47 
+
+  Top upregulated pathways:
+    D-Amino acid metabolism (log2FC = 11.87, p = 3.03e-06, EC count = 1)
+    Nitrotoluene degradation (log2FC = 3.60, p = 7.44e-05, EC count = 1)
+    Other carbon fixation pathways (log2FC = 3.09, p = 7.44e-05, EC count = 4)
+    One carbon pool by folate (log2FC = 2.97, p = 9.70e-04, EC count = 1)
+    Biotin metabolism (log2FC = 2.91, p = 4.10e-03, EC count = 1)
+
+  Top downregulated pathways:
+    Sphingolipid metabolism (log2FC = -5.56, p = 6.02e-05, EC count = 1)
+    Steroid degradation (log2FC = -4.55, p = 2.62e-03, EC count = 1)
+    Cysteine and methionine metabolism (log2FC = -4.46, p = 3.64e-06, EC count = 2)
+    Glycerolipid metabolism (log2FC = -4.11, p = 1.02e-04, EC count = 2)
+    Peptidoglycan biosynthesis (log2FC = -3.99, p = 2.69e-03, EC count = 1)
+
+SF_vs_SC 
+  Significant pathways: 13 
+  Upregulated pathways: 13 
+  Downregulated pathways: 0 
+
+  Top upregulated pathways:
+    Histidine metabolism (log2FC = 6.56, p = 3.48e-03, EC count = 1)
+    Steroid degradation (log2FC = 6.16, p = 3.98e-05, EC count = 1)
+    Glycerolipid metabolism (log2FC = 6.01, p = 1.52e-03, EC count = 1)
+    Starch and sucrose metabolism (log2FC = 5.28, p = 1.17e-03, EC count = 1)
+    Inositol phosphate metabolism (log2FC = 5.06, p = 5.64e-04, EC count = 1)
+
+RF_vs_RC 
+  Significant pathways: 6 
+  Upregulated pathways: 6 
+  Downregulated pathways: 0 
+
+  Top upregulated pathways:
+    Biosynthesis of secondary metabolites (log2FC = 19.75, p = 1.15e-17, EC count = 1)
+    Histidine metabolism (log2FC = 19.75, p = 1.15e-17, EC count = 1)
+    Metabolic pathways (log2FC = 9.91, p = 1.15e-17, EC count = 3)
+    Inositol phosphate metabolism (log2FC = 5.15, p = 6.10e-04, EC count = 1)
+    Microbial metabolism in diverse environments (log2FC = 4.99, p = 6.10e-04, EC count = 2)
+
+LF_vs_LC 
+  Significant pathways: 34 
+  Upregulated pathways: 6 
+  Downregulated pathways: 28 
+
+  Top upregulated pathways:
+    Tropane, piperidine and pyridine alkaloid biosynthesis (log2FC = 5.03, p = 4.58e-05, EC count = 1)
+    beta-Alanine metabolism (log2FC = 5.03, p = 4.58e-05, EC count = 1)
+    Glycine, serine and threonine metabolism (log2FC = 1.36, p = 4.58e-05, EC count = 2)
+    Isoquinoline alkaloid biosynthesis (log2FC = 1.36, p = 4.58e-05, EC count = 2)
+    Phenylalanine metabolism (log2FC = 1.36, p = 4.58e-05, EC count = 2)
+
+  Top downregulated pathways:
+    Glycerolipid metabolism (log2FC = -6.67, p = 4.69e-04, EC count = 1)
+    Glycosaminoglycan degradation (log2FC = -4.95, p = 7.16e-04, EC count = 1)
+    Histidine metabolism (log2FC = -3.77, p = 6.94e-04, EC count = 3)
+    Starch and sucrose metabolism (log2FC = -3.55, p = 1.51e-04, EC count = 3)
+    Riboflavin metabolism (log2FC = -3.29, p = 5.19e-04, EC count = 1)
+
+
+CROSS-COMPARISON ANALYSIS
+-----------------
+Total unique significant pathways across all comparisons: 103 
+Pathways found in multiple comparisons: 83 
+
+Top pathways appearing in multiple comparisons:
+Metabolic pathways (found in 10 comparisons: NC_vs_SF, SF_vs_RF, RF_vs_LF, SF_vs_LF, SC_vs_RC, RC_vs_LC, SC_vs_LC, SF_vs_SC, RF_vs_RC, LF_vs_LC)
+Biosynthesis of secondary metabolites (found in 9 comparisons: SF_vs_RF, RF_vs_LF, SF_vs_LF, SC_vs_RC, RC_vs_LC, SC_vs_LC, SF_vs_SC, RF_vs_RC, LF_vs_LC)
+Microbial metabolism in diverse environments (found in 9 comparisons: SF_vs_RF, RF_vs_LF, SF_vs_LF, SC_vs_RC, RC_vs_LC, SC_vs_LC, SF_vs_SC, RF_vs_RC, LF_vs_LC)
+Amino sugar and nucleotide sugar metabolism (found in 7 comparisons: NC_vs_SF, RF_vs_LF, SF_vs_LF, RC_vs_LC, SC_vs_LC, SF_vs_SC, LF_vs_LC)
+Histidine metabolism (found in 7 comparisons: SF_vs_LF, SC_vs_RC, RC_vs_LC, SC_vs_LC, SF_vs_SC, RF_vs_RC, LF_vs_LC)
+Inositol phosphate metabolism (found in 7 comparisons: SF_vs_LF, SC_vs_RC, RC_vs_LC, SC_vs_LC, SF_vs_SC, RF_vs_RC, LF_vs_LC)
+Starch and sucrose metabolism (found in 7 comparisons: NC_vs_SF, SF_vs_RF, SF_vs_LF, RC_vs_LC, SC_vs_LC, SF_vs_SC, LF_vs_LC)
+Arginine and proline metabolism (found in 6 comparisons: RF_vs_LF, SF_vs_LF, SC_vs_RC, RC_vs_LC, SC_vs_LC, LF_vs_LC)
+Biosynthesis of various nucleotide sugars (found in 6 comparisons: NC_vs_SF, RF_vs_LF, SF_vs_LF, RC_vs_LC, SC_vs_LC, LF_vs_LC)
+Cysteine and methionine metabolism (found in 6 comparisons: RF_vs_LF, SF_vs_LF, SC_vs_RC, RC_vs_LC, SC_vs_LC, LF_vs_LC)
+
+CALCIUM CONCENTRATION TRENDS
+-----------------
+Standard vs. Reduced calcium (fine particle):
+  Pathways higher in standard calcium:
+    Starch and sucrose metabolism (log2FC = 4.25)
+    Glycosaminoglycan degradation (log2FC = 4.19)
+    Secondary bile acid biosynthesis (log2FC = 4.00)
+  Pathways higher in reduced calcium:
+    Glycerophospholipid metabolism (log2FC = -1.57)
+
+
+PARTICLE SIZE TRENDS
+-----------------
+Fine vs. Coarse particle (standard calcium):
+  Pathways higher in fine particles:
+    Histidine metabolism (log2FC = 6.56)
+    Steroid degradation (log2FC = 6.16)
+    Glycerolipid metabolism (log2FC = 6.01)
+
+
+=======================================================================
+Analysis completed. Results files saved to: enzymatic_pathway_analysis 
+=======================================================================
