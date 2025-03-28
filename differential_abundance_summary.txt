@@ -1,0 +1,648 @@
+Differential Abundance Analysis - 2025-03-28 01:04:33
+
+=======================================================
+Dataset Summary:
+=======================================================
+$`Number of samples`
+[1] 70
+
+$`Number of taxa before filtering`
+[1] 2391
+
+$`Number of taxa after filtering`
+[1] 2204
+
+$`Sequencing depth range`
+[1] "12,044 to 106,270 reads per sample"
+
+$`Mean sequencing depth`
+[1] "50,306 ± 18,639 reads per sample"
+
+
+
+=======================================================
+Significant Differential Abundance Summary:
+=======================================================
+
+
+Comparison   ASV   Phylum   Class   Order   Family   Genus 
+-----------  ----  -------  ------  ------  -------  ------
+NC_vs_SF     0     0        0       0       0        4     
+SF_vs_RF     0     0        0       0       0        0     
+RF_vs_LF     0     0        1       1       3        9     
+SF_vs_LF     0     0        1       1       2        8     
+SC_vs_RC     0     0        2       1       0        8     
+RC_vs_LC     0     1        2       2       3        4     
+SC_vs_LC     0     0        1       0       1        2     
+SC_vs_SF     0     0        0       0       0        5     
+RC_vs_RF     0     0        2       0       0        6     
+LC_vs_LF     0     0        4       2       1        13    
+
+
+=======================================================
+Differential Abundance at Phylum Level:
+=======================================================
+
+-- NC_vs_SF --
+No significant results found.
+
+
+-- SF_vs_RF --
+
+
+Feature         log2FoldChange   FoldChange        padj  Significance   Direction      
+-------------  ---------------  -----------  ----------  -------------  ---------------
+Bacteroidota          1.705005       3.2603   0.1936378  .              ↑ Higher in SF 
+
+
+-- RF_vs_LF --
+
+
+Feature         log2FoldChange   FoldChange        padj  Significance   Direction     
+-------------  ---------------  -----------  ----------  -------------  --------------
+Bacteroidota         -1.366637     2.578687   0.4556357  .              ↓ Lower in RF 
+
+
+-- SF_vs_LF --
+No significant results found.
+
+
+-- SC_vs_RC --
+No significant results found.
+
+
+-- RC_vs_LC --
+
+
+Feature         log2FoldChange   FoldChange        padj  Significance   Direction     
+-------------  ---------------  -----------  ----------  -------------  --------------
+Bacteroidota         -1.735857     3.330773   0.1692341  .              ↓ Lower in RC 
+
+
+-- SC_vs_LC --
+No significant results found.
+
+
+-- SC_vs_SF --
+
+
+Feature             log2FoldChange   FoldChange        padj  Significance   Direction     
+-----------------  ---------------  -----------  ----------  -------------  --------------
+Actinobacteriota         -2.318785     4.989118   0.2846472  .              ↓ Lower in SC 
+Patescibacteria          -2.319504     4.991607   0.3622086  .              ↓ Lower in SC 
+
+
+-- RC_vs_RF --
+No significant results found.
+
+
+-- LC_vs_LF --
+No significant results found.
+
+
+
+=======================================================
+Differential Abundance at Class Level:
+=======================================================
+
+-- NC_vs_SF --
+
+
+Feature                log2FoldChange   FoldChange        padj  Significance   Direction      
+--------------------  ---------------  -----------  ----------  -------------  ---------------
+Alphaproteobacteria          2.097869     4.280766   0.7189682  .              ↑ Higher in NC 
+
+
+-- SF_vs_RF --
+
+
+Feature          log2FoldChange   FoldChange        padj  Significance   Direction      
+--------------  ---------------  -----------  ----------  -------------  ---------------
+Parcubacteria          2.972787     7.850513   0.3625147  .              ↑ Higher in SF 
+Clostridia             2.310674     4.961147   0.3625147  .              ↑ Higher in SF 
+Bacteroidia            1.681006     3.206514   0.3625147  .              ↑ Higher in SF 
+
+
+-- RF_vs_LF --
+
+
+Feature        log2FoldChange   FoldChange        padj  Significance   Direction     
+------------  ---------------  -----------  ----------  -------------  --------------
+Bacteroidia          -1.41845     2.672982   0.9079292  .              ↓ Lower in RF 
+
+
+-- SF_vs_LF --
+
+
+Feature       log2FoldChange   FoldChange        padj  Significance   Direction      
+-----------  ---------------  -----------  ----------  -------------  ---------------
+Clostridia          3.312851     9.937281   0.0784096  .              ↑ Higher in SF 
+
+
+-- SC_vs_RC --
+
+
+Feature       log2FoldChange   FoldChange        padj  Significance   Direction      
+-----------  ---------------  -----------  ----------  -------------  ---------------
+Clostridia          3.069435     8.394443   0.1595344  .              ↑ Higher in SC 
+
+
+-- RC_vs_LC --
+
+
+Feature        log2FoldChange   FoldChange        padj  Significance   Direction     
+------------  ---------------  -----------  ----------  -------------  --------------
+Clostridia          -3.808421    14.010348   0.0160440  *              ↓ Lower in RC 
+Bacteroidia         -1.841025     3.582646   0.1459629  .              ↓ Lower in RC 
+
+
+-- SC_vs_LC --
+No significant results found.
+
+
+-- SC_vs_SF --
+
+
+Feature           log2FoldChange   FoldChange        padj  Significance   Direction     
+---------------  ---------------  -----------  ----------  -------------  --------------
+Actinobacteria         -2.711702     6.550941   0.3091136  .              ↓ Lower in SC 
+
+
+-- RC_vs_RF --
+No significant results found.
+
+
+-- LC_vs_LF --
+
+
+Feature       log2FoldChange   FoldChange        padj  Significance   Direction      
+-----------  ---------------  -----------  ----------  -------------  ---------------
+Clostridia          2.844015     7.180155   0.2955034  .              ↑ Higher in LC 
+
+
+
+=======================================================
+Differential Abundance at Order Level:
+=======================================================
+
+-- NC_vs_SF --
+No significant results found.
+
+
+-- SF_vs_RF --
+
+
+Feature            log2FoldChange   FoldChange        padj  Significance   Direction      
+----------------  ---------------  -----------  ----------  -------------  ---------------
+Clostridiales            4.868624    29.214720   0.4606605  .              ↑ Higher in SF 
+Oscillospirales          2.624147     6.165198   0.4606605  .              ↑ Higher in SF 
+Burkholderiales          1.820913     3.533047   0.9751015  .              ↑ Higher in SF 
+
+
+-- RF_vs_LF --
+
+
+Feature               log2FoldChange   FoldChange        padj  Significance   Direction      
+-------------------  ---------------  -----------  ----------  -------------  ---------------
+Pasteurellales              6.091540    68.192433   0.0104435  *              ↑ Higher in RF 
+Clostridia_UCG-014          4.402433    21.147767   0.1036040  .              ↑ Higher in RF 
+Oscillospirales            -2.377640     5.196858   0.5670452  .              ↓ Lower in RF  
+
+
+-- SF_vs_LF --
+
+
+Feature               log2FoldChange   FoldChange        padj  Significance   Direction      
+-------------------  ---------------  -----------  ----------  -------------  ---------------
+Clostridiales               7.490469    179.82734   0.0074014  **             ↑ Higher in SF 
+Pasteurellales              5.110215     34.54046   0.0556457  .              ↑ Higher in SF 
+Clostridia_UCG-014          4.489748     22.46719   0.0562484  .              ↑ Higher in SF 
+Corynebacteriales           3.428415     10.76604   0.2175051  .              ↑ Higher in SF 
+Bacteroidales               3.817019     14.09410   0.7826833  .              ↑ Higher in SF 
+
+
+-- SC_vs_RC --
+
+
+Feature                                log2FoldChange   FoldChange        padj  Significance   Direction      
+------------------------------------  ---------------  -----------  ----------  -------------  ---------------
+Peptostreptococcales-Tissierellales          5.102151     34.34793   0.0011695  **             ↑ Higher in SC 
+Clostridiales                                6.645434    100.10941   0.0392852  *              ↑ Higher in SC 
+Pasteurellales                               4.029439     16.32984   0.3056604  .              ↑ Higher in SC 
+
+
+-- RC_vs_LC --
+
+
+Feature           log2FoldChange   FoldChange        padj  Significance   Direction     
+---------------  ---------------  -----------  ----------  -------------  --------------
+Clostridiales         -12.375910   5315.20603   0.0000000  ***            ↓ Lower in RC 
+Bacillales             -5.733902     53.22021   0.0000019  ***            ↓ Lower in RC 
+Pasteurellales         -4.271000     19.30630   0.1930708  .              ↓ Lower in RC 
+
+
+-- SC_vs_LC --
+
+
+Feature                                log2FoldChange   FoldChange        padj  Significance   Direction      
+------------------------------------  ---------------  -----------  ----------  -------------  ---------------
+Bacillales                                  -3.945541    15.407286   0.0138720  *              ↓ Lower in SC  
+Clostridiales                               -5.730476    53.093968   0.1122056  .              ↓ Lower in SC  
+Peptostreptococcales-Tissierellales          3.078275     8.446037   0.2573328  .              ↑ Higher in SC 
+
+
+-- SC_vs_SF --
+
+
+Feature              log2FoldChange   FoldChange        padj  Significance   Direction     
+------------------  ---------------  -----------  ----------  -------------  --------------
+Corynebacteriales         -4.168834    17.986390   0.1521720  .              ↓ Lower in SC 
+Clostridiales             -5.238574    37.754435   0.2578076  .              ↓ Lower in SC 
+Bacillales                -2.127850     4.370655   1.0000000  .              ↓ Lower in SC 
+
+
+-- RC_vs_RF --
+
+
+Feature           log2FoldChange   FoldChange        padj  Significance   Direction     
+---------------  ---------------  -----------  ----------  -------------  --------------
+Clostridiales          -7.015384   129.372260   0.0365998  *              ↓ Lower in RC 
+Pasteurellales         -5.240216    37.797428   0.0365998  *              ↓ Lower in RC 
+Bacillales             -3.081854     8.467019   0.0990747  .              ↓ Lower in RC 
+
+
+-- LC_vs_LF --
+
+
+Feature               log2FoldChange   FoldChange        padj  Significance   Direction      
+-------------------  ---------------  -----------  ----------  -------------  ---------------
+Clostridiales               7.982370    252.89074   0.0024304  **             ↑ Higher in LC 
+Clostridia_UCG-014          5.396057     42.10899   0.0081989  **             ↑ Higher in LC 
+Bacillales                  3.545824     11.67883   0.0201712  *              ↑ Higher in LC 
+Pasteurellales              5.122324     34.83157   0.0271273  *              ↑ Higher in LC 
+Bacteroidales               4.178897     18.11230   0.4862156  .              ↑ Higher in LC 
+
+
+
+=======================================================
+Differential Abundance at Family Level:
+=======================================================
+
+-- NC_vs_SF --
+No significant results found.
+
+
+-- SF_vs_RF --
+
+
+Feature            log2FoldChange   FoldChange   padj  Significance   Direction      
+----------------  ---------------  -----------  -----  -------------  ---------------
+Clostridiaceae           4.850920    28.858407      1  .              ↑ Higher in SF 
+Ruminococcaceae          2.968765     7.828657      1  .              ↑ Higher in SF 
+
+
+-- RF_vs_LF --
+
+
+Feature               log2FoldChange   FoldChange        padj  Significance   Direction      
+-------------------  ---------------  -----------  ----------  -------------  ---------------
+Pasteurellaceae             6.101169    68.649115   0.0378996  *              ↑ Higher in RF 
+Clostridia_UCG-014          4.409734    21.255053   0.3107850  .              ↑ Higher in RF 
+Ruminococcaceae            -2.722428     6.599825   1.0000000  .              ↓ Lower in RF  
+
+
+-- SF_vs_LF --
+
+
+Feature               log2FoldChange   FoldChange        padj  Significance   Direction      
+-------------------  ---------------  -----------  ----------  -------------  ---------------
+Clostridiaceae              7.490147    179.78729   0.0273116  *              ↑ Higher in SF 
+Pasteurellaceae             5.241612     37.83403   0.1230350  .              ↑ Higher in SF 
+Clostridia_UCG-014          4.521531     22.96764   0.1646509  .              ↑ Higher in SF 
+Corynebacteriaceae          3.633656     12.41193   0.3832726  .              ↑ Higher in SF 
+
+
+-- SC_vs_RC --
+
+
+Feature                  log2FoldChange   FoldChange        padj  Significance   Direction      
+----------------------  ---------------  -----------  ----------  -------------  ---------------
+Peptostreptococcaceae          5.153988     35.60451   0.0056499  **             ↑ Higher in SC 
+Clostridiaceae                 6.554693     94.00680   0.1249467  .              ↑ Higher in SC 
+Pasteurellaceae                4.031390     16.35194   0.7081560  .              ↑ Higher in SC 
+
+
+-- RC_vs_LC --
+
+
+Feature            log2FoldChange   FoldChange        padj  Significance   Direction     
+----------------  ---------------  -----------  ----------  -------------  --------------
+Clostridiaceae         -12.373246   5305.40010   0.0000005  ***            ↓ Lower in RC 
+Bacillaceae             -5.777589     54.85643   0.0000326  ***            ↓ Lower in RC 
+Pasteurellaceae         -4.281421     19.44626   0.4625675  .              ↓ Lower in RC 
+
+
+-- SC_vs_LC --
+
+
+Feature                  log2FoldChange   FoldChange        padj  Significance   Direction      
+----------------------  ---------------  -----------  ----------  -------------  ---------------
+Bacillaceae                   -3.938874    15.336247   0.0788041  .              ↓ Lower in SC  
+Clostridiaceae                -5.818553    56.436346   0.2554535  .              ↓ Lower in SC  
+Peptostreptococcaceae          3.083188     8.474853   0.6486601  .              ↑ Higher in SC 
+
+
+-- SC_vs_SF --
+
+
+Feature               log2FoldChange   FoldChange        padj  Significance   Direction     
+-------------------  ---------------  -----------  ----------  -------------  --------------
+Corynebacteriaceae         -4.216985    18.596834   0.4502384  .              ↓ Lower in SC 
+Clostridiaceae             -5.323218    40.035779   0.5478091  .              ↓ Lower in SC 
+Bacillaceae                -2.242644     4.732635   1.0000000  .              ↓ Lower in SC 
+
+
+-- RC_vs_RF --
+
+
+Feature            log2FoldChange   FoldChange        padj  Significance   Direction     
+----------------  ---------------  -----------  ----------  -------------  --------------
+Clostridiaceae          -7.026991   130.417294   0.1098381  .              ↓ Lower in RC 
+Pasteurellaceae         -5.247447    37.987350   0.1098381  .              ↓ Lower in RC 
+Bacillaceae             -3.158239     8.927393   0.2750591  .              ↓ Lower in RC 
+
+
+-- LC_vs_LF --
+
+
+Feature               log2FoldChange   FoldChange        padj  Significance   Direction      
+-------------------  ---------------  -----------  ----------  -------------  ---------------
+Clostridiaceae              7.985482    253.43675   0.0099912  **             ↑ Higher in LC 
+Clostridia_UCG-014          5.401825     42.27770   0.0341751  *              ↑ Higher in LC 
+Pasteurellaceae             5.135143     35.14244   0.0763354  .              ↑ Higher in LC 
+Bacillaceae                 3.511998     11.40819   0.0763354  .              ↑ Higher in LC 
+
+
+
+=======================================================
+Differential Abundance at Genus Level:
+=======================================================
+
+-- NC_vs_SF --
+No significant results found.
+
+
+-- SF_vs_RF --
+No significant results found.
+
+
+-- RF_vs_LF --
+
+
+Feature               log2FoldChange     FoldChange        padj  Significance   Direction      
+-------------------  ---------------  -------------  ----------  -------------  ---------------
+Jeotgalicoccus             48.693954   4.553451e+14   0.0000000  ***            ↑ Higher in RF 
+CHKCI001                   18.130396   2.869413e+05   0.0000687  ***            ↑ Higher in RF 
+Gallibacterium              6.100909   6.863671e+01   0.0377540  *              ↑ Higher in RF 
+Clostridia_UCG-014          4.410222   2.126224e+01   0.4037328  .              ↑ Higher in RF 
+
+
+-- SF_vs_LF --
+
+
+Feature                        log2FoldChange     FoldChange        padj  Significance   Direction      
+----------------------------  ---------------  -------------  ----------  -------------  ---------------
+Jeotgalicoccus                      50.951466   2.177307e+15   0.0000000  ***            ↑ Higher in SF 
+CHKCI001                            19.124116   5.713898e+05   0.0000142  ***            ↑ Higher in SF 
+Clostridium_sensu_stricto_1          8.116603   2.775498e+02   0.1590305  .              ↑ Higher in SF 
+Gallibacterium                       5.238620   3.775563e+01   0.1590305  .              ↑ Higher in SF 
+Clostridia_UCG-014                   4.522892   2.298932e+01   0.2619921  .              ↑ Higher in SF 
+Corynebacterium                      3.630146   1.238177e+01   0.6226908  .              ↑ Higher in SF 
+
+
+-- SC_vs_RC --
+
+
+Feature           log2FoldChange   FoldChange        padj  Significance   Direction      
+---------------  ---------------  -----------  ----------  -------------  ---------------
+Romboutsia              4.761450     27.12310   0.4154378  .              ↑ Higher in SC 
+Gallibacterium          4.131676     17.52905   1.0000000  .              ↑ Higher in SC 
+
+
+-- RC_vs_LC --
+
+
+Feature                        log2FoldChange    FoldChange        padj  Significance   Direction      
+----------------------------  ---------------  ------------  ----------  -------------  ---------------
+Bacillus                            -5.872557      58.58894   0.0002028  ***            ↓ Lower in RC  
+Clostridium_sensu_stricto_1        -12.325430    5132.44300   0.0007801  ***            ↓ Lower in RC  
+Jeotgalicoccus                      15.007430   32937.19841   0.0055987  **             ↑ Higher in RC 
+Gallibacterium                      -4.377379      20.78368   0.6712392  .              ↓ Lower in RC  
+
+
+-- SC_vs_LC --
+
+
+Feature                        log2FoldChange     FoldChange        padj  Significance   Direction      
+----------------------------  ---------------  -------------  ----------  -------------  ---------------
+Jeotgalicoccus                      18.081286   277338.05454   0.0003225  ***            ↑ Higher in SC 
+Bacillus                            -3.961287       15.57636   0.0997874  .              ↓ Lower in SC  
+Clostridium_sensu_stricto_1         -7.307078      158.36147   0.4738080  .              ↓ Lower in SC  
+
+
+-- SC_vs_SF --
+
+
+Feature                        log2FoldChange   FoldChange   padj  Significance   Direction     
+----------------------------  ---------------  -----------  -----  -------------  --------------
+Clostridium_sensu_stricto_1         -6.613924     97.94662      1  .              ↓ Lower in SC 
+Corynebacterium                     -4.218904     18.62158      1  .              ↓ Lower in SC 
+
+
+-- RC_vs_RF --
+
+
+Feature                        log2FoldChange   FoldChange        padj  Significance   Direction     
+----------------------------  ---------------  -----------  ----------  -------------  --------------
+Gallibacterium                      -5.345919     40.67072   0.4770144  .              ↓ Lower in RC 
+Clostridium_sensu_stricto_1         -6.911209    120.35970   0.8877263  .              ↓ Lower in RC 
+Bacillus                            -3.037507      8.21071   0.8877263  .              ↓ Lower in RC 
+
+
+-- LC_vs_LF --
+
+
+Feature                        log2FoldChange     FoldChange        padj  Significance   Direction      
+----------------------------  ---------------  -------------  ----------  -------------  ---------------
+CHKCI001                            20.478968   1.461449e+06   0.0000032  ***            ↑ Higher in LC 
+Clostridium_sensu_stricto_1          8.809756   4.487464e+02   0.0775070  .              ↑ Higher in LC 
+Clostridia_UCG-014                   5.403261   4.231979e+01   0.0775070  .              ↑ Higher in LC 
+Gallibacterium                       5.132369   3.507495e+01   0.1550911  .              ↑ Higher in LC 
+Bacillus                             3.528186   1.153692e+01   0.1550911  .              ↑ Higher in LC 
+
+
+
+=======================================================
+Differential Abundance at ASV Level:
+=======================================================
+
+-- NC_vs_SF --
+
+
+                                   Feature                            TaxonInfo                                          log2FoldChange     FoldChange        padj  Significance   Direction      
+---------------------------------  ---------------------------------  ------------------------------------------------  ---------------  -------------  ----------  -------------  ---------------
+0eeb27cfb061af52c2b961098720624d   0eeb27cfb061af52c2b961098720624d   Firmicutes;  Peptostreptococcaceae;  Romboutsia          44.74195   2.942176e+13   0.0000000  ***            ↑ Higher in NC 
+78fcb00d592b8663d9de99749480b8a7   78fcb00d592b8663d9de99749480b8a7   Firmicutes;  Bacillaceae;  Bacillus                     -22.00187   4.199743e+06   0.0005566  ***            ↓ Lower in NC  
+c7ac5ca8881b22310ab000fbd5863623   c7ac5ca8881b22310ab000fbd5863623   Firmicutes;  Lactobacillaceae;  Lactobacillus           -21.82651   3.719077e+06   0.0005566  ***            ↓ Lower in NC  
+579df9f2221ba70699480b110168c467   579df9f2221ba70699480b110168c467   Firmicutes;  Bacillaceae;  Bacillus                     -21.44188   2.848719e+06   0.0425164  *              ↓ Lower in NC  
+
+
+-- SF_vs_RF --
+
+
+                                   Feature                            TaxonInfo                                        log2FoldChange     FoldChange        padj  Significance   Direction      
+---------------------------------  ---------------------------------  ----------------------------------------------  ---------------  -------------  ----------  -------------  ---------------
+579df9f2221ba70699480b110168c467   579df9f2221ba70699480b110168c467   Firmicutes;  Bacillaceae;  Bacillus                   21.331754   2.639355e+06   0.1848229  .              ↑ Higher in SF 
+5a8be584118f295dbd165807bb8d940e   5a8be584118f295dbd165807bb8d940e   Firmicutes;  Lactobacillaceae;  Lactobacillus         -1.488893   2.806735e+00   1.0000000  .              ↓ Lower in SF  
+
+
+-- RF_vs_LF --
+
+
+                                   Feature                            TaxonInfo                                            log2FoldChange     FoldChange        padj  Significance   Direction      
+---------------------------------  ---------------------------------  --------------------------------------------------  ---------------  -------------  ----------  -------------  ---------------
+0eeb27cfb061af52c2b961098720624d   0eeb27cfb061af52c2b961098720624d   Firmicutes;  Peptostreptococcaceae;  Romboutsia          -43.783328   1.513892e+13   0.0000000  ***            ↓ Lower in RF  
+7df0b8bb2673874b1e7d11da7c8aec12   7df0b8bb2673874b1e7d11da7c8aec12   Firmicutes;  Lactobacillaceae;  Lactobacillus             22.577833   6.260442e+06   0.0000000  ***            ↑ Higher in RF 
+7e1f20ecbda6568a6011c4b95944742d   7e1f20ecbda6568a6011c4b95944742d   Firmicutes;  Lactobacillaceae;  Lactobacillus             22.485781   5.873467e+06   0.0000000  ***            ↑ Higher in RF 
+621f555326d4536084f1fdf7d26a1738   621f555326d4536084f1fdf7d26a1738   Firmicutes;  Lactobacillaceae;  Lactobacillus             21.611789   3.204768e+06   0.0000022  ***            ↑ Higher in RF 
+8cc850c2309853d4518d528f571a33e5   8cc850c2309853d4518d528f571a33e5   Proteobacteria;  Pasteurellaceae;  Gallibacterium         25.412720   4.466744e+07   0.0011164  **             ↑ Higher in RF 
+919519dcadf127ed34fa06684e882a62   919519dcadf127ed34fa06684e882a62   Proteobacteria;  Pasteurellaceae;  Gallibacterium         23.720032   1.381787e+07   0.0022173  **             ↑ Higher in RF 
+579df9f2221ba70699480b110168c467   579df9f2221ba70699480b110168c467   Firmicutes;  Bacillaceae;  Bacillus                      -24.398866   2.212027e+07   0.0022173  **             ↓ Lower in RF  
+f707a2b2a37735ac4c187ac616949cfa   f707a2b2a37735ac4c187ac616949cfa   Firmicutes;  Paenibacillaceae;  Ammoniphilus             -23.085781   8.902513e+06   0.0048075  **             ↓ Lower in RF  
+cdc3a9bf0982e6b0662f855dee0589e4   cdc3a9bf0982e6b0662f855dee0589e4   Firmicutes;  Leuconostocaceae;  Weissella                -23.085781   8.902513e+06   0.0048075  **             ↓ Lower in RF  
+d979e833d5a7b79eb84103e02807ee7a   d979e833d5a7b79eb84103e02807ee7a   Firmicutes;  Lactobacillaceae;  Lactobacillus              3.616999   1.226945e+01   1.0000000  .              ↑ Higher in RF 
+
+
+-- SF_vs_LF --
+
+
+                                   Feature                            TaxonInfo                                                    log2FoldChange     FoldChange        padj  Significance   Direction      
+---------------------------------  ---------------------------------  ----------------------------------------------------------  ---------------  -------------  ----------  -------------  ---------------
+7df0b8bb2673874b1e7d11da7c8aec12   7df0b8bb2673874b1e7d11da7c8aec12   Firmicutes;  Lactobacillaceae;  Lactobacillus                     24.815626   2.952894e+07   0.0000000  ***            ↑ Higher in SF 
+0eeb27cfb061af52c2b961098720624d   0eeb27cfb061af52c2b961098720624d   Firmicutes;  Peptostreptococcaceae;  Romboutsia                  -43.859300   1.595750e+13   0.0000000  ***            ↓ Lower in SF  
+7e1f20ecbda6568a6011c4b95944742d   7e1f20ecbda6568a6011c4b95944742d   Firmicutes;  Lactobacillaceae;  Lactobacillus                     24.853915   3.032311e+07   0.0000000  ***            ↑ Higher in SF 
+621f555326d4536084f1fdf7d26a1738   621f555326d4536084f1fdf7d26a1738   Firmicutes;  Lactobacillaceae;  Lactobacillus                     24.377959   2.180203e+07   0.0000000  ***            ↑ Higher in SF 
+8cc850c2309853d4518d528f571a33e5   8cc850c2309853d4518d528f571a33e5   Proteobacteria;  Pasteurellaceae;  Gallibacterium                 24.374063   2.174323e+07   0.0027837  **             ↑ Higher in SF 
+f707a2b2a37735ac4c187ac616949cfa   f707a2b2a37735ac4c187ac616949cfa   Firmicutes;  Paenibacillaceae;  Ammoniphilus                     -23.130338   9.181753e+06   0.0052151  **             ↓ Lower in SF  
+919519dcadf127ed34fa06684e882a62   919519dcadf127ed34fa06684e882a62   Proteobacteria;  Pasteurellaceae;  Gallibacterium                 22.576425   6.254333e+06   0.0052151  **             ↑ Higher in SF 
+cdc3a9bf0982e6b0662f855dee0589e4   cdc3a9bf0982e6b0662f855dee0589e4   Firmicutes;  Leuconostocaceae;  Weissella                        -23.130338   9.181753e+06   0.0052151  **             ↓ Lower in SF  
+d979e833d5a7b79eb84103e02807ee7a   d979e833d5a7b79eb84103e02807ee7a   Firmicutes;  Lactobacillaceae;  Lactobacillus                      5.347007   4.070142e+01   0.0709459  .              ↑ Higher in SF 
+ffa594a1874f0e9b0e2a9d5acabc7e63   ffa594a1874f0e9b0e2a9d5acabc7e63   Firmicutes;  Lactobacillaceae;  Lactobacillus                      2.845504   7.187568e+00   0.0709459  .              ↑ Higher in SF 
+48c4c53bca3838546ebf5d0a975ccbf1   48c4c53bca3838546ebf5d0a975ccbf1   Firmicutes;  Lactobacillaceae;  Lactobacillus                      3.612558   1.223174e+01   0.6309472  .              ↑ Higher in SF 
+1e174064c155caf4fce9dd4e5be3d914   1e174064c155caf4fce9dd4e5be3d914   Firmicutes;  Lactobacillaceae;  Lactobacillus                     -2.366045   5.155260e+00   0.7230642  .              ↓ Lower in SF  
+14dca04402c59b9e919c029f27108303   14dca04402c59b9e919c029f27108303   Firmicutes;  Clostridiaceae;  Clostridium_sensu_stricto_1          8.236044   3.015063e+02   1.0000000  .              ↑ Higher in SF 
+88199f13057c56f41e69460708384551   88199f13057c56f41e69460708384551   Firmicutes;  Lactobacillaceae;  Lactobacillus                      4.065470   1.674282e+01   1.0000000  .              ↑ Higher in SF 
+
+
+-- SC_vs_RC --
+
+
+                                   Feature                            TaxonInfo                                                    log2FoldChange     FoldChange        padj  Significance   Direction      
+---------------------------------  ---------------------------------  ----------------------------------------------------------  ---------------  -------------  ----------  -------------  ---------------
+5425480e2dac15c4aa67925fe2454002   5425480e2dac15c4aa67925fe2454002   Firmicutes;  Peptostreptococcaceae; Unknown_Genus                  36.89630   1.279067e+11   0.0000000  ***            ↑ Higher in SC 
+14dca04402c59b9e919c029f27108303   14dca04402c59b9e919c029f27108303   Firmicutes;  Clostridiaceae;  Clostridium_sensu_stricto_1          21.88192   3.864685e+06   0.0000007  ***            ↑ Higher in SC 
+c7ac5ca8881b22310ab000fbd5863623   c7ac5ca8881b22310ab000fbd5863623   Firmicutes;  Lactobacillaceae;  Lactobacillus                      24.67157   2.672285e+07   0.0000150  ***            ↑ Higher in SC 
+8cc850c2309853d4518d528f571a33e5   8cc850c2309853d4518d528f571a33e5   Proteobacteria;  Pasteurellaceae;  Gallibacterium                  24.93760   3.213408e+07   0.0021307  **             ↑ Higher in SC 
+919519dcadf127ed34fa06684e882a62   919519dcadf127ed34fa06684e882a62   Proteobacteria;  Pasteurellaceae;  Gallibacterium                  23.24071   9.911753e+06   0.0047236  **             ↑ Higher in SC 
+c67075b84a242ce57ecd19746fc61c11   c67075b84a242ce57ecd19746fc61c11   Firmicutes;  Staphylococcaceae;  Staphylococcus                    22.71046   6.863247e+06   0.0083025  **             ↑ Higher in SC 
+6776a7e4c994b81da9fc10ac95eec690   6776a7e4c994b81da9fc10ac95eec690   Firmicutes;  Lactobacillaceae;  Lactobacillus                      22.71046   6.863247e+06   0.0083025  **             ↑ Higher in SC 
+78fcb00d592b8663d9de99749480b8a7   78fcb00d592b8663d9de99749480b8a7   Firmicutes;  Bacillaceae;  Bacillus                               -17.21687   1.523327e+05   0.0314836  *              ↓ Lower in SC  
+
+
+-- RC_vs_LC --
+
+
+                                   Feature                            TaxonInfo                                                    log2FoldChange     FoldChange        padj  Significance   Direction      
+---------------------------------  ---------------------------------  ----------------------------------------------------------  ---------------  -------------  ----------  -------------  ---------------
+14dca04402c59b9e919c029f27108303   14dca04402c59b9e919c029f27108303   Firmicutes;  Clostridiaceae;  Clostridium_sensu_stricto_1        -29.195872   6.149405e+08   0.0000000  ***            ↓ Lower in RC  
+c7ac5ca8881b22310ab000fbd5863623   c7ac5ca8881b22310ab000fbd5863623   Firmicutes;  Lactobacillaceae;  Lactobacillus                    -24.595047   2.534236e+07   0.0000249  ***            ↓ Lower in RC  
+8cc850c2309853d4518d528f571a33e5   8cc850c2309853d4518d528f571a33e5   Proteobacteria;  Pasteurellaceae;  Gallibacterium                -24.977360   3.303199e+07   0.0027392  **             ↓ Lower in RC  
+919519dcadf127ed34fa06684e882a62   919519dcadf127ed34fa06684e882a62   Proteobacteria;  Pasteurellaceae;  Gallibacterium                -23.350419   1.069490e+07   0.0053613  **             ↓ Lower in RC  
+a6be8707a704664a17ca93642a1af898   a6be8707a704664a17ca93642a1af898   Patescibacteria;  Parcubacteria;  Parcubacteria                  -20.125718   1.144049e+06   0.0593673  .              ↓ Lower in RC  
+b519ac9a8d84fec7dc6710087bbd95c3   b519ac9a8d84fec7dc6710087bbd95c3   Firmicutes;  Ruminococcaceae;  Subdoligranulum                   -20.125718   1.144049e+06   0.0593673  .              ↓ Lower in RC  
+c148d07bf240173b944cc66efc018ed0   c148d07bf240173b944cc66efc018ed0   Firmicutes;  Bacillaceae; Unknown_Genus                          -20.125718   1.144049e+06   0.0593673  .              ↓ Lower in RC  
+0eeb27cfb061af52c2b961098720624d   0eeb27cfb061af52c2b961098720624d   Firmicutes;  Peptostreptococcaceae;  Romboutsia                   16.389534   8.585023e+04   0.6198169  .              ↑ Higher in RC 
+43946a380ded72920c9ff227a779c68f   43946a380ded72920c9ff227a779c68f   Firmicutes;  Bacillaceae;  Bacillus                               -6.959990   1.244989e+02   1.0000000  .              ↓ Lower in RC  
+6994a90b181f7fdeaceb90ce0c70e411   6994a90b181f7fdeaceb90ce0c70e411   Firmicutes;  Bacillaceae;  Bacillus                               -8.557972   3.768827e+02   1.0000000  .              ↓ Lower in RC  
+1fa0e0654f5a7ac429fda624ca103b1d   1fa0e0654f5a7ac429fda624ca103b1d   Firmicutes;  Leuconostocaceae;  Weissella                         -5.549292   4.682777e+01   1.0000000  .              ↓ Lower in RC  
+
+
+-- SC_vs_LC --
+
+
+                                   Feature                            TaxonInfo                                                    log2FoldChange     FoldChange        padj  Significance   Direction      
+---------------------------------  ---------------------------------  ----------------------------------------------------------  ---------------  -------------  ----------  -------------  ---------------
+5425480e2dac15c4aa67925fe2454002   5425480e2dac15c4aa67925fe2454002   Firmicutes;  Peptostreptococcaceae; Unknown_Genus                 23.858200   1.520665e+07   0.0000124  ***            ↑ Higher in SC 
+78fcb00d592b8663d9de99749480b8a7   78fcb00d592b8663d9de99749480b8a7   Firmicutes;  Bacillaceae;  Bacillus                              -23.958917   1.630620e+07   0.0000806  ***            ↓ Lower in SC  
+a6be8707a704664a17ca93642a1af898   a6be8707a704664a17ca93642a1af898   Patescibacteria;  Parcubacteria;  Parcubacteria                  -19.658656   8.276468e+05   0.0765045  .              ↓ Lower in SC  
+0eeb27cfb061af52c2b961098720624d   0eeb27cfb061af52c2b961098720624d   Firmicutes;  Peptostreptococcaceae;  Romboutsia                   20.446697   1.429121e+06   0.0765045  .              ↑ Higher in SC 
+b519ac9a8d84fec7dc6710087bbd95c3   b519ac9a8d84fec7dc6710087bbd95c3   Firmicutes;  Ruminococcaceae;  Subdoligranulum                   -19.658656   8.276468e+05   0.0765045  .              ↓ Lower in SC  
+c67075b84a242ce57ecd19746fc61c11   c67075b84a242ce57ecd19746fc61c11   Firmicutes;  Staphylococcaceae;  Staphylococcus                   19.591091   7.897796e+05   0.0765045  .              ↑ Higher in SC 
+c148d07bf240173b944cc66efc018ed0   c148d07bf240173b944cc66efc018ed0   Firmicutes;  Bacillaceae; Unknown_Genus                          -19.658656   8.276468e+05   0.0765045  .              ↓ Lower in SC  
+6776a7e4c994b81da9fc10ac95eec690   6776a7e4c994b81da9fc10ac95eec690   Firmicutes;  Lactobacillaceae;  Lactobacillus                     19.591091   7.897796e+05   0.0765045  .              ↑ Higher in SC 
+14dca04402c59b9e919c029f27108303   14dca04402c59b9e919c029f27108303   Firmicutes;  Clostridiaceae;  Clostridium_sensu_stricto_1         -7.313952   1.591179e+02   1.0000000  .              ↓ Lower in SC  
+43946a380ded72920c9ff227a779c68f   43946a380ded72920c9ff227a779c68f   Firmicutes;  Bacillaceae;  Bacillus                               -6.049093   6.621533e+01   1.0000000  .              ↓ Lower in SC  
+
+
+-- SC_vs_SF --
+
+
+                                   Feature                            TaxonInfo                                          log2FoldChange     FoldChange        padj  Significance   Direction      
+---------------------------------  ---------------------------------  ------------------------------------------------  ---------------  -------------  ----------  -------------  ---------------
+0eeb27cfb061af52c2b961098720624d   0eeb27cfb061af52c2b961098720624d   Firmicutes;  Peptostreptococcaceae;  Romboutsia          45.10104   3.773697e+13   0.0000000  ***            ↑ Higher in SC 
+78fcb00d592b8663d9de99749480b8a7   78fcb00d592b8663d9de99749480b8a7   Firmicutes;  Bacillaceae;  Bacillus                     -21.36993   2.710126e+06   0.0017005  **             ↓ Lower in SC  
+c67075b84a242ce57ecd19746fc61c11   c67075b84a242ce57ecd19746fc61c11   Firmicutes;  Staphylococcaceae;  Staphylococcus          22.65121   6.587104e+06   0.0152384  *              ↑ Higher in SC 
+6776a7e4c994b81da9fc10ac95eec690   6776a7e4c994b81da9fc10ac95eec690   Firmicutes;  Lactobacillaceae;  Lactobacillus            22.65121   6.587104e+06   0.0152384  *              ↑ Higher in SC 
+579df9f2221ba70699480b110168c467   579df9f2221ba70699480b110168c467   Firmicutes;  Bacillaceae;  Bacillus                     -21.00546   2.105102e+06   0.0471933  *              ↓ Lower in SC  
+
+
+-- RC_vs_RF --
+
+
+                                   Feature                            TaxonInfo                                                    log2FoldChange     FoldChange        padj  Significance   Direction      
+---------------------------------  ---------------------------------  ----------------------------------------------------------  ---------------  -------------  ----------  -------------  ---------------
+5425480e2dac15c4aa67925fe2454002   5425480e2dac15c4aa67925fe2454002   Firmicutes;  Peptostreptococcaceae; Unknown_Genus                -33.776115   1.471038e+10   0.0000000  ***            ↓ Lower in RC  
+0eeb27cfb061af52c2b961098720624d   0eeb27cfb061af52c2b961098720624d   Firmicutes;  Peptostreptococcaceae;  Romboutsia                   40.967909   2.150649e+12   0.0000000  ***            ↑ Higher in RC 
+14dca04402c59b9e919c029f27108303   14dca04402c59b9e919c029f27108303   Firmicutes;  Clostridiaceae;  Clostridium_sensu_stricto_1        -23.579573   1.253599e+07   0.0000000  ***            ↓ Lower in RC  
+c7ac5ca8881b22310ab000fbd5863623   c7ac5ca8881b22310ab000fbd5863623   Firmicutes;  Lactobacillaceae;  Lactobacillus                    -26.705055   1.094013e+08   0.0000007  ***            ↓ Lower in RC  
+8cc850c2309853d4518d528f571a33e5   8cc850c2309853d4518d528f571a33e5   Proteobacteria;  Pasteurellaceae;  Gallibacterium                -26.333390   8.455522e+07   0.0004825  ***            ↓ Lower in RC  
+919519dcadf127ed34fa06684e882a62   919519dcadf127ed34fa06684e882a62   Proteobacteria;  Pasteurellaceae;  Gallibacterium                -24.511772   2.392096e+07   0.0012779  **             ↓ Lower in RC  
+1e174064c155caf4fce9dd4e5be3d914   1e174064c155caf4fce9dd4e5be3d914   Firmicutes;  Lactobacillaceae;  Lactobacillus                     -1.834431   3.566306e+00   1.0000000  .              ↓ Lower in RC  
+1fa0e0654f5a7ac429fda624ca103b1d   1fa0e0654f5a7ac429fda624ca103b1d   Firmicutes;  Leuconostocaceae;  Weissella                         -4.964763   3.122788e+01   1.0000000  .              ↓ Lower in RC  
+
+
+-- LC_vs_LF --
+
+
+                                   Feature                            TaxonInfo                                                    log2FoldChange     FoldChange        padj  Significance   Direction      
+---------------------------------  ---------------------------------  ----------------------------------------------------------  ---------------  -------------  ----------  -------------  ---------------
+7df0b8bb2673874b1e7d11da7c8aec12   7df0b8bb2673874b1e7d11da7c8aec12   Firmicutes;  Lactobacillaceae;  Lactobacillus                     23.608855   1.279303e+07   0.0000000  ***            ↑ Higher in LC 
+7e1f20ecbda6568a6011c4b95944742d   7e1f20ecbda6568a6011c4b95944742d   Firmicutes;  Lactobacillaceae;  Lactobacillus                     23.664368   1.329489e+07   0.0000000  ***            ↑ Higher in LC 
+621f555326d4536084f1fdf7d26a1738   621f555326d4536084f1fdf7d26a1738   Firmicutes;  Lactobacillaceae;  Lactobacillus                     22.817772   7.393223e+06   0.0000001  ***            ↑ Higher in LC 
+8cc850c2309853d4518d528f571a33e5   8cc850c2309853d4518d528f571a33e5   Proteobacteria;  Pasteurellaceae;  Gallibacterium                 24.056690   1.744959e+07   0.0016821  **             ↑ Higher in LC 
+5425480e2dac15c4aa67925fe2454002   5425480e2dac15c4aa67925fe2454002   Firmicutes;  Peptostreptococcaceae; Unknown_Genus                -17.581446   1.961294e+05   0.0025844  **             ↓ Lower in LC  
+919519dcadf127ed34fa06684e882a62   919519dcadf127ed34fa06684e882a62   Proteobacteria;  Pasteurellaceae;  Gallibacterium                 22.558679   6.177872e+06   0.0025844  **             ↑ Higher in LC 
+a6be8707a704664a17ca93642a1af898   a6be8707a704664a17ca93642a1af898   Patescibacteria;  Parcubacteria;  Parcubacteria                   19.578656   7.830020e+05   0.0251494  *              ↑ Higher in LC 
+b519ac9a8d84fec7dc6710087bbd95c3   b519ac9a8d84fec7dc6710087bbd95c3   Firmicutes;  Ruminococcaceae;  Subdoligranulum                    19.578656   7.830020e+05   0.0251494  *              ↑ Higher in LC 
+c148d07bf240173b944cc66efc018ed0   c148d07bf240173b944cc66efc018ed0   Firmicutes;  Bacillaceae; Unknown_Genus                           19.578656   7.830020e+05   0.0251494  *              ↑ Higher in LC 
+0eeb27cfb061af52c2b961098720624d   0eeb27cfb061af52c2b961098720624d   Firmicutes;  Peptostreptococcaceae;  Romboutsia                  -19.204953   6.043200e+05   0.0288652  *              ↓ Lower in LC  
+f707a2b2a37735ac4c187ac616949cfa   f707a2b2a37735ac4c187ac616949cfa   Firmicutes;  Paenibacillaceae;  Ammoniphilus                     -18.900158   4.892316e+05   0.0305614  *              ↓ Lower in LC  
+cdc3a9bf0982e6b0662f855dee0589e4   cdc3a9bf0982e6b0662f855dee0589e4   Firmicutes;  Leuconostocaceae;  Weissella                        -18.900158   4.892316e+05   0.0305614  *              ↓ Lower in LC  
+579df9f2221ba70699480b110168c467   579df9f2221ba70699480b110168c467   Firmicutes;  Bacillaceae;  Bacillus                              -18.045042   2.704574e+05   0.0499901  *              ↓ Lower in LC  
+ffa594a1874f0e9b0e2a9d5acabc7e63   ffa594a1874f0e9b0e2a9d5acabc7e63   Firmicutes;  Lactobacillaceae;  Lactobacillus                      2.335635   5.047730e+00   0.1747193  .              ↑ Higher in LC 
+14dca04402c59b9e919c029f27108303   14dca04402c59b9e919c029f27108303   Firmicutes;  Clostridiaceae;  Clostridium_sensu_stricto_1          8.962820   4.989736e+02   0.4936721  .              ↑ Higher in LC 
+d979e833d5a7b79eb84103e02807ee7a   d979e833d5a7b79eb84103e02807ee7a   Firmicutes;  Lactobacillaceae;  Lactobacillus                      3.711190   1.309723e+01   0.5802190  .              ↑ Higher in LC 
+48c4c53bca3838546ebf5d0a975ccbf1   48c4c53bca3838546ebf5d0a975ccbf1   Firmicutes;  Lactobacillaceae;  Lactobacillus                      2.794954   6.940086e+00   1.0000000  .              ↑ Higher in LC 
+
+
+
