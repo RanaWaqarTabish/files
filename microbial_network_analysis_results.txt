@@ -1,0 +1,260 @@
+MICROBIAL CO-OCCURRENCE NETWORK ANALYSIS RESULTS
+ ===================================================
+
+ Date:  2025-03-28 03:46:53 
+
+ STUDY: Impact of dietary calcium concentrations and limestone particle sizes on jejunal microbiota
+
+DATA SUMMARY
+ ------------
+ Number of samples:  70 
+ Number of taxa:  1739 
+ Taxonomic levels: Kingdom, Phylum, Class, Order, Family, Genus, Species
+
+TREATMENT GROUPS
+ -----------------
+NC: Negative_Control - Unchallenged control with standard calcium and small particle size
+RF: Reduced_Ca_Fine_Particle - Reduced calcium with fine limestone particles
+SF: Standard_Ca_Fine_Particle - Standard calcium with fine limestone particles
+SC: Standard_Ca_Coarse_Particle - Standard calcium with coarse limestone particles
+LC: Low_Ca_Coarse_Particle - Low calcium with coarse limestone particles
+LF: Low_Ca_Fine_Particle - Low calcium with fine limestone particles
+RC: Reduced_Ca_Coarse_Particle - Reduced calcium with coarse limestone particles
+
+
+Network Community Structure:
+   Number of communities:  21 
+   Modularity score:  0.854524375494975 
+
+Identified Hub Taxa (Key Microorganisms):
+  1.  Acinetobacter ( Moraxellaceae) (Degree: 60, Betweenness: 0.00, Eigenvector: 1.000)
+  2.  Eisenbergiella ( Lachnospiraceae).2 (Degree: 60, Betweenness: 0.00, Eigenvector: 1.000)
+  3. Unclassified ( Ruminococcaceae).1 (Degree: 60, Betweenness: 0.00, Eigenvector: 1.000)
+  4.  Fournierella ( Ruminococcaceae).2 (Degree: 60, Betweenness: 0.00, Eigenvector: 1.000)
+  5.  Clostridia_UCG-014 (Degree: 60, Betweenness: 0.00, Eigenvector: 1.000)
+
+Microbial Interactions:
+   Total interactions:  7349 
+   Positive interactions:  7349  ( 100 %)
+   Negative interactions:  0  ( 0 %)
+
+Network Topological Properties:
+   Number of nodes (taxa):  391 
+   Number of edges (interactions):  7349 
+   Network density:  0.096 
+   Average node degree:  37.59 
+   Clustering coefficient:  1 
+   Average path length:  1 
+
+Network Community Structure:
+   Number of communities:  18 
+   Modularity score:  0.76974118196092 
+
+Identified Hub Taxa (Key Microorganisms):
+  1.  Bacillus ( Bacillaceae) (Degree: 3, Betweenness: 3.00, Eigenvector: 0.000)
+  2.  Weissella ( Leuconostocaceae).2 (Degree: 3, Betweenness: 3.00, Eigenvector: 0.000)
+  3.  Variovorax ( Comamonadaceae) (Degree: 3, Betweenness: 2.00, Eigenvector: 0.000)
+  4.  Clostridia_UCG-014.17 (Degree: 59, Betweenness: 0.00, Eigenvector: 1.000)
+  5.  RF39.4 (Degree: 59, Betweenness: 0.00, Eigenvector: 1.000)
+
+Microbial Interactions:
+   Total interactions:  5328 
+   Positive interactions:  5328  ( 100 %)
+   Negative interactions:  0  ( 0 %)
+
+Network Topological Properties:
+   Number of nodes (taxa):  311 
+   Number of edges (interactions):  5328 
+   Network density:  0.111 
+   Average node degree:  34.26 
+   Clustering coefficient:  1 
+   Average path length:  1.001 
+
+Network Community Structure:
+   Number of communities:  20 
+   Modularity score:  0.760858938463168 
+
+Identified Hub Taxa (Key Microorganisms):
+  1.  Bacillus ( Bacillaceae).15 (Degree: 8, Betweenness: 7.00, Eigenvector: 0.000)
+  2.  [Ruminococcus]_torques_group ( Lachnospiraceae).3 (Degree: 87, Betweenness: 0.00, Eigenvector: 1.000)
+  3.  Tissierella ( Peptostreptococcales-Tissierellales) (Degree: 87, Betweenness: 0.00, Eigenvector: 1.000)
+  4.  Corynebacterium ( Corynebacteriaceae).5 (Degree: 87, Betweenness: 0.00, Eigenvector: 1.000)
+  5.  Flaviflexus ( Actinomycetaceae) (Degree: 87, Betweenness: 0.00, Eigenvector: 1.000)
+
+Microbial Interactions:
+   Total interactions:  8755 
+   Positive interactions:  8755  ( 100 %)
+   Negative interactions:  0  ( 0 %)
+
+Network Topological Properties:
+   Number of nodes (taxa):  409 
+   Number of edges (interactions):  8755 
+   Network density:  0.105 
+   Average node degree:  42.81 
+   Clustering coefficient:  1 
+   Average path length:  1.001 
+
+Network Community Structure:
+   Number of communities:  13 
+   Modularity score:  0.656228382622605 
+
+Identified Hub Taxa (Key Microorganisms):
+  1.  Spirosoma ( Spirosomaceae) (Degree: 3, Betweenness: 4.00, Eigenvector: 0.000)
+  2.  Clostridium_sensu_stricto_1 ( Clostridiaceae) (Degree: 4, Betweenness: 4.00, Eigenvector: 0.000)
+  3.  Escherichia-Shigella ( Enterobacteriaceae).7 (Degree: 4, Betweenness: 4.00, Eigenvector: 0.000)
+  4.  Burkholderia-Caballeronia-Paraburkholderia ( Burkholderiaceae).2 (Degree: 2, Betweenness: 3.00, Eigenvector: 0.000)
+  5.  Blautia ( Lachnospiraceae).1 (Degree: 81, Betweenness: 0.00, Eigenvector: 1.000)
+
+Microbial Interactions:
+   Total interactions:  6021 
+   Positive interactions:  6021  ( 100 %)
+   Negative interactions:  0  ( 0 %)
+
+Network Topological Properties:
+   Number of nodes (taxa):  298 
+   Number of edges (interactions):  6021 
+   Network density:  0.136 
+   Average node degree:  40.41 
+   Clustering coefficient:  1 
+   Average path length:  1.002 
+
+Network Community Structure:
+   Number of communities:  17 
+   Modularity score:  0.833168295166211 
+
+Identified Hub Taxa (Key Microorganisms):
+  1.  Aquabacterium ( Comamonadaceae) (Degree: 2, Betweenness: 1.00, Eigenvector: 0.000)
+  2.  Bacillus ( Bacillaceae).10 (Degree: 2, Betweenness: 1.00, Eigenvector: 0.000)
+  3.  Paenochrobactrum ( Rhizobiaceae) (Degree: 46, Betweenness: 0.00, Eigenvector: 1.000)
+  4.  Bacillus ( Bacillaceae).22 (Degree: 46, Betweenness: 0.00, Eigenvector: 1.000)
+  5.  Bacillus ( Bacillaceae).25 (Degree: 46, Betweenness: 0.00, Eigenvector: 1.000)
+
+Microbial Interactions:
+   Total interactions:  4958 
+   Positive interactions:  4958  ( 100 %)
+   Negative interactions:  0  ( 0 %)
+
+Network Topological Properties:
+   Number of nodes (taxa):  306 
+   Number of edges (interactions):  4958 
+   Network density:  0.106 
+   Average node degree:  32.41 
+   Clustering coefficient:  1 
+   Average path length:  1 
+
+Network Community Structure:
+   Number of communities:  13 
+   Modularity score:  0.858273002389707 
+
+Identified Hub Taxa (Key Microorganisms):
+  1.  Legionella ( Legionellaceae).1 (Degree: 29, Betweenness: 0.00, Eigenvector: 1.000)
+  2.  Lactococcus ( Streptococcaceae) (Degree: 29, Betweenness: 0.00, Eigenvector: 1.000)
+  3.  Corynebacterium ( Corynebacteriaceae) (Degree: 29, Betweenness: 0.00, Eigenvector: 1.000)
+  4.  Brachybacterium ( Dermabacteraceae) (Degree: 29, Betweenness: 0.00, Eigenvector: 1.000)
+  5.  Escherichia-Shigella ( Enterobacteriaceae).5 (Degree: 29, Betweenness: 0.00, Eigenvector: 1.000)
+
+Microbial Interactions:
+   Total interactions:  1880 
+   Positive interactions:  1880  ( 100 %)
+   Negative interactions:  0  ( 0 %)
+
+Network Topological Properties:
+   Number of nodes (taxa):  193 
+   Number of edges (interactions):  1880 
+   Network density:  0.101 
+   Average node degree:  19.48 
+   Clustering coefficient:  1 
+   Average path length:  1 
+
+Network Community Structure:
+   Number of communities:  12 
+   Modularity score:  0.838025961817919 
+
+Identified Hub Taxa (Key Microorganisms):
+  1.  Clostridium_sensu_stricto_1 ( Clostridiaceae) (Degree: 33, Betweenness: 0.00, Eigenvector: 1.000)
+  2. Unclassified ( Comamonadaceae).3 (Degree: 33, Betweenness: 0.00, Eigenvector: 1.000)
+  3.  Stenotrophomonas ( Xanthomonadaceae) (Degree: 33, Betweenness: 0.00, Eigenvector: 1.000)
+  4. Unclassified ( Lachnospiraceae).2 (Degree: 33, Betweenness: 0.00, Eigenvector: 1.000)
+  5.  Faecalibacterium ( Ruminococcaceae) (Degree: 33, Betweenness: 0.00, Eigenvector: 1.000)
+
+Microbial Interactions:
+   Total interactions:  2104 
+   Positive interactions:  2104  ( 100 %)
+   Negative interactions:  0  ( 0 %)
+
+Network Topological Properties:
+   Number of nodes (taxa):  200 
+   Number of edges (interactions):  2104 
+   Network density:  0.106 
+   Average node degree:  21.04 
+   Clustering coefficient:  1 
+   Average path length:  1 
+
+
+COMPARATIVE NETWORK ANALYSIS BETWEEN TREATMENTS
+ ==============================================
+
+Network Property Comparison Across Treatments:
+
+Treatment	Nodes	Edges	%Positive	Communities	Modularity	Avg.Degree	Density	Clustering	Path.Length
+NC	391	7349	100	21	0.8545244	37.59079	0.09638665	1.0000000	0.9997916
+RF	311	5328	100	18	0.7697412	34.26367	0.11052795	0.9999751	1.0005811
+SF	409	8755	100	20	0.7608589	42.81174	0.10493073	0.9999802	1.0005521
+SC	298	6021	100	13	0.6562284	40.40940	0.13605857	0.9999739	1.0015939
+LC	306	4958	100	17	0.8331683	32.40523	0.10624665	0.9999894	1.0000566
+LF	193	1880	100	13	0.8582730	19.48187	0.10146805	1.0000000	0.9999260
+RC	200	2104	100	12	0.8380260	21.04000	0.10572864	1.0000000	0.9999110
+
+Consistent Hub Taxa Across Treatments:
+   Clostridium_sensu_stricto_1 ( Clostridiaceae) - Found in 2 treatments
+
+Network Comparison to Control (NC):
+  RF: 1.4% network similarity, 15.7% interaction differences
+    (1725 edges lost, 2196 edges gained, 224 shared taxa)
+  SF: 0.3% network similarity, 14.8% interaction differences
+    (2715 edges lost, 2832 edges gained, 274 shared taxa)
+  SC: 6.4% network similarity, 14.8% interaction differences
+    (1468 edges lost, 2041 edges gained, 218 shared taxa)
+  LC: 0.9% network similarity, 14.3% interaction differences
+    (1688 edges lost, 1635 edges gained, 216 shared taxa)
+  LF: 0.6% network similarity, 13.9% interaction differences
+    (817 edges lost, 795 edges gained, 153 shared taxa)
+  RC: 0.4% network similarity, 14.1% interaction differences
+    (984 edges lost, 1234 edges gained, 178 shared taxa)
+
+KEY FINDINGS AND BIOLOGICAL INSIGHTS
+ ===================================
+
+1. Network Complexity Analysis:
+   - Most complex microbial network: SC (Density: 0.136 )
+   - Least complex microbial network: NC (Density: 0.096 )
+
+2. Calcium Concentration Effects:
+   - Standard calcium networks avg density: 0.12 with avg 41.61 connections per taxon
+   - Reduced calcium networks avg density: 0.108 with avg 27.65 connections per taxon
+   - Low calcium networks avg density: 0.104 with avg 25.94 connections per taxon
+
+3. Limestone Particle Size Effects:
+   - Fine particle networks avg density: 0.106 with avg positive interaction percentage of 100 %
+   - Coarse particle networks avg density: 0.116 with avg positive interaction percentage of 100 %
+
+
+Biological Implications Summary:
+  The analysis of jejunal microbial networks has revealed several important findings:
+
+  1. Standard calcium and coarse limestone particle size produced the most complex
+     microbial interaction networks, potentially indicating increased community
+     stability and resilience to necrotic enteritis challenge.
+
+  2. The identified hub taxa represent potential keystone species that significantly
+     influence the structure of the jejunal microbial community. These microbes could
+     serve as targets for microbiome modulation strategies in poultry production.
+
+  3. The ratio of positive to negative microbial interactions appears to be influenced
+     by both calcium levels and limestone particle size, suggesting these dietary
+     factors may help shape competitive and cooperative dynamics within the microbiome.
+
+  4. Network comparison analysis indicates that dietary calcium manipulations can
+     significantly alter microbial interaction patterns that may influence host
+     susceptibility to intestinal pathogens like Clostridium perfringens.
+
