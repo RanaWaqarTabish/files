@@ -1,16 +1,16 @@
-"comparison","baseline_treatment","total_genes","genes_padj_lt_0.05","genes_padj_lt_0.1","upregulated","downregulated"
-"NC vs SF","NC",18255,722,1132,201,521
-"SF vs RF","SF",18104,0,0,0,0
-"SF vs LF","SF",18083,1,2,1,0
-"RF vs LF","RF",18102,38,111,10,28
-"SC vs RC","SC",18306,25,42,18,7
-"SC vs LC","SC",18133,0,0,0,0
-"RC vs LC","RC",18114,2,2,1,1
-"SF vs SC","SF",18220,3,8,1,2
-"RF vs RC","RF",18206,0,4,0,0
-"LF vs LC","LF",18009,0,0,0,0
-"NC vs RF","NC",18274,541,772,139,402
-"NC vs LF","NC",18262,1080,1660,278,802
-"NC vs SC","NC",18396,1075,1397,365,710
-"NC vs LC","NC",18214,1015,1511,246,769
-"NC vs RC","NC",18360,216,333,86,130
+comparison,genes_padj_lt_0.05,upregulated,downregulated
+SF vs NC,722,201,521
+RF vs SF,0,0,0
+LF vs SF,1,1,0
+LF vs RF,38,10,28
+RC vs SC,25,18,7
+LC vs SC,0,0,0
+LC vs RC,2,1,1
+SC vs SF,3,1,2
+RC vs RF,0,0,0
+LC vs LF,0,0,0
+RF vs NC,541,139,402
+LF vs NC,1080,278,802
+SC vs NC,1075,365,710
+LC vs NC,1015,246,769
+RC vs NC,216,86,130
