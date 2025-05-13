@@ -23,18 +23,18 @@ KO counts rounded to integers for DESeq2 analysis.
  
 --- DESeq2 Analysis --- 
 Design formula: ~ treatment_abbr 
-DESeq2 analysis complete (normalization, dispersion estimation, model fitting). 
+"DESeq2 analysis complete (normalization, dispersion estimation, model fitting). "
 
  
 --- Pairwise Differential Abundance Analysis (DESeq2) --- 
 ############################################### 
-## Comparison: SF_vs_NC ( SF vs NC ) 
+## Comparison: AF_vs_NC ( AF vs NC ) 
 ###############################################
  
 Total significantly differentially abundant KOs (padj < 0.05): 1 
   Significantly upregulated KOs: 1 
   Significantly downregulated KOs: 0 
-Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat  | pvalue   | padj   | significance | 
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
@@ -45,7 +45,7 @@ Top Upregulated KOs (up to 20, sorted by padj, then by L2FC):
 No significantly downregulated KOs found for this comparison.
  
 ############################################### 
-## Comparison: RF_vs_SF ( RF vs SF ) 
+## Comparison: RF_vs_AF ( RF vs AF ) 
 ###############################################
  
 Total significantly differentially abundant KOs (padj < 0.05): 1 
@@ -53,7 +53,7 @@ Total significantly differentially abundant KOs (padj < 0.05): 1
   Significantly downregulated KOs: 1 
 No significantly upregulated KOs found for this comparison.
  
-Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+--------+----------+--------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat   | pvalue   | padj   | significance | 
 +--------+----------+----------------+-------+--------+----------+--------+--------------+ 
@@ -68,7 +68,7 @@ Top Downregulated KOs (up to 20, sorted by padj, then by L2FC):
 Total significantly differentially abundant KOs (padj < 0.05): 22 
   Significantly upregulated KOs: 4 
   Significantly downregulated KOs: 18 
-Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat  | pvalue   | padj   | significance | 
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
@@ -79,7 +79,7 @@ Top Upregulated KOs (up to 20, sorted by padj, then by L2FC):
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
 
  
-Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+--------+----------+--------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat   | pvalue   | padj   | significance | 
 +--------+----------+----------------+-------+--------+----------+--------+--------------+ 
@@ -105,13 +105,13 @@ Top Downregulated KOs (up to 20, sorted by padj, then by L2FC):
 
  
 ############################################### 
-## Comparison: LF_vs_SF ( LF vs SF ) 
+## Comparison: LF_vs_AF ( LF vs AF ) 
 ###############################################
  
 Total significantly differentially abundant KOs (padj < 0.05): 71 
   Significantly upregulated KOs: 31 
   Significantly downregulated KOs: 40 
-Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat  | pvalue   | padj   | significance | 
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
@@ -138,7 +138,7 @@ Top Upregulated KOs (up to 20, sorted by padj, then by L2FC):
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
 
  
-Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+--------+----------+--------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat   | pvalue   | padj   | significance | 
 +--------+----------+----------------+-------+--------+----------+--------+--------------+ 
@@ -166,13 +166,13 @@ Top Downregulated KOs (up to 20, sorted by padj, then by L2FC):
 
  
 ############################################### 
-## Comparison: RC_vs_SC ( RC vs SC ) 
+## Comparison: RC_vs_AC ( RC vs AC ) 
 ###############################################
  
 Total significantly differentially abundant KOs (padj < 0.05): 156 
   Significantly upregulated KOs: 3 
   Significantly downregulated KOs: 153 
-Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+-------+----------+----------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat  | pvalue   | padj     | significance | 
 +--------+----------+----------------+-------+-------+----------+----------+--------------+ 
@@ -182,7 +182,7 @@ Top Upregulated KOs (up to 20, sorted by padj, then by L2FC):
 +--------+----------+----------------+-------+-------+----------+----------+--------------+ 
 
  
-Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+---------+----------+----------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat    | pvalue   | padj     | significance | 
 +--------+----------+----------------+-------+---------+----------+----------+--------------+ 
@@ -216,7 +216,7 @@ Top Downregulated KOs (up to 20, sorted by padj, then by L2FC):
 Total significantly differentially abundant KOs (padj < 0.05): 571 
   Significantly upregulated KOs: 571 
   Significantly downregulated KOs: 0 
-Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+--------+----------+----------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat   | pvalue   | padj     | significance | 
 +--------+----------+----------------+-------+--------+----------+----------+--------------+ 
@@ -246,13 +246,13 @@ Top Upregulated KOs (up to 20, sorted by padj, then by L2FC):
 No significantly downregulated KOs found for this comparison.
  
 ############################################### 
-## Comparison: LC_vs_SC ( LC vs SC ) 
+## Comparison: LC_vs_AC ( LC vs AC ) 
 ###############################################
  
 Total significantly differentially abundant KOs (padj < 0.05): 283 
   Significantly upregulated KOs: 265 
   Significantly downregulated KOs: 18 
-Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+-------+----------+----------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat  | pvalue   | padj     | significance | 
 +--------+----------+----------------+-------+-------+----------+----------+--------------+ 
@@ -279,7 +279,7 @@ Top Upregulated KOs (up to 20, sorted by padj, then by L2FC):
 +--------+----------+----------------+-------+-------+----------+----------+--------------+ 
 
  
-Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+--------+----------+----------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat   | pvalue   | padj     | significance | 
 +--------+----------+----------------+-------+--------+----------+----------+--------------+ 
@@ -305,7 +305,7 @@ Top Downregulated KOs (up to 20, sorted by padj, then by L2FC):
 
  
 ############################################### 
-## Comparison: SC_vs_SF ( SC vs SF ) 
+## Comparison: AC_vs_AF ( AC vs AF ) 
 ###############################################
  
 Total significantly differentially abundant KOs (padj < 0.05): 8 
@@ -313,7 +313,7 @@ Total significantly differentially abundant KOs (padj < 0.05): 8
   Significantly downregulated KOs: 8 
 No significantly upregulated KOs found for this comparison.
  
-Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+---------+----------+----------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat    | pvalue   | padj     | significance | 
 +--------+----------+----------------+-------+---------+----------+----------+--------------+ 
@@ -335,7 +335,7 @@ Top Downregulated KOs (up to 20, sorted by padj, then by L2FC):
 Total significantly differentially abundant KOs (padj < 0.05): 16 
   Significantly upregulated KOs: 2 
   Significantly downregulated KOs: 14 
-Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat  | pvalue   | padj   | significance | 
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
@@ -344,7 +344,7 @@ Top Upregulated KOs (up to 20, sorted by padj, then by L2FC):
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
 
  
-Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+---------+----------+----------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat    | pvalue   | padj     | significance | 
 +--------+----------+----------------+-------+---------+----------+----------+--------------+ 
@@ -372,7 +372,7 @@ Top Downregulated KOs (up to 20, sorted by padj, then by L2FC):
 Total significantly differentially abundant KOs (padj < 0.05): 193 
   Significantly upregulated KOs: 193 
   Significantly downregulated KOs: 0 
-Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat  | pvalue   | padj   | significance | 
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
@@ -408,7 +408,7 @@ No significantly downregulated KOs found for this comparison.
 Total significantly differentially abundant KOs (padj < 0.05): 760 
   Significantly upregulated KOs: 139 
   Significantly downregulated KOs: 621 
-Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+-------+----------+----------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat  | pvalue   | padj     | significance | 
 +--------+----------+----------------+-------+-------+----------+----------+--------------+ 
@@ -435,7 +435,7 @@ Top Upregulated KOs (up to 20, sorted by padj, then by L2FC):
 +--------+----------+----------------+-------+-------+----------+----------+--------------+ 
 
  
-Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+--------+----------+----------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat   | pvalue   | padj     | significance | 
 +--------+----------+----------------+-------+--------+----------+----------+--------------+ 
@@ -469,7 +469,7 @@ Top Downregulated KOs (up to 20, sorted by padj, then by L2FC):
 Total significantly differentially abundant KOs (padj < 0.05): 186 
   Significantly upregulated KOs: 145 
   Significantly downregulated KOs: 41 
-Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+-------+----------+----------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat  | pvalue   | padj     | significance | 
 +--------+----------+----------------+-------+-------+----------+----------+--------------+ 
@@ -496,7 +496,7 @@ Top Upregulated KOs (up to 20, sorted by padj, then by L2FC):
 +--------+----------+----------------+-------+-------+----------+----------+--------------+ 
 
  
-Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+--------+----------+----------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat   | pvalue   | padj     | significance | 
 +--------+----------+----------------+-------+--------+----------+----------+--------------+ 
@@ -524,13 +524,13 @@ Top Downregulated KOs (up to 20, sorted by padj, then by L2FC):
 
  
 ############################################### 
-## Comparison: SC_vs_NC ( SC vs NC ) 
+## Comparison: AC_vs_NC ( AC vs NC ) 
 ###############################################
  
 Total significantly differentially abundant KOs (padj < 0.05): 6 
   Significantly upregulated KOs: 3 
   Significantly downregulated KOs: 3 
-Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat  | pvalue   | padj   | significance | 
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
@@ -540,7 +540,7 @@ Top Upregulated KOs (up to 20, sorted by padj, then by L2FC):
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
 
  
-Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+--------+----------+----------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat   | pvalue   | padj     | significance | 
 +--------+----------+----------------+-------+--------+----------+----------+--------------+ 
@@ -557,7 +557,7 @@ Top Downregulated KOs (up to 20, sorted by padj, then by L2FC):
 Total significantly differentially abundant KOs (padj < 0.05): 666 
   Significantly upregulated KOs: 46 
   Significantly downregulated KOs: 620 
-Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+-------+----------+----------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat  | pvalue   | padj     | significance | 
 +--------+----------+----------------+-------+-------+----------+----------+--------------+ 
@@ -584,7 +584,7 @@ Top Upregulated KOs (up to 20, sorted by padj, then by L2FC):
 +--------+----------+----------------+-------+-------+----------+----------+--------------+ 
 
  
-Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Downregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+---------+----------+----------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat    | pvalue   | padj     | significance | 
 +--------+----------+----------------+-------+---------+----------+----------+--------------+ 
@@ -618,7 +618,7 @@ Top Downregulated KOs (up to 20, sorted by padj, then by L2FC):
 Total significantly differentially abundant KOs (padj < 0.05): 4 
   Significantly upregulated KOs: 4 
   Significantly downregulated KOs: 0 
-Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): 
+"Top Upregulated KOs (up to 20, sorted by padj, then by L2FC): "
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
 | KO_ID  | baseMean | log2FoldChange | lfcSE | stat  | pvalue   | padj   | significance | 
 +--------+----------+----------------+-------+-------+----------+--------+--------------+ 
@@ -641,22 +641,22 @@ Parameters for enrichKEGG:
   qvalueCutoff (for initial query): 0.1 
   Reported pathways are filtered by: enrichKEGG p.adjust < 0.05
  
---- Enrichment for Comparison: SF_vs_NC --- 
+--- Enrichment for Comparison: AF_vs_NC --- 
 Input KOs for UP-regulated enrichment: 1 
 Input KOs for DOWN-regulated enrichment: 0 
  
 Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+------------------------------------------+-----------+-----------+--------+----------+---------------------+-------+-----------------------+--------+ 
-| ID      | Description                              | GeneRatio | BgRatio   | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
+| ID      | DeACription                              | GeneRatio | BgRatio   | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
 +---------+------------------------------------------+-----------+-----------+--------+----------+---------------------+-------+-----------------------+--------+ 
-| ko00522 | Biosynthesis of 12-, 14- and 16-membe... | 1/1       | 59/14293  | 0.0041 | 0.008    | **                  | 1     | 242.254               | K15988 | 
+"| ko00522 | Biosynthesis of 12-, 14- and 16-membe... | 1/1       | 59/14293  | 0.0041 | 0.008    | **                  | 1     | 242.254               | K15988 | "
 | ko01052 | Type I polyketide structures             | 1/1       | 127/14293 | 0.0089 | 0.009    | **                  | 1     | 112.543               | K15988 | 
 +---------+------------------------------------------+-----------+-----------+--------+----------+---------------------+-------+-----------------------+--------+ 
 
  
 
 No significantly downregulated pathways (enrichKEGG p.adjust < 0.05) found. 
---- Enrichment for Comparison: RF_vs_SF --- 
+--- Enrichment for Comparison: RF_vs_AF --- 
 Input KOs for UP-regulated enrichment: 0 
 Input KOs for DOWN-regulated enrichment: 1 
 
@@ -664,9 +664,9 @@ No significantly upregulated pathways (enrichKEGG p.adjust < 0.05) found.
  
 Significantly Downregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+-----------------------------+-----------+----------+--------+----------+---------------------+-------+-----------------------+--------+ 
-| ID      | Description                 | GeneRatio | BgRatio  | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
+| ID      | DeACription                 | GeneRatio | BgRatio  | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
 +---------+-----------------------------+-----------+----------+--------+----------+---------------------+-------+-----------------------+--------+ 
-| ko03022 | Basal transcription factors | 1/1       | 36/14293 | 0.0025 | 0.004    | **                  | 1     | 397.028               | K10844 | 
+| ko03022 | Basal tranACription factors | 1/1       | 36/14293 | 0.0025 | 0.004    | **                  | 1     | 397.028               | K10844 | 
 | ko03420 | Nucleotide excision repair  | 1/1       | 61/14293 | 0.0043 | 0.004    | **                  | 1     | 234.311               | K10844 | 
 +---------+-----------------------------+-----------+----------+--------+----------+---------------------+-------+-----------------------+--------+ 
 
@@ -677,12 +677,12 @@ Input KOs for DOWN-regulated enrichment: 18
  
 Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+------------------------------------------+-----------+-----------+--------+----------+---------------------+-------+-----------------------+--------+ 
-| ID      | Description                              | GeneRatio | BgRatio   | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
+| ID      | DeACription                              | GeneRatio | BgRatio   | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
 +---------+------------------------------------------+-----------+-----------+--------+----------+---------------------+-------+-----------------------+--------+ 
 | ko00430 | Taurine and hypotaurine metabolism       | 1/3       | 29/14293  | 0.0061 | 0.015    | *                   | 1     | 164.287               | K03852 | 
 | ko00361 | Chlorocyclohexane and chlorobenzene d... | 1/3       | 41/14293  | 0.0086 | 0.015    | *                   | 1     | 116.203               | K01561 | 
 | ko00625 | Chloroalkane and chloroalkene degrada... | 1/3       | 43/14293  | 0.0090 | 0.015    | *                   | 1     | 110.798               | K01561 | 
-| ko00053 | Ascorbate and aldarate metabolism        | 1/3       | 62/14293  | 0.0130 | 0.016    | *                   | 1     | 76.844                | K00064 | 
+| ko00053 | AACorbate and aldarate metabolism        | 1/3       | 62/14293  | 0.0130 | 0.016    | *                   | 1     | 76.844                | K00064 | 
 | ko00051 | Fructose and mannose metabolism          | 1/3       | 115/14293 | 0.0239 | 0.024    | *                   | 1     | 41.429                | K00064 | 
 +---------+------------------------------------------+-----------+-----------+--------+----------+---------------------+-------+-----------------------+--------+ 
 
@@ -690,20 +690,20 @@ Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05):
  
 Significantly Downregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+-------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------+ 
-| ID      | Description       | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                 | 
+| ID      | DeACription       | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                 | 
 +---------+-------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------+ 
 | ko01320 | Sulfur cycle      | 3/12      | 52/14293  | 9.76e-06 | 0.000    | ***                 | 3     | 68.716                | K08357; K08358; K08359 | 
 | ko00920 | Sulfur metabolism | 3/12      | 129/14293 | 1.49e-04 | 0.002    | **                  | 3     | 27.700                | K08357; K08358; K08359 | 
 +---------+-------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------+ 
 
  
---- Enrichment for Comparison: LF_vs_SF --- 
+--- Enrichment for Comparison: LF_vs_AF --- 
 Input KOs for UP-regulated enrichment: 31 
 Input KOs for DOWN-regulated enrichment: 40 
  
 Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+----------------------------------------+ 
-| ID      | Description                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                 | 
+| ID      | DeACription                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                 | 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+----------------------------------------+ 
 | ko00051 | Fructose and mannose metabolism          | 5/21      | 115/14293 | 5.67e-07 | 0.000    | ***                 | 5     | 29.592                | K00068; K00863; K01628; K01629; K02783 | 
 | ko00040 | Pentose and glucuronate interconversions | 3/21      | 90/14293  | 2.96e-04 | 0.003    | **                  | 3     | 22.687                | K00065; K01628; K01629                 | 
@@ -716,22 +716,22 @@ Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05):
  
 Significantly Downregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+-------------------------+-----------+----------+----------+----------+---------------------+-------+-----------------------+------------------------+ 
-| ID      | Description             | GeneRatio | BgRatio  | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                 | 
+| ID      | DeACription             | GeneRatio | BgRatio  | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                 | 
 +---------+-------------------------+-----------+----------+----------+----------+---------------------+-------+-----------------------+------------------------+ 
 | ko00561 | Glycerolipid metabolism | 3/21      | 94/14293 | 3.36e-04 | 0.007    | **                  | 3     | 21.722                | K06120; K06121; K06122 | 
 | ko00340 | Histidine metabolism    | 2/21      | 47/14293 | 0.0021   | 0.021    | *                   | 2     | 28.963                | K01590; K04486         | 
 +---------+-------------------------+-----------+----------+----------+----------+---------------------+-------+-----------------------+------------------------+ 
 
  
---- Enrichment for Comparison: RC_vs_SC --- 
+--- Enrichment for Comparison: RC_vs_AC --- 
 Input KOs for UP-regulated enrichment: 3 
 Input KOs for DOWN-regulated enrichment: 153 
  
 Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+------------------------------------------+-----------+-----------+--------+----------+---------------------+-------+-----------------------+--------+ 
-| ID      | Description                              | GeneRatio | BgRatio   | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
+| ID      | DeACription                              | GeneRatio | BgRatio   | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
 +---------+------------------------------------------+-----------+-----------+--------+----------+---------------------+-------+-----------------------+--------+ 
-| ko00522 | Biosynthesis of 12-, 14- and 16-membe... | 1/3       | 59/14293  | 0.0123 | 0.025    | *                   | 1     | 80.751                | K15988 | 
+"| ko00522 | Biosynthesis of 12-, 14- and 16-membe... | 1/3       | 59/14293  | 0.0123 | 0.025    | *                   | 1     | 80.751                | K15988 | "
 | ko01052 | Type I polyketide structures             | 1/3       | 127/14293 | 0.0264 | 0.026    | *                   | 1     | 37.514                | K15988 | 
 +---------+------------------------------------------+-----------+-----------+--------+----------+---------------------+-------+-----------------------+--------+ 
 
@@ -739,7 +739,7 @@ Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05):
  
 Significantly Downregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
-| ID      | Description                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
+| ID      | DeACription                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
 | ko00720 | Other carbon fixation pathways           | 15/62     | 121/14293 | 2.25e-18 | 0.000    | ***                 | 15    | 28.578                | K00174; K00175; K00176; K00177; K0019... | 
 | ko01200 | Carbon metabolism                        | 17/62     | 377/14293 | 2.53e-13 | 0.000    | ***                 | 17    | 10.395                | K00030; K00174; K00175; K00176; K0017... | 
@@ -747,11 +747,11 @@ Significantly Downregulated Pathways (enrichKEGG p.adjust < 0.05):
 | ko00020 | Citrate cycle (TCA cycle)                | 5/62      | 70/14293  | 1.27e-05 | 0.000    | ***                 | 5     | 16.467                | K00030; K00174; K00175; K00176; K00177   | 
 | ko00640 | Propanoate metabolism                    | 5/62      | 104/14293 | 8.62e-05 | 0.001    | **                  | 5     | 11.083                | K00248; K01848; K01849; K05606; K15024   | 
 | ko00650 | Butanoate metabolism                     | 5/62      | 114/14293 | 1.33e-04 | 0.001    | **                  | 5     | 10.111                | K00174; K00175; K00248; K00634; K00929   | 
-| ko00280 | Valine, leucine and isoleucine degrad... | 4/62      | 71/14293  | 2.51e-04 | 0.002    | **                  | 4     | 12.988                | K00248; K01848; K01849; K05606           | 
+"| ko00280 | Valine, leucine and isoleucine degrad... | 4/62      | 71/14293  | 2.51e-04 | 0.002    | **                  | 4     | 12.988                | K00248; K01848; K01849; K05606           | "
 | ko04980 | Cobalamin transport and metabolism       | 2/62      | 17/14293  | 0.0024   | 0.019    | *                   | 2     | 27.121                | K00798; K07588                           | 
 | ko00620 | Pyruvate metabolism                      | 4/62      | 133/14293 | 0.0026   | 0.019    | *                   | 4     | 6.933                 | K00174; K00175; K01006; K15024           | 
 | ko00220 | Arginine biosynthesis                    | 3/62      | 67/14293  | 0.0031   | 0.020    | *                   | 3     | 10.322                | K00260; K00812; K01476                   | 
-| ko00250 | Alanine, aspartate and glutamate meta... | 3/62      | 70/14293  | 0.0035   | 0.020    | *                   | 3     | 9.880                 | K00260; K00812; K09758                   | 
+"| ko00250 | Alanine, aspartate and glutamate meta... | 3/62      | 70/14293  | 0.0035   | 0.020    | *                   | 3     | 9.880                 | K00260; K00812; K09758                   | "
 | ko02060 | Phosphotransferase system (PTS)          | 3/62      | 72/14293  | 0.0037   | 0.020    | *                   | 3     | 9.606                 | K02765; K19507; K19508                   | 
 | ko00633 | Nitrotoluene degradation                 | 2/62      | 23/14293  | 0.0044   | 0.022    | *                   | 2     | 20.046                | K00196; K00198                           | 
 | ko02030 | Bacterial chemotaxis                     | 2/62      | 26/14293  | 0.0056   | 0.026    | *                   | 2     | 17.733                | K03410; K03411                           | 
@@ -767,20 +767,20 @@ Input KOs for DOWN-regulated enrichment: 0
  
 Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
-| ID      | Description                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
+| ID      | DeACription                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
-| ko00280 | Valine, leucine and isoleucine degrad... | 11/249    | 71/14293  | 3.66e-08 | 0.000    | ***                 | 11    | 8.893                 | K00128; K00166; K00167; K00248; K0024... | 
+"| ko00280 | Valine, leucine and isoleucine degrad... | 11/249    | 71/14293  | 3.66e-08 | 0.000    | ***                 | 11    | 8.893                 | K00128; K00166; K00167; K00248; K0024... | "
 | ko00650 | Butanoate metabolism                     | 13/249    | 114/14293 | 9.06e-08 | 0.000    | ***                 | 13    | 6.546                 | K00004; K00019; K00023; K00209; K0024... | 
 | ko01230 | Biosynthesis of amino acids              | 16/249    | 241/14293 | 5.06e-06 | 0.000    | ***                 | 16    | 3.811                 | K00500; K00619; K00641; K01476; K0149... | 
 | ko02024 | Quorum sensing                           | 17/249    | 283/14293 | 9.71e-06 | 0.000    | ***                 | 17    | 3.448                 | K01218; K02250; K02251; K02253; K0249... | 
 | ko00330 | Arginine and proline metabolism          | 10/249    | 115/14293 | 3.23e-05 | 0.001    | ***                 | 10    | 4.991                 | K00128; K00274; K00294; K00318; K0049... | 
 | ko01240 | Biosynthesis of cofactors                | 19/249    | 380/14293 | 3.85e-05 | 0.001    | ***                 | 19    | 2.870                 | K00128; K00231; K00355; K00453; K0079... | 
-| ko00260 | Glycine, serine and threonine metabolism | 9/249     | 110/14293 | 1.29e-04 | 0.002    | **                  | 9     | 4.696                 | K00274; K00301; K00302; K00303; K0220... | 
+"| ko00260 | Glycine, serine and threonine metabolism | 9/249     | 110/14293 | 1.29e-04 | 0.002    | **                  | 9     | 4.696                 | K00274; K00301; K00302; K00303; K0220... | "
 | ko00071 | Fatty acid degradation                   | 6/249     | 60/14293  | 6.00e-04 | 0.009    | **                  | 6     | 5.740                 | K00128; K00248; K00249; K07516; K1376... | 
 | ko01200 | Carbon metabolism                        | 16/249    | 377/14293 | 9.59e-04 | 0.013    | *                   | 16    | 2.436                 | K00023; K00034; K00131; K00196; K0020... | 
 | ko00630 | Glyoxylate and dicarboxylate metabolism  | 8/249     | 118/14293 | 0.0011   | 0.013    | *                   | 8     | 3.892                 | K00015; K00023; K01455; K01569; K0184... | 
 | ko00340 | Histidine metabolism                     | 5/249     | 47/14293  | 0.0013   | 0.015    | *                   | 5     | 6.107                 | K00128; K00274; K01496; K01523; K01590   | 
-| ko00400 | Phenylalanine, tyrosine and tryptopha... | 6/249     | 74/14293  | 0.0018   | 0.018    | *                   | 6     | 4.654                 | K00500; K04516; K04517; K06209; K1350... | 
+"| ko00400 | Phenylalanine, tyrosine and tryptopha... | 6/249     | 74/14293  | 0.0018   | 0.018    | *                   | 6     | 4.654                 | K00500; K04516; K04517; K06209; K1350... | "
 | ko00785 | Lipoic acid metabolism                   | 4/249     | 31/14293  | 0.0020   | 0.018    | *                   | 4     | 7.407                 | K00166; K00167; K09699; K16869           | 
 | ko00380 | Tryptophan metabolism                    | 6/249     | 80/14293  | 0.0027   | 0.024    | *                   | 6     | 4.305                 | K00128; K00274; K00453; K01556; K0713... | 
 | ko01212 | Fatty acid metabolism                    | 6/249     | 84/14293  | 0.0034   | 0.028    | *                   | 6     | 4.100                 | K00209; K00248; K00249; K07516; K1078... | 
@@ -792,13 +792,13 @@ Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05):
  
 
 No significantly downregulated pathways (enrichKEGG p.adjust < 0.05) found. 
---- Enrichment for Comparison: LC_vs_SC --- 
+--- Enrichment for Comparison: LC_vs_AC --- 
 Input KOs for UP-regulated enrichment: 265 
 Input KOs for DOWN-regulated enrichment: 18 
  
 Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
-| ID      | Description                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
+| ID      | DeACription                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
 | ko02024 | Quorum sensing                           | 16/116    | 283/14293 | 1.08e-09 | 0.000    | ***                 | 16    | 6.966                 | K02250; K02490; K06375; K08321; K0877... | 
 | ko00190 | Oxidative phosphorylation                | 9/116     | 224/14293 | 8.67e-05 | 0.003    | **                  | 9     | 4.951                 | K02277; K02826; K02827; K02828; K0282... | 
@@ -806,7 +806,7 @@ Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05):
 | ko00380 | Tryptophan metabolism                    | 5/116     | 80/14293  | 4.78e-04 | 0.009    | **                  | 5     | 7.701                 | K00274; K00453; K01556; K07130; K14338   | 
 | ko00785 | Lipoic acid metabolism                   | 3/116     | 31/14293  | 0.0020   | 0.027    | *                   | 3     | 11.924                | K00166; K00167; K09699                   | 
 | ko00650 | Butanoate metabolism                     | 5/116     | 114/14293 | 0.0023   | 0.027    | *                   | 5     | 5.404                 | K00004; K00019; K00209; K18118; K18120   | 
-| ko00280 | Valine, leucine and isoleucine degrad... | 4/116     | 71/14293  | 0.0026   | 0.027    | *                   | 4     | 6.942                 | K00166; K00167; K00263; K09699           | 
+"| ko00280 | Valine, leucine and isoleucine degrad... | 4/116     | 71/14293  | 0.0026   | 0.027    | *                   | 4     | 6.942                 | K00166; K00167; K00263; K09699           | "
 | ko00270 | Cysteine and methionine metabolism       | 5/116     | 128/14293 | 0.0039   | 0.035    | *                   | 5     | 4.813                 | K08965; K08966; K17216; K17217; K17462   | 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
 
@@ -814,7 +814,7 @@ Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05):
  
 Significantly Downregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
-| ID      | Description                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
+| ID      | DeACription                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
 | ko00720 | Other carbon fixation pathways           | 9/14      | 121/14293 | 3.19e-16 | 0.000    | ***                 | 9     | 75.937                | K00176; K00177; K00194; K00197; K0019... | 
 | ko01200 | Carbon metabolism                        | 10/14     | 377/14293 | 1.32e-13 | 0.000    | ***                 | 10    | 27.080                | K00030; K00176; K00177; K00194; K0019... | 
@@ -822,14 +822,14 @@ Significantly Downregulated Pathways (enrichKEGG p.adjust < 0.05):
 | ko01210 | 2-Oxocarboxylic acid metabolism          | 3/14      | 113/14293 | 1.64e-04 | 0.001    | ***                 | 3     | 27.104                | K00030; K00176; K00177                   | 
 | ko00680 | Methane metabolism                       | 3/14      | 196/14293 | 8.27e-04 | 0.002    | **                  | 3     | 15.626                | K00194; K00197; K00198                   | 
 | ko00470 | D-Amino acid metabolism                  | 2/14      | 55/14293  | 0.0013   | 0.003    | **                  | 2     | 37.125                | K17898; K17899                           | 
-| ko00280 | Valine, leucine and isoleucine degrad... | 2/14      | 71/14293  | 0.0021   | 0.004    | **                  | 2     | 28.759                | K01848; K01849                           | 
+"| ko00280 | Valine, leucine and isoleucine degrad... | 2/14      | 71/14293  | 0.0021   | 0.004    | **                  | 2     | 28.759                | K01848; K01849                           | "
 | ko00640 | Propanoate metabolism                    | 2/14      | 104/14293 | 0.0045   | 0.008    | **                  | 2     | 19.633                | K01848; K01849                           | 
 | ko00630 | Glyoxylate and dicarboxylate metabolism  | 2/14      | 118/14293 | 0.0058   | 0.009    | **                  | 2     | 17.304                | K01848; K01849                           | 
 | ko00633 | Nitrotoluene degradation                 | 1/14      | 23/14293  | 0.0223   | 0.031    | *                   | 1     | 44.388                | K00198                                   | 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
 
  
---- Enrichment for Comparison: SC_vs_SF --- 
+--- Enrichment for Comparison: AC_vs_AF --- 
 Input KOs for UP-regulated enrichment: 0 
 Input KOs for DOWN-regulated enrichment: 8 
 
@@ -837,11 +837,11 @@ No significantly upregulated pathways (enrichKEGG p.adjust < 0.05) found.
  
 Significantly Downregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+------------------------------------------+-----------+----------+--------+----------+---------------------+-------+-----------------------+--------+ 
-| ID      | Description                              | GeneRatio | BgRatio  | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
+| ID      | DeACription                              | GeneRatio | BgRatio  | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
 +---------+------------------------------------------+-----------+----------+--------+----------+---------------------+-------+-----------------------+--------+ 
 | ko00571 | Lipoarabinomannan (LAM) biosynthesis     | 1/6       | 14/14293 | 0.0059 | 0.029    | *                   | 1     | 170.155               | K08256 | 
 | ko00984 | Steroid degradation                      | 1/6       | 43/14293 | 0.0179 | 0.041    | *                   | 1     | 55.399                | K03333 | 
-| ko00522 | Biosynthesis of 12-, 14- and 16-membe... | 1/6       | 59/14293 | 0.0245 | 0.041    | *                   | 1     | 40.376                | K15988 | 
+"| ko00522 | Biosynthesis of 12-, 14- and 16-membe... | 1/6       | 59/14293 | 0.0245 | 0.041    | *                   | 1     | 40.376                | K15988 | "
 +---------+------------------------------------------+-----------+----------+--------+----------+---------------------+-------+-----------------------+--------+ 
 
  
@@ -851,7 +851,7 @@ Input KOs for DOWN-regulated enrichment: 14
  
 Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+----------------------------+-----------+----------+--------+----------+---------------------+-------+-----------------------+--------+ 
-| ID      | Description                | GeneRatio | BgRatio  | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
+| ID      | DeACription                | GeneRatio | BgRatio  | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
 +---------+----------------------------+-----------+----------+--------+----------+---------------------+-------+-----------------------+--------+ 
 | ko04626 | Plant-pathogen interaction | 1/1       | 87/14293 | 0.0061 | 0.006    | **                  | 1     | 164.287               | K13409 | 
 +---------+----------------------------+-----------+----------+--------+----------+---------------------+-------+-----------------------+--------+ 
@@ -860,7 +860,7 @@ Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05):
  
 Significantly Downregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+-------------------------------------+-----------+-----------+--------+----------+---------------------+-------+-----------------------+--------+ 
-| ID      | Description                         | GeneRatio | BgRatio   | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
+| ID      | DeACription                         | GeneRatio | BgRatio   | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
 +---------+-------------------------------------+-----------+-----------+--------+----------+---------------------+-------+-----------------------+--------+ 
 | ko00340 | Histidine metabolism                | 1/2       | 47/14293  | 0.0066 | 0.013    | *                   | 1     | 152.053               | K01590 | 
 | ko05111 | Biofilm formation - Vibrio cholerae | 1/2       | 106/14293 | 0.0148 | 0.015    | *                   | 1     | 67.420                | K16554 | 
@@ -873,7 +873,7 @@ Input KOs for DOWN-regulated enrichment: 0
  
 Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
-| ID      | Description                        | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
+| ID      | DeACription                        | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
 +---------+------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
 | ko00190 | Oxidative phosphorylation          | 10/68     | 224/14293 | 9.61e-08 | 0.000    | ***                 | 10    | 9.384                 | K02107; K02277; K02826; K02827; K0282... | 
 | ko00270 | Cysteine and methionine metabolism | 5/68      | 128/14293 | 3.54e-04 | 0.008    | **                  | 5     | 8.211                 | K08965; K08966; K17216; K17217; K17462   | 
@@ -888,7 +888,7 @@ Input KOs for DOWN-regulated enrichment: 621
  
 Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+---------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
-| ID      | Description                           | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
+| ID      | DeACription                           | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
 +---------+---------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
 | ko00051 | Fructose and mannose metabolism       | 6/63      | 115/14293 | 1.11e-05 | 0.001    | ***                 | 6     | 11.837                | K00068; K00863; K01628; K01629; K0278... | 
 | ko00521 | Streptomycin biosynthesis             | 3/63      | 21/14293  | 1.03e-04 | 0.004    | **                  | 3     | 32.410                | K00973; K01710; K01790                   | 
@@ -905,9 +905,9 @@ Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05):
  
 Significantly Downregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
-| ID      | Description                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
+| ID      | DeACription                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
-| ko00280 | Valine, leucine and isoleucine degrad... | 14/338    | 71/14293  | 9.32e-10 | 0.000    | ***                 | 14    | 8.338                 | K00249; K00253; K00822; K01028; K0102... | 
+"| ko00280 | Valine, leucine and isoleucine degrad... | 14/338    | 71/14293  | 9.32e-10 | 0.000    | ***                 | 14    | 8.338                 | K00249; K00253; K00822; K01028; K0102... | "
 | ko00650 | Butanoate metabolism                     | 15/338    | 114/14293 | 7.44e-08 | 0.000    | ***                 | 15    | 5.564                 | K00019; K00023; K00170; K00209; K0102... | 
 | ko02025 | Biofilm formation - Pseudomonas aerug... | 13/338    | 90/14293  | 1.83e-07 | 0.000    | ***                 | 13    | 6.108                 | K10941; K11444; K11902; K13061; K1348... | 
 | ko00362 | Benzoate degradation                     | 13/338    | 115/14293 | 3.20e-06 | 0.000    | ***                 | 13    | 4.780                 | K00481; K01031; K01032; K01692; K0185... | 
@@ -925,14 +925,14 @@ Significantly Downregulated Pathways (enrichKEGG p.adjust < 0.05):
 | ko00330 | Arginine and proline metabolism          | 10/338    | 115/14293 | 3.96e-04 | 0.004    | **                  | 10    | 3.677                 | K00472; K01476; K01584; K09123; K0947... | 
 | ko00630 | Glyoxylate and dicarboxylate metabolism  | 10/338    | 118/14293 | 4.87e-04 | 0.005    | **                  | 10    | 3.584                 | K00023; K00830; K01091; K01432; K0145... | 
 | ko00350 | Tyrosine metabolism                      | 8/338     | 84/14293  | 8.23e-04 | 0.008    | **                  | 8     | 4.027                 | K00146; K00451; K01555; K01800; K0182... | 
-| ko00260 | Glycine, serine and threonine metabolism | 9/338     | 110/14293 | 0.0012   | 0.011    | *                   | 9     | 3.460                 | K00499; K00830; K02203; K02204; K0600... | 
+"| ko00260 | Glycine, serine and threonine metabolism | 9/338     | 110/14293 | 0.0012   | 0.011    | *                   | 9     | 3.460                 | K00499; K00830; K02203; K02204; K0600... | "
 | ko00051 | Fructose and mannose metabolism          | 9/338     | 115/14293 | 0.0016   | 0.014    | *                   | 9     | 3.309                 | K00064; K00895; K01820; K03332; K0704... | 
 | ko00541 | Biosynthesis of various nucleotide su... | 10/338    | 138/14293 | 0.0016   | 0.014    | *                   | 10    | 3.064                 | K00523; K00978; K01709; K02473; K0703... | 
-| ko00400 | Phenylalanine, tyrosine and tryptopha... | 7/338     | 74/14293  | 0.0018   | 0.014    | *                   | 7     | 4.000                 | K00500; K01713; K03856; K04517; K0600... | 
+"| ko00400 | Phenylalanine, tyrosine and tryptopha... | 7/338     | 74/14293  | 0.0018   | 0.014    | *                   | 7     | 4.000                 | K00500; K01713; K03856; K04517; K0600... | "
 | ko01250 | Biosynthesis of nucleotide sugars        | 13/338    | 223/14293 | 0.0025   | 0.020    | *                   | 13    | 2.465                 | K00523; K00978; K00992; K01709; K0247... | 
 | ko00380 | Tryptophan metabolism                    | 7/338     | 80/14293  | 0.0028   | 0.021    | *                   | 7     | 3.700                 | K00452; K00453; K01432; K01501; K0155... | 
 | ko00984 | Steroid degradation                      | 5/338     | 43/14293  | 0.0033   | 0.023    | *                   | 5     | 4.917                 | K05296; K16047; K18364; K18365; K18366   | 
-| ko00053 | Ascorbate and aldarate metabolism        | 6/338     | 62/14293  | 0.0034   | 0.023    | *                   | 6     | 4.092                 | K00064; K01053; K01707; K13875; K1387... | 
+| ko00053 | AACorbate and aldarate metabolism        | 6/338     | 62/14293  | 0.0034   | 0.023    | *                   | 6     | 4.092                 | K00064; K01053; K01707; K13875; K1387... | 
 | ko00130 | Ubiquinone and other terpenoid-quinon... | 6/338     | 64/14293  | 0.0040   | 0.026    | *                   | 6     | 3.964                 | K06134; K11782; K11783; K11784; K1178... | 
 | ko00620 | Pyruvate metabolism                      | 9/338     | 133/14293 | 0.0043   | 0.027    | *                   | 9     | 2.862                 | K00102; K00170; K01006; K01596; K0167... | 
 | ko00910 | Nitrogen metabolism                      | 6/338     | 69/14293  | 0.0057   | 0.035    | *                   | 6     | 3.677                 | K00372; K00376; K00459; K01501; K0230... | 
@@ -946,7 +946,7 @@ Input KOs for DOWN-regulated enrichment: 41
  
 Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
-| ID      | Description                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
+| ID      | DeACription                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
 | ko00051 | Fructose and mannose metabolism          | 6/63      | 115/14293 | 1.11e-05 | 0.001    | ***                 | 6     | 11.837                | K00068; K00863; K01628; K01629; K0278... | 
 | ko00270 | Cysteine and methionine metabolism       | 6/63      | 128/14293 | 2.05e-05 | 0.001    | ***                 | 6     | 10.635                | K00549; K00831; K00832; K01740; K0176... | 
@@ -971,24 +971,24 @@ Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05):
  
 Significantly Downregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+-----------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+--------------------------------+ 
-| ID      | Description                 | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                         | 
+| ID      | DeACription                 | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                         | 
 +---------+-----------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+--------------------------------+ 
 | ko01230 | Biosynthesis of amino acids | 4/22      | 241/14293 | 4.54e-04 | 0.017    | *                   | 4     | 10.783                | K03340; K04486; K06001; K11358 | 
 +---------+-----------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+--------------------------------+ 
 
  
---- Enrichment for Comparison: SC_vs_NC --- 
+--- Enrichment for Comparison: AC_vs_NC --- 
 Input KOs for UP-regulated enrichment: 3 
 Input KOs for DOWN-regulated enrichment: 3 
 
-No KEGG enrichment results (up or down) for SC_vs_NC 
+No KEGG enrichment results (up or down) for AC_vs_NC 
 --- Enrichment for Comparison: RC_vs_NC --- 
 Input KOs for UP-regulated enrichment: 46 
 Input KOs for DOWN-regulated enrichment: 620 
  
 Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+----------------------+-----------+----------+----------+----------+---------------------+-------+-----------------------+--------------------------------+ 
-| ID      | Description          | GeneRatio | BgRatio  | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                         | 
+| ID      | DeACription          | GeneRatio | BgRatio  | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                         | 
 +---------+----------------------+-----------+----------+----------+----------+---------------------+-------+-----------------------+--------------------------------+ 
 | ko00052 | Galactose metabolism | 4/21      | 79/14293 | 4.82e-06 | 0.000    | ***                 | 4     | 34.462                | K01220; K01635; K01854; K02082 | 
 +---------+----------------------+-----------+----------+----------+----------+---------------------+-------+-----------------------+--------------------------------+ 
@@ -997,17 +997,17 @@ Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05):
  
 Significantly Downregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
-| ID      | Description                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
+| ID      | DeACription                              | GeneRatio | BgRatio   | pvalue   | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID                                   | 
 +---------+------------------------------------------+-----------+-----------+----------+----------+---------------------+-------+-----------------------+------------------------------------------+ 
-| ko00280 | Valine, leucine and isoleucine degrad... | 21/339    | 71/14293  | 7.58e-18 | 0.000    | ***                 | 21    | 12.471                | K00128; K00166; K00167; K00248; K0024... | 
+"| ko00280 | Valine, leucine and isoleucine degrad... | 21/339    | 71/14293  | 7.58e-18 | 0.000    | ***                 | 21    | 12.471                | K00128; K00166; K00167; K00248; K0024... | "
 | ko00650 | Butanoate metabolism                     | 18/339    | 114/14293 | 1.83e-10 | 0.000    | ***                 | 18    | 6.657                 | K00004; K00019; K00174; K00175; K0020... | 
 | ko00190 | Oxidative phosphorylation                | 24/339    | 224/14293 | 6.93e-10 | 0.000    | ***                 | 24    | 4.517                 | K00404; K00405; K00406; K00407; K0041... | 
 | ko01230 | Biosynthesis of amino acids              | 23/339    | 241/14293 | 1.48e-08 | 0.000    | ***                 | 23    | 4.024                 | K00500; K00641; K01476; K01496; K0152... | 
 | ko01240 | Biosynthesis of cofactors                | 27/339    | 380/14293 | 3.93e-07 | 0.000    | ***                 | 27    | 2.996                 | K00128; K00231; K00453; K00798; K0155... | 
 | ko00330 | Arginine and proline metabolism          | 14/339    | 115/14293 | 5.59e-07 | 0.000    | ***                 | 14    | 5.133                 | K00128; K00294; K00318; K00491; K0081... | 
-| ko00260 | Glycine, serine and threonine metabolism | 12/339    | 110/14293 | 1.14e-05 | 0.000    | ***                 | 12    | 4.600                 | K00301; K00302; K00303; K00304; K0030... | 
+"| ko00260 | Glycine, serine and threonine metabolism | 12/339    | 110/14293 | 1.14e-05 | 0.000    | ***                 | 12    | 4.600                 | K00301; K00302; K00303; K00304; K0030... | "
 | ko01200 | Carbon metabolism                        | 23/339    | 377/14293 | 3.46e-05 | 0.001    | ***                 | 23    | 2.572                 | K00122; K00131; K00148; K00174; K0017... | 
-| ko00400 | Phenylalanine, tyrosine and tryptopha... | 9/339     | 74/14293  | 6.08e-05 | 0.001    | **                  | 9     | 5.128                 | K00500; K04092; K04516; K04517; K0600... | 
+"| ko00400 | Phenylalanine, tyrosine and tryptopha... | 9/339     | 74/14293  | 6.08e-05 | 0.001    | **                  | 9     | 5.128                 | K00500; K04092; K04516; K04517; K0600... | "
 | ko00640 | Propanoate metabolism                    | 10/339    | 104/14293 | 1.79e-04 | 0.003    | **                  | 10    | 4.054                 | K00166; K00167; K00248; K00822; K0169... | 
 | ko02025 | Biofilm formation - Pseudomonas aerug... | 9/339     | 90/14293  | 2.79e-04 | 0.004    | **                  | 9     | 4.216                 | K11444; K13061; K13487; K13488; K1348... | 
 | ko00071 | Fatty acid degradation                   | 7/339     | 60/14293  | 5.21e-04 | 0.007    | **                  | 7     | 4.919                 | K00128; K00248; K00249; K00252; K0169... | 
@@ -1015,7 +1015,7 @@ Significantly Downregulated Pathways (enrichKEGG p.adjust < 0.05):
 | ko00511 | Other glycan degradation                 | 4/339     | 22/14293  | 0.0016   | 0.020    | *                   | 4     | 7.666                 | K01192; K01201; K01206; K15923           | 
 | ko00860 | Porphyrin metabolism                     | 10/339    | 142/14293 | 0.0021   | 0.024    | *                   | 10    | 2.969                 | K00231; K00798; K02225; K02229; K0230... | 
 | ko00643 | Styrene degradation                      | 4/339     | 25/14293  | 0.0027   | 0.029    | *                   | 4     | 6.746                 | K01039; K01040; K01502; K16171           | 
-| ko00053 | Ascorbate and aldarate metabolism        | 6/339     | 62/14293  | 0.0034   | 0.035    | *                   | 6     | 4.080                 | K00064; K00128; K01707; K13875; K1387... | 
+| ko00053 | AACorbate and aldarate metabolism        | 6/339     | 62/14293  | 0.0034   | 0.035    | *                   | 6     | 4.080                 | K00064; K00128; K01707; K13875; K1387... | 
 | ko01212 | Fatty acid metabolism                    | 7/339     | 84/14293  | 0.0038   | 0.036    | *                   | 7     | 3.514                 | K00209; K00248; K00249; K01692; K0751... | 
 | ko00620 | Pyruvate metabolism                      | 9/339     | 133/14293 | 0.0044   | 0.039    | *                   | 9     | 2.853                 | K00102; K00128; K00174; K00175; K0100... | 
 | ko00410 | beta-Alanine metabolism                  | 5/339     | 46/14293  | 0.0045   | 0.039    | *                   | 5     | 4.583                 | K00128; K00248; K00822; K01464; K01692   | 
@@ -1031,9 +1031,9 @@ Input KOs for DOWN-regulated enrichment: 0
  
 Significantly Upregulated Pathways (enrichKEGG p.adjust < 0.05): 
 +---------+------------------------------------------+-----------+-----------+--------+----------+---------------------+-------+-----------------------+--------+ 
-| ID      | Description                              | GeneRatio | BgRatio   | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
+| ID      | DeACription                              | GeneRatio | BgRatio   | pvalue | p.adjust | significance_enrich | Count | FoldEnrichment_report | geneID | 
 +---------+------------------------------------------+-----------+-----------+--------+----------+---------------------+-------+-----------------------+--------+ 
-| ko00522 | Biosynthesis of 12-, 14- and 16-membe... | 1/2       | 59/14293  | 0.0082 | 0.016    | *                   | 1     | 121.127               | K15988 | 
+"| ko00522 | Biosynthesis of 12-, 14- and 16-membe... | 1/2       | 59/14293  | 0.0082 | 0.016    | *                   | 1     | 121.127               | K15988 | "
 | ko00670 | One carbon pool by folate                | 1/2       | 65/14293  | 0.0091 | 0.016    | *                   | 1     | 109.946               | K18591 | 
 | ko00790 | Folate biosynthesis                      | 1/2       | 84/14293  | 0.0117 | 0.016    | *                   | 1     | 85.077                | K18591 | 
 | ko01052 | Type I polyketide structures             | 1/2       | 127/14293 | 0.0177 | 0.018    | *                   | 1     | 56.272                | K15988 | 

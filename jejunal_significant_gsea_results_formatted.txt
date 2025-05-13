@@ -1,0 +1,544 @@
+JEJUNAL SIGNIFICANT GSEA RESULTS (FDR q-val <= 0.05)
+======================================================
+
+Comparison      Direction    Name                                     NES    FDR q val
+                               
+LC vs LF        upregulated  UNFOLDED PROTEIN RESPONSE                0.43343943 0.00001
+                               
+LC vs LF        upregulated  SPERMATOGENESIS                          0.45137542 0.00001
+                               
+LC vs LF        upregulated  IL2 STAT5 SIGNALING                      0.41898304 0.00001
+                               
+LC vs LF        upregulated  WNT BETA CATENIN SIGNALING               0.54854643 0.00409836
+                               
+LC vs LF        upregulated  EPITHELIAL MESENCHYMAL TRANSITION        0.46772727 0.00001
+                               
+LC vs LF        upregulated  MTORC1 SIGNALING                         0.5186189 0.00001
+                               
+LC vs LF        upregulated  ALLOGRAFT REJECTION                      0.53912807 0.00001
+                               
+LC vs LF        upregulated  MYC TARGETS V2                           0.7613496 0.00001
+                               
+LC vs LF        upregulated  G2M CHECKPOINT                           0.61905444 0.00001
+                               
+LC vs LF        upregulated  E2F TARGETS                              0.62940925 0.00001
+                               
+LC vs LF        upregulated  MYC TARGETS V1                           0.70847833 0.00001
+                               
+LC vs NC        upregulated  COMPLEMENT                               0.36330545 0.00001
+                               
+LC vs NC        upregulated  FATTY ACID METABOLISM                    0.40065283 0.00001
+                               
+LC vs NC        upregulated  IL2 STAT5 SIGNALING                      0.40577987 0.00001
+                               
+LC vs NC        upregulated  REACTIVE OXYGEN SPECIES PATHWAY          0.5107124 0.00001
+                               
+LC vs NC        upregulated  GLYCOLYSIS                               0.41931108 0.00001
+                               
+LC vs NC        upregulated  UV RESPONSE UP                           0.4544231 0.00001
+                               
+LC vs NC        upregulated  HYPOXIA                                  0.43944123 0.00001
+                               
+LC vs NC        upregulated  E2F TARGETS                              0.45155305 0.00001
+                               
+LC vs NC        upregulated  UNFOLDED PROTEIN RESPONSE                0.48376328 0.00001
+                               
+LC vs NC        upregulated  IL6 JAK STAT3 SIGNALING                  0.53185207 0.00001
+                               
+LC vs NC        upregulated  MYC TARGETS V2                           0.57684433 0.00001
+                               
+LC vs NC        upregulated  CHOLESTEROL HOMEOSTASIS                  0.56220275 0.00001
+                               
+LC vs NC        upregulated  INFLAMMATORY RESPONSE                    0.49283215 0.00001
+                               
+LC vs NC        upregulated  P53 PATHWAY                              0.4972797 0.00001
+                               
+LC vs NC        upregulated  ALLOGRAFT REJECTION                      0.5097622 0.00001
+                               
+LC vs NC        upregulated  G2M CHECKPOINT                           0.49937588 0.00001
+                               
+LC vs NC        upregulated  APOPTOSIS                                0.5238352 0.00001
+                               
+LC vs NC        upregulated  MTORC1 SIGNALING                         0.5610603 0.00001
+                               
+LC vs NC        upregulated  OXIDATIVE PHOSPHORYLATION                0.5558572 0.00001
+                               
+LC vs NC        upregulated  TNFA SIGNALING VIA NFKB                  0.58372694 0.00001
+                               
+LC vs NC        upregulated  INTERFERON ALPHA RESPONSE                0.6957695 0.00001
+                               
+LC vs NC        upregulated  MYC TARGETS V1                           0.62369585 0.00001
+                               
+LC vs NC        upregulated  INTERFERON GAMMA RESPONSE                0.70500207 0.00001
+                               
+LF vs NC        upregulated  UV RESPONSE UP                           0.38968965 0.00001
+                               
+LF vs NC        upregulated  TGF BETA SIGNALING                       0.46160182 0.003333333
+                               
+LF vs NC        upregulated  COMPLEMENT                               0.38535774 0.00001
+                               
+LF vs NC        upregulated  MYC TARGETS V1                           0.3852832 0.00001
+                               
+LF vs NC        upregulated  ADIPOGENESIS                             0.39205822 0.00001
+                               
+LF vs NC        upregulated  REACTIVE OXYGEN SPECIES PATHWAY          0.50495964 0.015974442
+                               
+LF vs NC        upregulated  FATTY ACID METABOLISM                    0.4124506 0.00001
+                               
+LF vs NC        upregulated  PROTEIN SECRETION                        0.44434837 0.00001
+                               
+LF vs NC        upregulated  HYPOXIA                                  0.41814646 0.00001
+                               
+LF vs NC        upregulated  ALLOGRAFT REJECTION                      0.43881658 0.00001
+                               
+LF vs NC        upregulated  MTORC1 SIGNALING                         0.44659773 0.00001
+                               
+LF vs NC        upregulated  IL6 JAK STAT3 SIGNALING                  0.5350814 0.00001
+                               
+LF vs NC        upregulated  INFLAMMATORY RESPONSE                    0.47567186 0.00001
+                               
+LF vs NC        upregulated  P53 PATHWAY                              0.47646645 0.00001
+                               
+LF vs NC        upregulated  APOPTOSIS                                0.50615245 0.00001
+                               
+LF vs NC        upregulated  CHOLESTEROL HOMEOSTASIS                  0.6041581 0.00001
+                               
+LF vs NC        upregulated  OXIDATIVE PHOSPHORYLATION                0.55250937 0.00001
+                               
+LF vs NC        upregulated  TNFA SIGNALING VIA NFKB                  0.5876007 0.00001
+                               
+LF vs NC        upregulated  INTERFERON ALPHA RESPONSE                0.6996083 0.00001
+                               
+LF vs NC        upregulated  INTERFERON GAMMA RESPONSE                0.6849543 0.00001
+                               
+RC vs NC        upregulated  IL6 JAK STAT3 SIGNALING                  0.4322002 0.003311258
+                               
+RC vs NC        upregulated  DNA REPAIR                               0.38921317 0.00001
+                               
+RC vs NC        upregulated  INFLAMMATORY RESPONSE                    0.38586026 0.00001
+                               
+RC vs NC        upregulated  MTORC1 SIGNALING                         0.38523304 0.00001
+                               
+RC vs NC        upregulated  CHOLESTEROL HOMEOSTASIS                  0.468  0.00001
+                               
+RC vs NC        upregulated  OXIDATIVE PHOSPHORYLATION                0.39882967 0.00001
+                               
+RC vs NC        upregulated  P53 PATHWAY                              0.4198545 0.00001
+                               
+RC vs NC        upregulated  MYC TARGETS V2                           0.513575 0.00001
+                               
+RC vs NC        upregulated  APOPTOSIS                                0.49271175 0.00001
+                               
+RC vs NC        upregulated  TNFA SIGNALING VIA NFKB                  0.48199576 0.00001
+                               
+RC vs NC        upregulated  ALLOGRAFT REJECTION                      0.4930335 0.00001
+                               
+RC vs NC        upregulated  MYC TARGETS V1                           0.4982888 0.00001
+                               
+RC vs NC        upregulated  INTERFERON ALPHA RESPONSE                0.6461587 0.00001
+                               
+RC vs NC        upregulated  E2F TARGETS                              0.57482123 0.00001
+                               
+RC vs NC        upregulated  G2M CHECKPOINT                           0.5807075 0.00001
+                               
+RC vs NC        upregulated  INTERFERON GAMMA RESPONSE                0.6482211 0.00001
+                               
+RF vs NC        upregulated  INFLAMMATORY RESPONSE                    0.3704981 0.00001
+                               
+RF vs NC        upregulated  TNFA SIGNALING VIA NFKB                  0.38809088 0.00001
+                               
+RF vs NC        upregulated  IL6 JAK STAT3 SIGNALING                  0.44257742 0.00001
+                               
+RF vs NC        upregulated  FATTY ACID METABOLISM                    0.3999171 0.00001
+                               
+RF vs NC        upregulated  CHOLESTEROL HOMEOSTASIS                  0.4614033 0.00001
+                               
+RF vs NC        upregulated  GLYCOLYSIS                               0.42164087 0.00001
+                               
+RF vs NC        upregulated  UNFOLDED PROTEIN RESPONSE                0.46681914 0.00001
+                               
+RF vs NC        upregulated  ADIPOGENESIS                             0.43672374 0.00001
+                               
+RF vs NC        upregulated  UV RESPONSE UP                           0.45382842 0.00001
+                               
+RF vs NC        upregulated  DNA REPAIR                               0.47248304 0.00001
+                               
+RF vs NC        upregulated  ALLOGRAFT REJECTION                      0.47660333 0.00001
+                               
+RF vs NC        upregulated  APOPTOSIS                                0.4805438 0.00001
+                               
+RF vs NC        upregulated  REACTIVE OXYGEN SPECIES PATHWAY          0.62175417 0.00001
+                               
+RF vs NC        upregulated  INTERFERON ALPHA RESPONSE                0.60209715 0.00001
+                               
+RF vs NC        upregulated  MYC TARGETS V2                           0.6834748 0.00001
+                               
+RF vs NC        upregulated  INTERFERON GAMMA RESPONSE                0.6318106 0.00001
+                               
+RF vs NC        upregulated  MTORC1 SIGNALING                         0.61907876 0.00001
+                               
+RF vs NC        upregulated  G2M CHECKPOINT                           0.65008545 0.00001
+                               
+RF vs NC        upregulated  E2F TARGETS                              0.6407995 0.00001
+                               
+RF vs NC        upregulated  OXIDATIVE PHOSPHORYLATION                0.6787642 0.00001
+                               
+RF vs NC        upregulated  MYC TARGETS V1                           0.7372882 0.00001
+                               
+AC vs NC        upregulated  COMPLEMENT                               0.4126315 0.003424658
+                               
+AC vs NC        upregulated  COAGULATION                              0.44293076 0.002985075
+                               
+AC vs NC        upregulated  ADIPOGENESIS                             0.41024742 0.00001
+                               
+AC vs NC        upregulated  GLYCOLYSIS                               0.42974523 0.00001
+                               
+AC vs NC        upregulated  HYPOXIA                                  0.4350342 0.00001
+                               
+AC vs NC        upregulated  G2M CHECKPOINT                           0.44363943 0.00001
+                               
+AC vs NC        upregulated  UV RESPONSE UP                           0.5023276 0.00001
+                               
+AC vs NC        upregulated  IL2 STAT5 SIGNALING                      0.4811106 0.00001
+                               
+AC vs NC        upregulated  P53 PATHWAY                              0.49517575 0.00001
+                               
+AC vs NC        upregulated  REACTIVE OXYGEN SPECIES PATHWAY          0.63020355 0.00001
+                               
+AC vs NC        upregulated  MYC TARGETS V2                           0.6400198 0.00001
+                               
+AC vs NC        upregulated  IL6 JAK STAT3 SIGNALING                  0.60515267 0.00001
+                               
+AC vs NC        upregulated  CHOLESTEROL HOMEOSTASIS                  0.6313075 0.00001
+                               
+AC vs NC        upregulated  INFLAMMATORY RESPONSE                    0.56153303 0.00001
+                               
+AC vs NC        upregulated  APOPTOSIS                                0.5761786 0.00001
+                               
+AC vs NC        upregulated  ALLOGRAFT REJECTION                      0.60344213 0.00001
+                               
+AC vs NC        upregulated  TNFA SIGNALING VIA NFKB                  0.5999315 0.00001
+                               
+AC vs NC        upregulated  MTORC1 SIGNALING                         0.5903012 0.00001
+                               
+AC vs NC        upregulated  OXIDATIVE PHOSPHORYLATION                0.59798944 0.00001
+                               
+AC vs NC        upregulated  INTERFERON ALPHA RESPONSE                0.73583794 0.00001
+                               
+AC vs NC        upregulated  MYC TARGETS V1                           0.66460586 0.00001
+                               
+AC vs NC        upregulated  INTERFERON GAMMA RESPONSE                0.7486685 0.00001
+                               
+AF vs NC        upregulated  GLYCOLYSIS                               0.36978978 0.00001
+                               
+AF vs NC        upregulated  ADIPOGENESIS                             0.36193746 0.00001
+                               
+AF vs NC        upregulated  INFLAMMATORY RESPONSE                    0.38761437 0.00001
+                               
+AF vs NC        upregulated  UNFOLDED PROTEIN RESPONSE                0.4295728 0.004830918
+                               
+AF vs NC        upregulated  UV RESPONSE UP                           0.4248624 0.00001
+                               
+AF vs NC        upregulated  ALLOGRAFT REJECTION                      0.4238608 0.00001
+                               
+AF vs NC        upregulated  P53 PATHWAY                              0.43191984 0.00001
+                               
+AF vs NC        upregulated  IL6 JAK STAT3 SIGNALING                  0.49770525 0.00001
+                               
+AF vs NC        upregulated  TNFA SIGNALING VIA NFKB                  0.47543013 0.00001
+                               
+AF vs NC        upregulated  APOPTOSIS                                0.48381376 0.00001
+                               
+AF vs NC        upregulated  REACTIVE OXYGEN SPECIES PATHWAY          0.58105874 0.00001
+                               
+AF vs NC        upregulated  CHOLESTEROL HOMEOSTASIS                  0.5522318 0.00001
+                               
+AF vs NC        upregulated  E2F TARGETS                              0.50184536 0.00001
+                               
+AF vs NC        upregulated  MYC TARGETS V2                           0.66207165 0.00001
+                               
+AF vs NC        upregulated  G2M CHECKPOINT                           0.5427334 0.00001
+                               
+AF vs NC        upregulated  MTORC1 SIGNALING                         0.5398974 0.00001
+                               
+AF vs NC        upregulated  INTERFERON ALPHA RESPONSE                0.65584743 0.00001
+                               
+AF vs NC        upregulated  OXIDATIVE PHOSPHORYLATION                0.61013454 0.00001
+                               
+AF vs NC        upregulated  INTERFERON GAMMA RESPONSE                0.66117406 0.00001
+                               
+AF vs NC        upregulated  MYC TARGETS V1                           0.6739127 0.00001
+                               
+LC vs RC        upregulated  COAGULATION                              0.3934096 0.003067485
+                               
+LC vs RC        upregulated  MYC TARGETS V2                           0.4714225 0.002427185
+                               
+LC vs RC        upregulated  IL6 JAK STAT3 SIGNALING                  0.43901893 0.002544529
+                               
+LC vs RC        upregulated  HEME METABOLISM                          0.38738367 0.00001
+                               
+LC vs RC        upregulated  PI3K AKT MTOR SIGNALING                  0.4237618 0.00001
+                               
+LC vs RC        upregulated  WNT BETA CATENIN SIGNALING               0.50878 0.00001
+                               
+LC vs RC        upregulated  APICAL JUNCTION                          0.4032291 0.00001
+                               
+LC vs RC        upregulated  XENOBIOTIC METABOLISM                    0.41516197 0.00001
+                               
+LC vs RC        upregulated  ADIPOGENESIS                             0.4116135 0.00001
+                               
+LC vs RC        upregulated  ANGIOGENESIS                             0.56278914 0.00001
+                               
+LC vs RC        upregulated  UV RESPONSE UP                           0.44421905 0.00001
+                               
+LC vs RC        upregulated  APOPTOSIS                                0.44330907 0.00001
+                               
+LC vs RC        upregulated  P53 PATHWAY                              0.4357257 0.00001
+                               
+LC vs RC        upregulated  ANDROGEN RESPONSE                        0.49348947 0.00001
+                               
+LC vs RC        upregulated  INTERFERON ALPHA RESPONSE                0.545144 0.00001
+                               
+LC vs RC        upregulated  INFLAMMATORY RESPONSE                    0.47205096 0.00001
+                               
+LC vs RC        upregulated  IL2 STAT5 SIGNALING                      0.46875465 0.00001
+                               
+LC vs RC        upregulated  CHOLESTEROL HOMEOSTASIS                  0.556015 0.00001
+                               
+LC vs RC        upregulated  GLYCOLYSIS                               0.4814644 0.00001
+                               
+LC vs RC        upregulated  FATTY ACID METABOLISM                    0.5067223 0.00001
+                               
+LC vs RC        upregulated  HYPOXIA                                  0.50451404 0.00001
+                               
+LC vs RC        upregulated  TGF BETA SIGNALING                       0.6288253 0.00001
+                               
+LC vs RC        upregulated  INTERFERON GAMMA RESPONSE                0.54250264 0.00001
+                               
+LC vs RC        upregulated  MYC TARGETS V1                           0.5389375 0.00001
+                               
+LC vs RC        upregulated  OXIDATIVE PHOSPHORYLATION                0.5325741 0.00001
+                               
+LC vs RC        upregulated  TNFA SIGNALING VIA NFKB                  0.54425573 0.00001
+                               
+LC vs RC        upregulated  UNFOLDED PROTEIN RESPONSE                0.60686314 0.00001
+                               
+LC vs RC        upregulated  PROTEIN SECRETION                        0.6121854 0.00001
+                               
+LC vs RC        upregulated  MTORC1 SIGNALING                         0.60759646 0.00001
+                               
+LF vs RF        downregulated MYC TARGETS V1                           -0.7328813 0.00001
+                               
+LF vs RF        downregulated E2F TARGETS                              -0.69744986 0.00001
+                               
+LF vs RF        downregulated G2M CHECKPOINT                           -0.6907826 0.00001
+                               
+LF vs RF        downregulated MYC TARGETS V2                           -0.71011406 0.00001
+                               
+LF vs RF        downregulated DNA REPAIR                               -0.5206285 0.00001
+                               
+LF vs RF        downregulated OXIDATIVE PHOSPHORYLATION                -0.44549537 0.00001
+                               
+LF vs RF        downregulated SPERMATOGENESIS                          -0.48219857 0.001757469
+                               
+LF vs RF        downregulated MTORC1 SIGNALING                         -0.42955402 0.00001
+                               
+LF vs RF        downregulated EPITHELIAL MESENCHYMAL TRANSITION        -0.42597458 0.00001
+                               
+LF vs RF        upregulated  P53 PATHWAY                              0.39838728 0.00001
+                               
+LF vs RF        upregulated  TGF BETA SIGNALING                       0.56260484 0.00001
+                               
+LF vs RF        upregulated  INTERFERON GAMMA RESPONSE                0.4961326 0.00001
+                               
+LF vs RF        upregulated  TNFA SIGNALING VIA NFKB                  0.55573446 0.00001
+                               
+LF vs RF        upregulated  INTERFERON ALPHA RESPONSE                0.6820127 0.00001
+                               
+RC vs RF        downregulated MYC TARGETS V1                           -0.75279313 0.00001
+                               
+RC vs RF        downregulated OXIDATIVE PHOSPHORYLATION                -0.70550853 0.00001
+                               
+RC vs RF        downregulated MTORC1 SIGNALING                         -0.6582046 0.00001
+                               
+RC vs RF        downregulated UNFOLDED PROTEIN RESPONSE                -0.63256305 0.00001
+                               
+RC vs RF        downregulated MYC TARGETS V2                           -0.70529765 0.00001
+                               
+RC vs RF        downregulated E2F TARGETS                              -0.5566981 0.00001
+                               
+RC vs RF        downregulated PROTEIN SECRETION                        -0.5643237 0.00001
+                               
+RC vs RF        downregulated G2M CHECKPOINT                           -0.5185142 0.00001
+                               
+RC vs RF        downregulated FATTY ACID METABOLISM                    -0.523485 0.00001
+                               
+RC vs RF        downregulated ADIPOGENESIS                             -0.47862706 0.00001
+                               
+RC vs RF        downregulated DNA REPAIR                               -0.4594402 0.00001
+                               
+RC vs RF        downregulated GLYCOLYSIS                               -0.42288205 0.00001
+                               
+RC vs RF        downregulated REACTIVE OXYGEN SPECIES PATHWAY          -0.52085775 0.00001
+                               
+RC vs RF        downregulated SPERMATOGENESIS                          -0.42458892 0.00001
+                               
+RC vs RF        downregulated XENOBIOTIC METABOLISM                    -0.3889427 0.00001
+                               
+RC vs RF        downregulated UV RESPONSE UP                           -0.3925513 0.00001
+                               
+RC vs RF        upregulated  HEDGEHOG SIGNALING                       0.54154134 0.005970149
+                               
+LC vs AC        downregulated OXIDATIVE PHOSPHORYLATION                -0.5314792 0.00001
+                               
+LC vs AC        downregulated MYC TARGETS V1                           -0.47618213 0.00001
+                               
+LC vs AC        downregulated REACTIVE OXYGEN SPECIES PATHWAY          -0.5413197 0.004731861
+                               
+LC vs AC        downregulated DNA REPAIR                               -0.44151217 0.00001
+                               
+LC vs AC        upregulated  PEROXISOME                               0.41377154 0.003021148
+                               
+LC vs AC        upregulated  BILE ACID METABOLISM                     0.47524327 0.00001
+                               
+RC vs AC        downregulated MYC TARGETS V1                           -0.67654246 0.00001
+                               
+RC vs AC        downregulated MTORC1 SIGNALING                         -0.64728737 0.00001
+                               
+RC vs AC        downregulated INTERFERON GAMMA RESPONSE                -0.6619312 0.00001
+                               
+RC vs AC        downregulated OXIDATIVE PHOSPHORYLATION                -0.6274987 0.00001
+                               
+RC vs AC        downregulated INFLAMMATORY RESPONSE                    -0.6006811 0.00001
+                               
+RC vs AC        downregulated TNFA SIGNALING VIA NFKB                  -0.59042436 0.00001
+                               
+RC vs AC        downregulated UNFOLDED PROTEIN RESPONSE                -0.6200364 0.00001
+                               
+RC vs AC        downregulated CHOLESTEROL HOMEOSTASIS                  -0.64457077 0.00001
+                               
+RC vs AC        downregulated INTERFERON ALPHA RESPONSE                -0.6323738 0.00001
+                               
+RC vs AC        downregulated IL2 STAT5 SIGNALING                      -0.5316244 0.00001
+                               
+RC vs AC        downregulated IL6 JAK STAT3 SIGNALING                  -0.61719483 0.00001
+                               
+RC vs AC        downregulated MYC TARGETS V2                           -0.6335842 0.00001
+                               
+RC vs AC        downregulated PROTEIN SECRETION                        -0.5629722 0.00001
+                               
+RC vs AC        downregulated ALLOGRAFT REJECTION                      -0.52251863 0.00001
+                               
+RC vs AC        downregulated GLYCOLYSIS                               -0.4954505 0.00001
+                               
+RC vs AC        downregulated ANGIOGENESIS                             -0.65685767 0.00001
+                               
+RC vs AC        downregulated HYPOXIA                                  -0.46462968 0.00001
+                               
+RC vs AC        downregulated REACTIVE OXYGEN SPECIES PATHWAY          -0.5770467 0.00001
+                               
+RC vs AC        downregulated P53 PATHWAY                              -0.44733357 0.00001
+                               
+RC vs AC        downregulated APICAL JUNCTION                          -0.45228705 0.00001
+                               
+RC vs AC        downregulated APOPTOSIS                                -0.46255752 0.00001
+                               
+RC vs AC        downregulated TGF BETA SIGNALING                       -0.54122853 0.00001
+                               
+RC vs AC        downregulated COAGULATION                              -0.4601706 0.00001
+                               
+RC vs AC        downregulated ANDROGEN RESPONSE                        -0.48157245 0.00001
+                               
+RC vs AC        downregulated ADIPOGENESIS                             -0.4373882 0.00001
+                               
+RC vs AC        downregulated UV RESPONSE UP                           -0.4564597 0.00001
+                               
+RC vs AC        downregulated COMPLEMENT                               -0.4344026 0.00001
+                               
+RC vs AC        downregulated EPITHELIAL MESENCHYMAL TRANSITION        -0.42170715 0.00001
+                               
+RC vs AC        downregulated PI3K AKT MTOR SIGNALING                  -0.4597066 0.002114165
+                               
+RC vs AC        downregulated KRAS SIGNALING UP                        -0.4174479 0.00001
+                               
+LF vs AF        downregulated MYC TARGETS V1                           -0.77766275 0.00001
+                               
+LF vs AF        downregulated E2F TARGETS                              -0.6619658 0.00001
+                               
+LF vs AF        downregulated MYC TARGETS V2                           -0.78618395 0.00001
+                               
+LF vs AF        downregulated G2M CHECKPOINT                           -0.6336184 0.00001
+                               
+LF vs AF        downregulated DNA REPAIR                               -0.49260303 0.00001
+                               
+LF vs AF        downregulated OXIDATIVE PHOSPHORYLATION                -0.43418056 0.00001
+                               
+LF vs AF        upregulated  HEDGEHOG SIGNALING                       0.5194314 0.014403292
+                               
+LF vs AF        upregulated  HYPOXIA                                  0.427248 0.00001
+                               
+LF vs AF        upregulated  HEME METABOLISM                          0.4292833 0.00001
+                               
+LF vs AF        upregulated  PROTEIN SECRETION                        0.47883433 0.00001
+                               
+LF vs AF        upregulated  INTERFERON GAMMA RESPONSE                0.46695876 0.00001
+                               
+LF vs AF        upregulated  COMPLEMENT                               0.47209454 0.00001
+                               
+LF vs AF        upregulated  INTERFERON ALPHA RESPONSE                0.5889154 0.00001
+                               
+LF vs AF        upregulated  TNFA SIGNALING VIA NFKB                  0.5042352 0.00001
+                               
+LF vs AF        upregulated  TGF BETA SIGNALING                       0.6621843 0.00001
+                               
+RF vs AF        downregulated INTERFERON ALPHA RESPONSE                -0.5713907 0.00001
+                               
+RF vs AF        downregulated TNFA SIGNALING VIA NFKB                  -0.40552992 0.00001
+                               
+RF vs AF        upregulated  MYOGENESIS                               0.41806868 0.00001
+                               
+RF vs AF        upregulated  OXIDATIVE PHOSPHORYLATION                0.41290033 0.00001
+                               
+RF vs AF        upregulated  DNA REPAIR                               0.44324693 0.00001
+                               
+RF vs AF        upregulated  EPITHELIAL MESENCHYMAL TRANSITION        0.4369935 0.00001
+                               
+RF vs AF        upregulated  G2M CHECKPOINT                           0.4737747 0.00001
+                               
+RF vs AF        upregulated  MYC TARGETS V1                           0.49028704 0.00001
+                               
+RF vs AF        upregulated  E2F TARGETS                              0.5506137 0.00001
+                               
+AC vs AF        upregulated  MTORC1 SIGNALING                         0.4216423 0.00001
+                               
+AC vs AF        upregulated  KRAS SIGNALING UP                        0.42422587 0.00001
+                               
+AC vs AF        upregulated  P53 PATHWAY                              0.42557862 0.00001
+                               
+AC vs AF        upregulated  APICAL JUNCTION                          0.45901537 0.00001
+                               
+AC vs AF        upregulated  HYPOXIA                                  0.45712093 0.00001
+                               
+AC vs AF        upregulated  COAGULATION                              0.51717633 0.00001
+                               
+AC vs AF        upregulated  COMPLEMENT                               0.49565724 0.00001
+                               
+AC vs AF        upregulated  INTERFERON ALPHA RESPONSE                0.6078554 0.00001
+                               
+AC vs AF        upregulated  CHOLESTEROL HOMEOSTASIS                  0.5971974 0.00001
+                               
+AC vs AF        upregulated  IL2 STAT5 SIGNALING                      0.5152226 0.00001
+                               
+AC vs AF        upregulated  EPITHELIAL MESENCHYMAL TRANSITION        0.51627624 0.00001
+                               
+AC vs AF        upregulated  IL6 JAK STAT3 SIGNALING                  0.590891 0.00001
+                               
+AC vs AF        upregulated  ALLOGRAFT REJECTION                      0.54951966 0.00001
+                               
+AC vs AF        upregulated  TNFA SIGNALING VIA NFKB                  0.5789965 0.00001
+                               
+AC vs AF        upregulated  INFLAMMATORY RESPONSE                    0.59024745 0.00001
+                               
+AC vs AF        upregulated  INTERFERON GAMMA RESPONSE                0.61831695 0.00001                                
+
+Total number of significant GSEA results:      269
