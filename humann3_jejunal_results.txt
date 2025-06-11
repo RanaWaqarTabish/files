@@ -1,0 +1,682 @@
+--- HUMAnN3 Comprehensive Analysis Results (DESeq2 Differential Abundance) ---
+Date: 2025-06-10
+Coverage Threshold: 0.4
+
+
+--- Step 2: Loading Metadata ---
+First 6 rows of metadata:
+  sample.id treatment challenge fiber insol solu Treatment_Abbrev
+1      14JF         1        No    No    No   No               NC
+2      17JF         1        No    No    No   No               NC
+3      25JF         1        No    No    No   No               NC
+4       2JF         1        No    No    No   No               NC
+5      37JF         1        No    No    No   No               NC
+6      44JF         1        No    No    No   No               NC
+
+--- Step 3: Locating HUMAnN3 Output Files ---
+Found 71 pathabundance files and 71 pathcoverage files.
+
+
+--- Step 5: Reading and Combining All Files ---
+First 6 rows of combined abundance data:
+                                                      Pathway   Abundance Sample
+1                                                    UNMAPPED 1903316.208   10JF
+2                                                UNINTEGRATED 1400420.760   10JF
+3                                   UNINTEGRATED|unclassified  140716.501   10JF
+4    UNINTEGRATED|g__Lactobacillus.s__Lactobacillus_crispatus   76269.887   10JF
+5   UNINTEGRATED|g__Lactobacillus.s__Lactobacillus_salivarius   25145.693   10JF
+6 P41-PWY: pyruvate fermentation to acetate and (S)-lactate I     160.249   10JF
+                                                  BasePathway                                        Taxon
+1                                                    UNMAPPED                                 unclassified
+2                                                UNINTEGRATED                                 unclassified
+3                                                UNINTEGRATED                                 unclassified
+4                                                UNINTEGRATED  g__Lactobacillus.s__Lactobacillus_crispatus
+5                                                UNINTEGRATED g__Lactobacillus.s__Lactobacillus_salivarius
+6 P41-PWY: pyruvate fermentation to acetate and (S)-lactate I                                 unclassified
+First 6 rows of combined coverage data:
+                                                      Pathway  Coverage Sample                                                 BasePathway
+1                                                    UNMAPPED 1.0000000   10JF                                                    UNMAPPED
+2                                                UNINTEGRATED 1.0000000   10JF                                                UNINTEGRATED
+3    UNINTEGRATED|g__Lactobacillus.s__Lactobacillus_crispatus 1.0000000   10JF                                                UNINTEGRATED
+4   UNINTEGRATED|g__Lactobacillus.s__Lactobacillus_salivarius 1.0000000   10JF                                                UNINTEGRATED
+5                                   UNINTEGRATED|unclassified 1.0000000   10JF                                                UNINTEGRATED
+6 P41-PWY: pyruvate fermentation to acetate and (S)-lactate I 0.9999565   10JF P41-PWY: pyruvate fermentation to acetate and (S)-lactate I
+                                         Taxon
+1                                 unclassified
+2                                 unclassified
+3  g__Lactobacillus.s__Lactobacillus_crispatus
+4 g__Lactobacillus.s__Lactobacillus_salivarius
+5                                 unclassified
+6                                 unclassified
+
+--- Step 6: Merging Abundance, Coverage, and Metadata ---
+First 6 rows of the fully combined dataframe:
+                                                      Pathway   Abundance Sample
+1                                                    UNMAPPED 1903316.208   10JF
+2                                                UNINTEGRATED 1400420.760   10JF
+3                                   UNINTEGRATED|unclassified  140716.501   10JF
+4    UNINTEGRATED|g__Lactobacillus.s__Lactobacillus_crispatus   76269.887   10JF
+5   UNINTEGRATED|g__Lactobacillus.s__Lactobacillus_salivarius   25145.693   10JF
+6 P41-PWY: pyruvate fermentation to acetate and (S)-lactate I     160.249   10JF
+                                                  BasePathway                                        Taxon  Coverage treatment challenge
+1                                                    UNMAPPED                                 unclassified 1.0000000         6       Yes
+2                                                UNINTEGRATED                                 unclassified 1.0000000         6       Yes
+3                                                UNINTEGRATED                                 unclassified 1.0000000         6       Yes
+4                                                UNINTEGRATED  g__Lactobacillus.s__Lactobacillus_crispatus 1.0000000         6       Yes
+5                                                UNINTEGRATED g__Lactobacillus.s__Lactobacillus_salivarius 1.0000000         6       Yes
+6 P41-PWY: pyruvate fermentation to acetate and (S)-lactate I                                 unclassified 0.9999565         6       Yes
+   fiber insol solu Treatment_Abbrev
+1 SH_SBP    SH  SBP           SH_SBP
+2 SH_SBP    SH  SBP           SH_SBP
+3 SH_SBP    SH  SBP           SH_SBP
+4 SH_SBP    SH  SBP           SH_SBP
+5 SH_SBP    SH  SBP           SH_SBP
+6 SH_SBP    SH  SBP           SH_SBP
+
+--- Step 7: Filtering by Coverage Threshold ---
+Filtered data contains 10823 rows after applying coverage threshold of 0.4 and removing UNMAPPED/UNINTEGRATED pathways.
+
+First 6 rows of the filtered dataframe:
+                                                                                                   Pathway Abundance Sample
+1                                              P41-PWY: pyruvate fermentation to acetate and (S)-lactate I 160.24901   10JF
+2  P41-PWY: pyruvate fermentation to acetate and (S)-lactate I|g__Lactobacillus.s__Lactobacillus_crispatus 118.71218   10JF
+3 P41-PWY: pyruvate fermentation to acetate and (S)-lactate I|g__Lactobacillus.s__Lactobacillus_salivarius  28.60598   10JF
+4                                                PWY-5100: pyruvate fermentation to acetate and lactate II 160.24901   10JF
+5    PWY-5100: pyruvate fermentation to acetate and lactate II|g__Lactobacillus.s__Lactobacillus_crispatus 118.71218   10JF
+6   PWY-5100: pyruvate fermentation to acetate and lactate II|g__Lactobacillus.s__Lactobacillus_salivarius  28.60598   10JF
+                                                  BasePathway                                        Taxon  Coverage treatment challenge
+1 P41-PWY: pyruvate fermentation to acetate and (S)-lactate I                                 unclassified 0.9999565         6       Yes
+2 P41-PWY: pyruvate fermentation to acetate and (S)-lactate I  g__Lactobacillus.s__Lactobacillus_crispatus 0.7850103         6       Yes
+3 P41-PWY: pyruvate fermentation to acetate and (S)-lactate I g__Lactobacillus.s__Lactobacillus_salivarius 0.4699657         6       Yes
+4   PWY-5100: pyruvate fermentation to acetate and lactate II                                 unclassified 0.9999565         6       Yes
+5   PWY-5100: pyruvate fermentation to acetate and lactate II  g__Lactobacillus.s__Lactobacillus_crispatus 0.7850103         6       Yes
+6   PWY-5100: pyruvate fermentation to acetate and lactate II g__Lactobacillus.s__Lactobacillus_salivarius 0.4699657         6       Yes
+   fiber insol solu Treatment_Abbrev
+1 SH_SBP    SH  SBP           SH_SBP
+2 SH_SBP    SH  SBP           SH_SBP
+3 SH_SBP    SH  SBP           SH_SBP
+4 SH_SBP    SH  SBP           SH_SBP
+5 SH_SBP    SH  SBP           SH_SBP
+6 SH_SBP    SH  SBP           SH_SBP
+
+# Statistical Analysis with DESeq2
+
+## Unstratified Pathway Analysis (All Pathways) ---
+Found 143 unstratified pathways with sufficient data for DESeq2 testing.
+Unstratified pathways (filtered for DESeq2 testing):
+  [1] "P41-PWY: pyruvate fermentation to acetate and (S)-lactate I"                                                   
+  [2] "PWY-5100: pyruvate fermentation to acetate and lactate II"                                                     
+  [3] "PWY-7221: guanosine ribonucleotides de novo biosynthesis"                                                      
+  [4] "PWY-6151: S-adenosyl-L-methionine salvage I"                                                                   
+  [5] "UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I"                                                      
+  [6] "PWY-5686: UMP biosynthesis I"                                                                                  
+  [7] "PWY-7790: UMP biosynthesis II"                                                                                 
+  [8] "PWY-7791: UMP biosynthesis III"                                                                                
+  [9] "PWY-3841: folate transformations II (plants)"                                                                  
+ [10] "PWY-6527: stachyose degradation"                                                                               
+ [11] "PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)"                               
+ [12] "TRNA-CHARGING-PWY: tRNA charging"                                                                              
+ [13] "PWY-6317: D-galactose degradation I (Leloir pathway)"                                                          
+ [14] "PWY-7199: pyrimidine deoxyribonucleosides salvage"                                                             
+ [15] "PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)"                  
+ [16] "THRESYN-PWY: superpathway of L-threonine biosynthesis"                                                         
+ [17] "COA-PWY-1: superpathway of coenzyme A biosynthesis III (mammals)"                                              
+ [18] "PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)"                          
+ [19] "COA-PWY: coenzyme A biosynthesis I (prokaryotic)"                                                              
+ [20] "PWY-7851: coenzyme A biosynthesis II (eukaryotic)"                                                             
+ [21] "ORNDEG-PWY: superpathway of ornithine degradation"                                                             
+ [22] "PWY-724: superpathway of L-lysine, L-threonine and L-methionine biosynthesis II"                               
+ [23] "PWY-2942: L-lysine biosynthesis III"                                                                           
+ [24] "PWY-2941: L-lysine biosynthesis II"                                                                            
+ [25] "PWY-5097: L-lysine biosynthesis VI"                                                                            
+ [26] "PWY-5384: sucrose degradation IV (sucrose phosphorylase)"                                                      
+ [27] "PWY-1042: glycolysis IV"                                                                                       
+ [28] "PWY-3781: aerobic respiration I (cytochrome c)"                                                                
+ [29] "GLYCOLYSIS: glycolysis I (from glucose 6-phosphate)"                                                           
+ [30] "PWY-7208: superpathway of pyrimidine nucleobases salvage"                                                      
+ [31] "PWY-5484: glycolysis II (from fructose 6-phosphate)"                                                           
+ [32] "PWY-7229: superpathway of adenosine nucleotides de novo biosynthesis I"                                        
+ [33] "PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I"                                        
+ [34] "PWY-6126: superpathway of adenosine nucleotides de novo biosynthesis II"                                       
+ [35] "PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II"                                       
+ [36] "PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II"                                              
+ [37] "PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II"                                              
+ [38] "GLUCOSE1PMETAB-PWY: glucose and glucose-1-phosphate degradation"                                               
+ [39] "CALVIN-PWY: Calvin-Benson-Bassham cycle"                                                                       
+ [40] "PWY-5981: CDP-diacylglycerol biosynthesis III"                                                                 
+ [41] "PWY-5667: CDP-diacylglycerol biosynthesis I"                                                                   
+ [42] "PWY0-1319: CDP-diacylglycerol biosynthesis II"                                                                 
+ [43] "PWY0-1477: ethanolamine utilization"                                                                           
+ [44] "RIBOSYN2-PWY: flavin biosynthesis I (bacteria and plants)"                                                     
+ [45] "NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I"                                            
+ [46] "PWY-7977: L-methionine biosynthesis IV"                                                                        
+ [47] "PWY-7238: sucrose biosynthesis II"                                                                             
+ [48] "RHAMCAT-PWY: L-rhamnose degradation I"                                                                         
+ [49] "PWY-5695: inosine 5'-phosphate degradation"                                                                    
+ [50] "PWY-5723: Rubisco shunt"                                                                                       
+ [51] "PWY-6121: 5-aminoimidazole ribonucleotide biosynthesis I"                                                      
+ [52] "PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II"                                                     
+ [53] "PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis"                                        
+ [54] "PWY-7663: gondoate biosynthesis (anaerobic)"                                                                   
+ [55] "SALVADEHYPOX-PWY: adenosine nucleotides degradation II"                                                        
+ [56] "PWY-6608: guanosine nucleotides degradation III"                                                               
+ [57] "PWY0-1296: purine ribonucleosides degradation"                                                                 
+ [58] "PWY-7210: pyrimidine deoxyribonucleotides biosynthesis from CTP"                                               
+ [59] "PWY-7197: pyrimidine deoxyribonucleotide phosphorylation"                                                      
+ [60] "PWY-7184: pyrimidine deoxyribonucleotides de novo biosynthesis I"                                              
+ [61] "PWY-7198: pyrimidine deoxyribonucleotides de novo biosynthesis IV"                                             
+ [62] "PWY0-162: superpathway of pyrimidine ribonucleotides de novo biosynthesis"                                     
+ [63] "PHOSLIPSYN-PWY: superpathway of phospholipid biosynthesis I (bacteria)"                                        
+ [64] "ASPASN-PWY: superpathway of L-aspartate and L-asparagine biosynthesis"                                         
+ [65] "PWY4FS-7: phosphatidylglycerol biosynthesis I (plastidic)"                                                     
+ [66] "PWY4FS-8: phosphatidylglycerol biosynthesis II (non-plastidic)"                                                
+ [67] "PWY-5189: tetrapyrrole biosynthesis II (from glycine)"                                                         
+ [68] "P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate"                                       
+ [69] "PWY-5913: partial TCA cycle (obligate autotrophs)"                                                             
+ [70] "PWY-7111: pyruvate fermentation to isobutanol (engineered)"                                                    
+ [71] "VALSYN-PWY: L-valine biosynthesis"                                                                             
+ [72] "ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)"                                                     
+ [73] "BRANCHED-CHAIN-AA-SYN-PWY: superpathway of branched chain amino acid biosynthesis"                             
+ [74] "PWY-5103: L-isoleucine biosynthesis III"                                                                       
+ [75] "PWY-8178: pentose phosphate pathway (non-oxidative branch) II"                                                 
+ [76] "PWY-6385: peptidoglycan biosynthesis III (mycobacteria)"                                                       
+ [77] "DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis"                                                          
+ [78] "PENTOSE-P-PWY: pentose phosphate pathway"                                                                      
+ [79] "PWY-7953: UDP-N-acetylmuramoyl-pentapeptide biosynthesis III (meso-diaminopimelate containing)"                
+ [80] "PWY-3001: superpathway of L-isoleucine biosynthesis I"                                                         
+ [81] "PWY-702: L-methionine biosynthesis II"                                                                         
+ [82] "PWY-I9: L-cysteine biosynthesis VI (from L-methionine)"                                                        
+ [83] "PWY-6609: adenine and adenosine salvage III"                                                                   
+ [84] "PWY-5941: glycogen degradation II"                                                                             
+ [85] "ARGSYN-PWY: L-arginine biosynthesis I (via L-ornithine)"                                                       
+ [86] "PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)"                                         
+ [87] "PWY-7400: L-arginine biosynthesis IV (archaebacteria)"                                                         
+ [88] "PWY-841: superpathway of purine nucleotides de novo biosynthesis I"                                            
+ [89] "PWY-6124: inosine-5'-phosphate biosynthesis II"                                                                
+ [90] "ANAGLYCOLYSIS-PWY: glycolysis III (from glucose)"                                                              
+ [91] "ARGSYNBSUB-PWY: L-arginine biosynthesis II (acetyl cycle)"                                                     
+ [92] "PWY-6936: seleno-amino acid biosynthesis (plants)"                                                             
+ [93] "PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)"                                          
+ [94] "CITRULBIO-PWY: L-citrulline biosynthesis"                                                                      
+ [95] "PWY-6123: inosine-5'-phosphate biosynthesis I"                                                                 
+ [96] "PWY66-429: fatty acid biosynthesis initiation (mitochondria)"                                                  
+ [97] "PWY-5973: cis-vaccenate biosynthesis"                                                                          
+ [98] "ARO-PWY: chorismate biosynthesis I"                                                                            
+ [99] "COMPLETE-ARO-PWY: superpathway of aromatic amino acid biosynthesis"                                            
+[100] "GLCMANNANAUT-PWY: superpathway of N-acetylglucosamine, N-acetylmannosamine and N-acetylneuraminate degradation"
+[101] "SER-GLYSYN-PWY: superpathway of L-serine and glycine biosynthesis I"                                           
+[102] "PWY-6897: thiamine diphosphate salvage II"                                                                     
+[103] "ANAEROFRUCAT-PWY: homolactic fermentation"                                                                     
+[104] "PWY-6163: chorismate biosynthesis from 3-dehydroquinate"                                                       
+[105] "PWY-6901: superpathway of glucose and xylose degradation"                                                      
+[106] "PWY-5136: fatty acid &beta;-oxidation II (plant peroxisome)"                                                   
+[107] "GLYCOGENSYNTH-PWY: glycogen biosynthesis I (from ADP-D-Glucose)"                                               
+[108] "PWY-5188: tetrapyrrole biosynthesis I (from glutamate)"                                                        
+[109] "PWY-7560: methylerythritol phosphate pathway II"                                                               
+[110] "NONMEVIPP-PWY: methylerythritol phosphate pathway I"                                                           
+[111] "PWY0-1479: tRNA processing"                                                                                    
+[112] "SO4ASSIM-PWY: assimilatory sulfate reduction I"                                                                
+[113] "GLUCONEO-PWY: gluconeogenesis I"                                                                               
+[114] "P161-PWY: acetylene degradation (anaerobic)"                                                                   
+[115] "PWY-6700: queuosine biosynthesis I (de novo)"                                                                  
+[116] "GLUTORN-PWY: L-ornithine biosynthesis I"                                                                       
+[117] "PWY-7237: myo-, chiro- and scyllo-inositol degradation"                                                        
+[118] "FERMENTATION-PWY: mixed acid fermentation"                                                                     
+[119] "GLYOXYLATE-BYPASS: glyoxylate cycle"                                                                           
+[120] "HSERMETANA-PWY: L-methionine biosynthesis III"                                                                 
+[121] "PWY-6703: preQ0 biosynthesis"                                                                                  
+[122] "FASYN-ELONG-PWY: fatty acid elongation -- saturated"                                                           
+[123] "PWY-6282: palmitoleate biosynthesis I (from (5Z)-dodec-5-enoate)"                                              
+[124] "PWY-7664: oleate biosynthesis IV (anaerobic)"                                                                  
+[125] "PWY-5989: stearate biosynthesis II (bacteria and plants)"                                                      
+[126] "PWY0-862: (5Z)-dodecenoate biosynthesis I"                                                                     
+[127] "PWY-7234: inosine-5'-phosphate biosynthesis III"                                                               
+[128] "OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)"                                                
+[129] "PWY0-1297: superpathway of purine deoxyribonucleosides degradation"                                            
+[130] "PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation"                                        
+[131] "PWY-7357: thiamine phosphate formation from pyrithiamine and oxythiamine (yeast)"                              
+[132] "DAPLYSINESYN-PWY: L-lysine biosynthesis I"                                                                     
+[133] "1CMET2-PWY: folate transformations III (E. coli)"                                                              
+[134] "PWY-7117: C4 photosynthetic carbon assimilation cycle, PEPCK type"                                             
+[135] "PANTO-PWY: phosphopantothenate biosynthesis I"                                                                 
+[136] "HISTSYN-PWY: L-histidine biosynthesis"                                                                         
+[137] "PWY-6270: isoprene biosynthesis I"                                                                             
+[138] "PWY-7328: superpathway of UDP-glucose-derived O-antigen building blocks biosynthesis"                          
+[139] "PWY-5154: L-arginine biosynthesis III (via N-acetyl-L-citrulline)"                                             
+[140] "PANTOSYN-PWY: superpathway of coenzyme A biosynthesis I (bacteria)"                                            
+[141] "LIPASYN-PWY: phospholipases"                                                                                   
+[142] "PWY-6823: molybdopterin biosynthesis"                                                                          
+[143] "PWY-241: C4 photosynthetic carbon assimilation cycle, NADP-ME type"                                            
+Running DESeq2 for unstratified_pathway...
+Overall DESeq2 (LRT) results for unstratified_pathway:
+[1] Pathway        log2FoldChange pvalue         padj           p.adj         
+<0 rows> (or 0-length row.names)
+
+✅ Overall DESeq2 (LRT) results saved to humann3_publication_results_deseq2/unstratified_pathway_deseq2_overall_results.csv
+
+Pairwise DESeq2 results for unstratified_pathway:
+                                                                     Pathway       comparison log2FoldChange       pvalue         padj
+1                                  ANAEROFRUCAT-PWY: homolactic fermentation         OH_vs_NC     -22.412722 8.355918e-14 1.186540e-11
+2  PWY0-162: superpathway of pyrimidine ribonucleotides de novo biosynthesis         OH_vs_NC      19.612746 1.101335e-11 7.819479e-10
+3                                      RHAMCAT-PWY: L-rhamnose degradation I         OH_vs_NC     -21.078580 1.937638e-09 9.171488e-08
+4    P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate         OH_vs_NC      19.951612 2.503053e-08 7.990251e-07
+5         PWY0-1297: superpathway of purine deoxyribonucleosides degradation         OH_vs_NC      18.179617 2.813469e-08 7.990251e-07
+6  PWY0-162: superpathway of pyrimidine ribonucleotides de novo biosynthesis     OH_SBP_vs_NC      19.409730 1.761079e-11 2.500733e-09
+7         PWY0-1297: superpathway of purine deoxyribonucleosides degradation     OH_SBP_vs_NC      19.747288 1.407985e-09 9.996696e-08
+8    P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate     OH_SBP_vs_NC      19.568825 4.593929e-08 2.174460e-06
+9  PWY0-162: superpathway of pyrimidine ribonucleotides de novo biosynthesis      OH_WM_vs_NC      21.512203 8.414872e-14 1.194912e-11
+10                                     RHAMCAT-PWY: L-rhamnose degradation I      OH_WM_vs_NC     -22.925804 6.620163e-11 4.700316e-09
+11        PWY0-1297: superpathway of purine deoxyribonucleosides degradation      OH_WM_vs_NC      19.274631 3.460169e-09 1.637813e-07
+12   P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate      OH_WM_vs_NC      20.267063 1.480520e-08 5.255847e-07
+13                                 ANAEROFRUCAT-PWY: homolactic fermentation         PC_vs_NC     -24.039073 1.182600e-15 1.679291e-13
+14 PWY0-162: superpathway of pyrimidine ribonucleotides de novo biosynthesis         PC_vs_NC      18.522004 1.568483e-10 1.113623e-08
+15 PWY0-162: superpathway of pyrimidine ribonucleotides de novo biosynthesis         SH_vs_NC      18.968539 1.637801e-10 2.325678e-08
+16        PWY0-1297: superpathway of purine deoxyribonucleosides degradation         SH_vs_NC      19.928556 2.743625e-09 1.947973e-07
+17    PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation         SH_vs_NC      19.960977 1.027455e-03 4.863286e-02
+18                                 ANAEROFRUCAT-PWY: homolactic fermentation     SH_SBP_vs_NC     -25.793686 8.649698e-18 1.228257e-15
+19 PWY0-162: superpathway of pyrimidine ribonucleotides de novo biosynthesis     SH_SBP_vs_NC      18.647857 1.112176e-10 7.896449e-09
+20        PWY0-1297: superpathway of purine deoxyribonucleosides degradation     SH_SBP_vs_NC      18.825298 8.214193e-09 3.888051e-07
+21   P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate     SH_SBP_vs_NC      18.528838 2.341571e-07 8.312577e-06
+22 PWY0-162: superpathway of pyrimidine ribonucleotides de novo biosynthesis      SH_WM_vs_NC      18.449072 2.081219e-10 2.955331e-08
+23        PWY0-1297: superpathway of purine deoxyribonucleosides degradation      SH_WM_vs_NC      19.815801 1.324121e-09 9.401256e-08
+24   P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate      SH_WM_vs_NC      19.809276 3.245972e-08 1.536427e-06
+25                                 ANAEROFRUCAT-PWY: homolactic fermentation     OH_SBP_vs_OH      21.978939 4.952461e-14 7.032494e-12
+26                                     RHAMCAT-PWY: L-rhamnose degradation I     OH_SBP_vs_OH      20.696587 1.281188e-09 9.096436e-08
+27                                 ANAEROFRUCAT-PWY: homolactic fermentation      OH_WM_vs_OH      23.130241 2.098211e-15 2.979460e-13
+28    PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation      OH_WM_vs_OH     -30.781974 8.308693e-08 5.899172e-06
+29        PWY0-1297: superpathway of purine deoxyribonucleosides degradation         PC_vs_OH     -48.044793 8.646892e-52 1.227859e-49
+30   P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate         PC_vs_OH     -44.964389 2.067614e-38 1.468006e-36
+31                                     RHAMCAT-PWY: L-rhamnose degradation I         PC_vs_OH      24.285083 8.975890e-13 4.248588e-11
+32    PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation         PC_vs_OH     -30.646483 9.465390e-08 3.360213e-06
+33   P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate         SH_vs_OH     -42.858230 5.033384e-33 7.147406e-31
+34                                 ANAEROFRUCAT-PWY: homolactic fermentation         SH_vs_OH      22.313142 1.064019e-13 7.554537e-12
+35                                     RHAMCAT-PWY: L-rhamnose degradation I         SH_vs_OH      23.029874 4.739356e-11 2.243295e-09
+36                                     RHAMCAT-PWY: L-rhamnose degradation I     SH_SBP_vs_OH      21.289767 4.124272e-10 5.856466e-08
+37    PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation     SH_SBP_vs_OH     -31.363580 4.719349e-08 3.350738e-06
+38                                 ANAEROFRUCAT-PWY: homolactic fermentation      SH_WM_vs_OH      22.187629 3.194141e-14 4.535680e-12
+39                                     RHAMCAT-PWY: L-rhamnose degradation I      SH_WM_vs_OH      21.284515 4.645856e-10 3.298558e-08
+40    PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation      SH_WM_vs_OH     -29.806562 2.098005e-07 9.930558e-06
+41                                     RHAMCAT-PWY: L-rhamnose degradation I  OH_WM_vs_OH_SBP     -22.543811 3.805016e-11 5.403123e-09
+42    PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation  OH_WM_vs_OH_SBP     -31.236023 5.190145e-08 3.685003e-06
+43        PWY0-1297: superpathway of purine deoxyribonucleosides degradation     PC_vs_OH_SBP     -49.612464 1.534361e-55 2.178793e-53
+44   P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate     PC_vs_OH_SBP     -44.581602 8.598548e-38 6.104969e-36
+45                                 ANAEROFRUCAT-PWY: homolactic fermentation     PC_vs_OH_SBP     -23.605290 5.937666e-16 2.810495e-14
+46    PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation     PC_vs_OH_SBP     -31.100531 5.924898e-08 2.103339e-06
+47   P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate     SH_vs_OH_SBP     -42.475443 1.805763e-32 2.564183e-30
+48                                 ANAEROFRUCAT-PWY: homolactic fermentation SH_SBP_vs_OH_SBP     -25.359903 3.561959e-18 5.057982e-16
+49    PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation SH_SBP_vs_OH_SBP     -31.817629 2.921979e-08 2.074605e-06
+50    PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation  SH_WM_vs_OH_SBP     -30.260611 1.330107e-07 1.888752e-05
+51        PWY0-1297: superpathway of purine deoxyribonucleosides degradation      PC_vs_OH_WM     -49.139808 1.713088e-54 2.432585e-52
+52   P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate      PC_vs_OH_WM     -45.279841 5.782185e-39 4.105352e-37
+53                                 ANAEROFRUCAT-PWY: homolactic fermentation      PC_vs_OH_WM     -24.756593 2.007505e-17 9.502190e-16
+54                                     RHAMCAT-PWY: L-rhamnose degradation I      PC_vs_OH_WM      26.132307 1.484427e-14 5.269716e-13
+55   P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate      SH_vs_OH_WM     -43.173681 1.619444e-33 2.299611e-31
+56                                     RHAMCAT-PWY: L-rhamnose degradation I      SH_vs_OH_WM      24.877097 1.189410e-12 8.444814e-11
+57    PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation      SH_vs_OH_WM      32.639514 3.287721e-08 1.556188e-06
+58                                 ANAEROFRUCAT-PWY: homolactic fermentation  SH_SBP_vs_OH_WM     -26.511206 9.430721e-20 1.339162e-17
+59                                     RHAMCAT-PWY: L-rhamnose degradation I  SH_SBP_vs_OH_WM      23.136991 1.109955e-11 7.880678e-10
+60                 RIBOSYN2-PWY: flavin biosynthesis I (bacteria and plants)  SH_SBP_vs_OH_WM      -8.151486 9.564526e-04 4.527209e-02
+61                                     RHAMCAT-PWY: L-rhamnose degradation I   SH_WM_vs_OH_WM      23.131738 1.275768e-11 1.811590e-09
+62        PWY0-1297: superpathway of purine deoxyribonucleosides degradation         SH_vs_PC      49.793733 6.821936e-53 9.687149e-51
+63                                 ANAEROFRUCAT-PWY: homolactic fermentation         SH_vs_PC      23.939494 1.530568e-15 1.086704e-13
+64    PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation         SH_vs_PC      32.504023 3.745625e-08 1.772929e-06
+65        PWY0-1297: superpathway of purine deoxyribonucleosides degradation     SH_SBP_vs_PC      48.690475 2.065568e-53 2.933106e-51
+66   P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate     SH_SBP_vs_PC      43.541616 4.800589e-36 3.408418e-34
+67        PWY0-1297: superpathway of purine deoxyribonucleosides degradation      SH_WM_vs_PC      49.680977 1.767719e-55 2.510162e-53
+68   P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate      SH_WM_vs_PC      44.822053 4.235968e-38 3.007537e-36
+69                                 ANAEROFRUCAT-PWY: homolactic fermentation      SH_WM_vs_PC      23.813981 3.744222e-16 1.772265e-14
+70   P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate     SH_SBP_vs_SH      41.435456 6.493943e-31 9.221399e-29
+71                                 ANAEROFRUCAT-PWY: homolactic fermentation     SH_SBP_vs_SH     -25.694107 1.139197e-17 8.088302e-16
+72    PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation     SH_SBP_vs_SH     -33.221120 1.867610e-08 8.840023e-07
+73   P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate      SH_WM_vs_SH      42.715894 9.407351e-33 1.335844e-30
+74    PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation      SH_WM_vs_SH     -31.664102 8.310324e-08 5.900330e-06
+75                                 ANAEROFRUCAT-PWY: homolactic fermentation  SH_WM_vs_SH_SBP      25.568594 2.194912e-18 3.116775e-16
+          p.adj
+1  1.194896e-11
+2  7.874545e-10
+3  9.236076e-08
+4  8.046521e-07
+5  8.046521e-07
+6  2.518343e-09
+7  1.006710e-07
+8  2.189773e-06
+9  1.203327e-11
+10 4.733416e-09
+11 1.649347e-07
+12 5.292860e-07
+13 1.691117e-13
+14 1.121465e-08
+15 2.342056e-08
+16 1.961692e-07
+17 4.897535e-02
+18 1.236907e-15
+19 7.952058e-09
+20 3.915432e-07
+21 8.371116e-06
+22 2.976143e-08
+23 9.467463e-08
+24 1.547247e-06
+25 7.082019e-12
+26 9.160496e-08
+27 3.000442e-13
+28 5.940715e-06
+29 1.236506e-49
+30 1.478344e-36
+31 4.278508e-11
+32 3.383877e-06
+33 7.197740e-31
+34 7.607738e-12
+35 2.259093e-09
+36 5.897708e-08
+37 3.374335e-06
+38 4.567622e-12
+39 3.321787e-08
+40 1.000049e-05
+41 5.441173e-09
+42 3.710953e-06
+43 2.194137e-53
+44 6.147962e-36
+45 2.830287e-14
+46 2.118151e-06
+47 2.582241e-30
+48 5.093601e-16
+49 2.089215e-06
+50 1.902053e-05
+51 2.449716e-52
+52 4.134263e-37
+53 9.569107e-16
+54 5.306826e-13
+55 2.315806e-31
+56 8.504284e-11
+57 1.567147e-06
+58 1.348593e-17
+59 7.936176e-10
+60 4.559091e-02
+61 1.824348e-09
+62 9.755369e-51
+63 1.094356e-13
+64 1.785414e-06
+65 2.953762e-51
+66 3.432421e-34
+67 2.527839e-53
+68 3.028717e-36
+69 1.784746e-14
+70 9.286338e-29
+71 8.145262e-16
+72 8.902276e-07
+73 1.345251e-30
+74 5.941882e-06
+75 3.138724e-16
+
+✅ Pairwise DESeq2 results saved to humann3_publication_results_deseq2/unstratified_pathway_deseq2_pairwise_results.csv
+
+
+## Stratified Pathway Analysis (All Pathways) ---
+Found 167 stratified pathways with sufficient data for DESeq2 testing.
+Stratified pathways (filtered for DESeq2 testing):
+  [1] "P41-PWY: pyruvate fermentation to acetate and (S)-lactate I|g__Lactobacillus.s__Lactobacillus_crispatus"                                     
+  [2] "P41-PWY: pyruvate fermentation to acetate and (S)-lactate I|g__Lactobacillus.s__Lactobacillus_salivarius"                                    
+  [3] "PWY-5100: pyruvate fermentation to acetate and lactate II|g__Lactobacillus.s__Lactobacillus_crispatus"                                       
+  [4] "PWY-5100: pyruvate fermentation to acetate and lactate II|g__Lactobacillus.s__Lactobacillus_salivarius"                                      
+  [5] "PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Lactobacillus.s__Lactobacillus_crispatus"                                        
+  [6] "PWY-6151: S-adenosyl-L-methionine salvage I|g__Lactobacillus.s__Lactobacillus_crispatus"                                                     
+  [7] "PWY-6151: S-adenosyl-L-methionine salvage I|g__Lactobacillus.s__Lactobacillus_salivarius"                                                    
+  [8] "UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Lactobacillus.s__Lactobacillus_salivarius"                                       
+  [9] "OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Lactobacillus.s__Lactobacillus_salivarius"                                 
+ [10] "DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Lactobacillus.s__Lactobacillus_salivarius"                                           
+ [11] "PWY-6936: seleno-amino acid biosynthesis (plants)|g__Lactobacillus.s__Lactobacillus_salivarius"                                              
+ [12] "PWY-6527: stachyose degradation|g__Lactobacillus.s__Lactobacillus_crispatus"                                                                 
+ [13] "PWY-6527: stachyose degradation|g__Lactobacillus.s__Lactobacillus_salivarius"                                                                
+ [14] "COA-PWY: coenzyme A biosynthesis I (prokaryotic)|g__Lactobacillus.s__Lactobacillus_salivarius"                                               
+ [15] "THRESYN-PWY: superpathway of L-threonine biosynthesis|g__Lactobacillus.s__Lactobacillus_salivarius"                                          
+ [16] "UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Lactobacillus.s__Lactobacillus_crispatus"                                        
+ [17] "PWY0-1477: ethanolamine utilization|g__Escherichia.s__Escherichia_coli"                                                                      
+ [18] "PWY-5686: UMP biosynthesis I|g__Lactobacillus.s__Lactobacillus_crispatus"                                                                    
+ [19] "PWY-7790: UMP biosynthesis II|g__Lactobacillus.s__Lactobacillus_crispatus"                                                                   
+ [20] "PWY-7791: UMP biosynthesis III|g__Lactobacillus.s__Lactobacillus_crispatus"                                                                  
+ [21] "PWY-6151: S-adenosyl-L-methionine salvage I|g__Escherichia.s__Escherichia_coli"                                                              
+ [22] "VALSYN-PWY: L-valine biosynthesis|g__Escherichia.s__Escherichia_coli"                                                                        
+ [23] "ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)|g__Escherichia.s__Escherichia_coli"                                                
+ [24] "NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Escherichia.s__Escherichia_coli"                                       
+ [25] "PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Enterococcus.s__Enterococcus_cecorum"                                            
+ [26] "PWY-6609: adenine and adenosine salvage III|g__Enterococcus.s__Enterococcus_cecorum"                                                         
+ [27] "PWY0-1296: purine ribonucleosides degradation|g__Enterococcus.s__Enterococcus_cecorum"                                                       
+ [28] "PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)|g__Escherichia.s__Escherichia_coli"                                    
+ [29] "PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Escherichia.s__Escherichia_coli"                                         
+ [30] "PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Escherichia.s__Escherichia_coli"                                         
+ [31] "COA-PWY: coenzyme A biosynthesis I (prokaryotic)|g__Klebsiella.s__Klebsiella_oxytoca"                                                        
+ [32] "ASPASN-PWY: superpathway of L-aspartate and L-asparagine biosynthesis|g__Escherichia.s__Escherichia_coli"                                    
+ [33] "PWY0-301: L-ascorbate degradation I (bacterial, anaerobic)|g__Escherichia.s__Escherichia_coli"                                               
+ [34] "ORNDEG-PWY: superpathway of ornithine degradation|g__Escherichia.s__Escherichia_coli"                                                        
+ [35] "PWY-6803: phosphatidylcholine acyl editing|g__Escherichia.s__Escherichia_coli"                                                               
+ [36] "PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Lactobacillus.s__Lactobacillus_salivarius"                                       
+ [37] "PWY-3841: folate transformations II (plants)|g__Lactobacillus.s__Lactobacillus_crispatus"                                                    
+ [38] "COA-PWY-1: superpathway of coenzyme A biosynthesis III (mammals)|g__Lactobacillus.s__Lactobacillus_crispatus"                                
+ [39] "COA-PWY: coenzyme A biosynthesis I (prokaryotic)|g__Lactobacillus.s__Lactobacillus_crispatus"                                                
+ [40] "PWY-7851: coenzyme A biosynthesis II (eukaryotic)|g__Lactobacillus.s__Lactobacillus_crispatus"                                               
+ [41] "PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II|g__Lactobacillus.s__Lactobacillus_salivarius"                                      
+ [42] "PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis|g__Lactobacillus.s__Lactobacillus_salivarius"                         
+ [43] "PWY-7663: gondoate biosynthesis (anaerobic)|g__Lactobacillus.s__Lactobacillus_salivarius"                                                    
+ [44] "PWY-6151: S-adenosyl-L-methionine salvage I|g__Enterococcus.s__Enterococcus_cecorum"                                                         
+ [45] "PWY-6700: queuosine biosynthesis I (de novo)|g__Enterococcus.s__Enterococcus_cecorum"                                                        
+ [46] "FUCCAT-PWY: fucose degradation|g__Gallibacterium.s__Gallibacterium_anatis"                                                                   
+ [47] "PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II|g__Escherichia.s__Escherichia_coli"                                                
+ [48] "PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis|g__Escherichia.s__Escherichia_coli"                                   
+ [49] "UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Escherichia.s__Escherichia_coli"                                                 
+ [50] "GLUCOSE1PMETAB-PWY: glucose and glucose-1-phosphate degradation|g__Escherichia.s__Escherichia_coli"                                          
+ [51] "THRESYN-PWY: superpathway of L-threonine biosynthesis|g__Escherichia.s__Escherichia_coli"                                                    
+ [52] "NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Bacteroides.s__Bacteroides_cellulosilyticus"                           
+ [53] "PWY-6609: adenine and adenosine salvage III|g__Escherichia.s__Escherichia_coli"                                                              
+ [54] "PWY-6936: seleno-amino acid biosynthesis (plants)|g__Escherichia.s__Escherichia_coli"                                                        
+ [55] "PWY-8178: pentose phosphate pathway (non-oxidative branch) II|g__Bacteroides.s__Bacteroides_cellulosilyticus"                                
+ [56] "PWY0-1296: purine ribonucleosides degradation|g__Escherichia.s__Escherichia_coli"                                                            
+ [57] "CALVIN-PWY: Calvin-Benson-Bassham cycle|g__Escherichia.s__Escherichia_coli"                                                                  
+ [58] "DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Bacteroides.s__Bacteroides_fragilis"                                                 
+ [59] "DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Bacteroides.s__Bacteroides_cellulosilyticus"                                         
+ [60] "HSERMETANA-PWY: L-methionine biosynthesis III|g__Bacteroides.s__Bacteroides_fragilis"                                                        
+ [61] "HSERMETANA-PWY: L-methionine biosynthesis III|g__Bacteroides.s__Bacteroides_cellulosilyticus"                                                
+ [62] "SER-GLYSYN-PWY: superpathway of L-serine and glycine biosynthesis I|g__Escherichia.s__Escherichia_coli"                                      
+ [63] "PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)|g__Klebsiella.s__Klebsiella_oxytoca"                                   
+ [64] "PWY-7663: gondoate biosynthesis (anaerobic)|g__Escherichia.s__Escherichia_coli"                                                              
+ [65] "P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate|g__Escherichia.s__Escherichia_coli"                                  
+ [66] "VALSYN-PWY: L-valine biosynthesis|g__Enterococcus.s__Enterococcus_cecorum"                                                                   
+ [67] "VALSYN-PWY: L-valine biosynthesis|g__Escherichia.s__Escherichia_fergusonii"                                                                  
+ [68] "ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)|g__Escherichia.s__Escherichia_fergusonii"                                          
+ [69] "PWY-7111: pyruvate fermentation to isobutanol (engineered)|g__Escherichia.s__Escherichia_coli"                                               
+ [70] "BRANCHED-CHAIN-AA-SYN-PWY: superpathway of branched chain amino acid biosynthesis|g__Escherichia.s__Escherichia_coli"                        
+ [71] "ASPASN-PWY: superpathway of L-aspartate and L-asparagine biosynthesis|g__Bacteroides.s__Bacteroides_fragilis"                                
+ [72] "PWY-7977: L-methionine biosynthesis IV|g__Escherichia.s__Escherichia_coli"                                                                   
+ [73] "PWY-7977: L-methionine biosynthesis IV|g__Bacteroides.s__Bacteroides_fragilis"                                                               
+ [74] "PWY-5103: L-isoleucine biosynthesis III|g__Escherichia.s__Escherichia_coli"                                                                  
+ [75] "PWY-5695: inosine 5'-phosphate degradation|g__Escherichia.s__Escherichia_coli"                                                               
+ [76] "PWY0-862: (5Z)-dodecenoate biosynthesis I|g__Escherichia.s__Escherichia_coli"                                                                
+ [77] "PWY-6700: queuosine biosynthesis I (de novo)|g__Bacteroides.s__Bacteroides_fragilis"                                                         
+ [78] "PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_fragilis"                                     
+ [79] "PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_fragilis"                                     
+ [80] "PWY-6608: guanosine nucleotides degradation III|g__Escherichia.s__Escherichia_coli"                                                          
+ [81] "PWY0-845: superpathway of pyridoxal 5'-phosphate biosynthesis and salvage|g__Bacteroides.s__Bacteroides_cellulosilyticus"                    
+ [82] "SALVADEHYPOX-PWY: adenosine nucleotides degradation II|g__Escherichia.s__Escherichia_coli"                                                   
+ [83] "SO4ASSIM-PWY: assimilatory sulfate reduction I|g__Escherichia.s__Escherichia_coli"                                                           
+ [84] "PYRIDOXSYN-PWY: pyridoxal 5'-phosphate biosynthesis I|g__Bacteroides.s__Bacteroides_cellulosilyticus"                                        
+ [85] "PWY0-301: L-ascorbate degradation I (bacterial, anaerobic)|g__Escherichia.s__Escherichia_fergusonii"                                         
+ [86] "PWY-7237: myo-, chiro- and scyllo-inositol degradation|g__Escherichia.s__Escherichia_coli"                                                   
+ [87] "AEROBACTINSYN-PWY: aerobactin biosynthesis|g__Salmonella.s__Salmonella_enterica"                                                             
+ [88] "PWY-5097: L-lysine biosynthesis VI|g__Gallibacterium.s__Gallibacterium_anatis"                                                               
+ [89] "COA-PWY: coenzyme A biosynthesis I (prokaryotic)|g__Gallibacterium.s__Gallibacterium_anatis"                                                 
+ [90] "PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)|g__Gallibacterium.s__Gallibacterium_anatis"                            
+ [91] "VALSYN-PWY: L-valine biosynthesis|g__Gallibacterium.s__Gallibacterium_anatis"                                                                
+ [92] "ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)|g__Gallibacterium.s__Gallibacterium_anatis"                                        
+ [93] "PWY66-429: fatty acid biosynthesis initiation (mitochondria)|g__Lactobacillus.s__Lactobacillus_salivarius"                                   
+ [94] "PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)|g__Escherichia.s__Escherichia_fergusonii"                              
+ [95] "PWY-I9: L-cysteine biosynthesis VI (from L-methionine)|g__Enterococcus.s__Enterococcus_cecorum"                                              
+ [96] "PWY-7238: sucrose biosynthesis II|g__Escherichia.s__Escherichia_coli"                                                                        
+ [97] "SER-GLYSYN-PWY: superpathway of L-serine and glycine biosynthesis I|g__Lactobacillus.s__Lactobacillus_salivarius"                            
+ [98] "UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Gallibacterium.s__Gallibacterium_anatis"                                         
+ [99] "NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Gallibacterium.s__Gallibacterium_anatis"                               
+[100] "GLUTORN-PWY: L-ornithine biosynthesis I|g__Gallibacterium.s__Gallibacterium_anatis"                                                          
+[101] "VALSYN-PWY: L-valine biosynthesis|g__Bacteroides.s__Bacteroides_fragilis"                                                                    
+[102] "VALSYN-PWY: L-valine biosynthesis|g__Flavonifractor.s__Flavonifractor_sp_An10"                                                               
+[103] "PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Bacteroides.s__Bacteroides_cellulosilyticus"                                     
+[104] "PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Bacteroides.s__Bacteroides_cellulosilyticus"                       
+[105] "PWY-3841: folate transformations II (plants)|g__Bacteroides.s__Bacteroides_fragilis"                                                         
+[106] "PWY-3841: folate transformations II (plants)|g__Parabacteroides.s__Parabacteroides_johnsonii"                                                
+[107] "ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)|g__Bacteroides.s__Bacteroides_fragilis"                                            
+[108] "PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_cellulosilyticus"                             
+[109] "PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_cellulosilyticus"                             
+[110] "PWY66-429: fatty acid biosynthesis initiation (mitochondria)|g__Parabacteroides.s__Parabacteroides_johnsonii"                                
+[111] "PWY-5695: inosine 5'-phosphate degradation|g__Bacteroides.s__Bacteroides_fragilis"                                                           
+[112] "PWY-5103: L-isoleucine biosynthesis III|g__Bacteroides.s__Bacteroides_fragilis"                                                              
+[113] "PWY-6385: peptidoglycan biosynthesis III (mycobacteria)|g__Bacteroides.s__Bacteroides_cellulosilyticus"                                      
+[114] "PWY-6385: peptidoglycan biosynthesis III (mycobacteria)|g__Parabacteroides.s__Parabacteroides_johnsonii"                                     
+[115] "PWY-6163: chorismate biosynthesis from 3-dehydroquinate|g__Bacteroides.s__Bacteroides_fragilis"                                              
+[116] "PWY-6163: chorismate biosynthesis from 3-dehydroquinate|g__Parabacteroides.s__Parabacteroides_johnsonii"                                     
+[117] "PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_cellulosilyticus" 
+[118] "PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Parabacteroides.s__Parabacteroides_johnsonii"
+[119] "PWY-6121: 5-aminoimidazole ribonucleotide biosynthesis I|g__Parabacteroides.s__Parabacteroides_johnsonii"                                    
+[120] "PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Parabacteroides.s__Parabacteroides_johnsonii"        
+[121] "PWY-5667: CDP-diacylglycerol biosynthesis I|g__Bacteroides.s__Bacteroides_fragilis"                                                          
+[122] "PWY0-1319: CDP-diacylglycerol biosynthesis II|g__Bacteroides.s__Bacteroides_fragilis"                                                        
+[123] "ARO-PWY: chorismate biosynthesis I|g__Parabacteroides.s__Parabacteroides_johnsonii"                                                          
+[124] "PWY-5973: cis-vaccenate biosynthesis|g__Bacteroides.s__Bacteroides_fragilis"                                                                 
+[125] "PWY-5973: cis-vaccenate biosynthesis|g__Parabacteroides.s__Parabacteroides_johnsonii"                                                        
+[126] "PWY-5686: UMP biosynthesis I|g__Bacteroides.s__Bacteroides_fragilis"                                                                         
+[127] "PWY-7791: UMP biosynthesis III|g__Bacteroides.s__Bacteroides_fragilis"                                                                       
+[128] "PWY-7791: UMP biosynthesis III|g__Parabacteroides.s__Parabacteroides_johnsonii"                                                              
+[129] "PWY-6609: adenine and adenosine salvage III|g__Bacteroides.s__Bacteroides_fragilis"                                                          
+[130] "PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II|g__Parabacteroides.s__Parabacteroides_johnsonii"                                   
+[131] "PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis|g__Parabacteroides.s__Parabacteroides_johnsonii"                      
+[132] "PWY-7315: dTDP-N-acetylthomosamine biosynthesis|g__Bacteroides.s__Bacteroides_fragilis"                                                      
+[133] "PWY-2942: L-lysine biosynthesis III|g__Bacteroides.s__Bacteroides_fragilis"                                                                  
+[134] "PWY-2942: L-lysine biosynthesis III|g__Parabacteroides.s__Parabacteroides_johnsonii"                                                         
+[135] "PWY-7663: gondoate biosynthesis (anaerobic)|g__Bacteroides.s__Bacteroides_fragilis"                                                          
+[136] "PWY-7663: gondoate biosynthesis (anaerobic)|g__Parabacteroides.s__Parabacteroides_johnsonii"                                                 
+[137] "PWY-7199: pyrimidine deoxyribonucleosides salvage|g__Bacteroides.s__Bacteroides_fragilis"                                                    
+[138] "PWY-6703: preQ0 biosynthesis|g__Bacteroides.s__Bacteroides_cellulosilyticus"                                                                 
+[139] "PWY-6147: 6-hydroxymethyl-dihydropterin diphosphate biosynthesis I|g__Bacteroides.s__Bacteroides_fragilis"                                   
+[140] "PWY-6731: starch degradation III|g__Bacteroides.s__Bacteroides_cellulosilyticus"                                                             
+[141] "PWY-7316: dTDP-N-acetylviosamine biosynthesis|g__Bacteroides.s__Bacteroides_fragilis"                                                        
+[142] "PWY-702: L-methionine biosynthesis II|g__Escherichia.s__Escherichia_coli"                                                                    
+[143] "PWY0-1319: CDP-diacylglycerol biosynthesis II|g__Escherichia.s__Escherichia_coli"                                                            
+[144] "PWY-5667: CDP-diacylglycerol biosynthesis I|g__Escherichia.s__Escherichia_coli"                                                              
+[145] "PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Parabacteroides.s__Parabacteroides_johnsonii"                                    
+[146] "PWY-1042: glycolysis IV|g__Bacteroides.s__Bacteroides_cellulosilyticus"                                                                      
+[147] "PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Parabacteroides.s__Parabacteroides_johnsonii"                      
+[148] "PWY-7977: L-methionine biosynthesis IV|g__Parabacteroides.s__Parabacteroides_johnsonii"                                                      
+[149] "PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|g__Parabacteroides.s__Parabacteroides_johnsonii"                     
+[150] "P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate|g__Lactobacillus.s__Lactobacillus_salivarius"                        
+[151] "PWY-6703: preQ0 biosynthesis|g__Bacteroides.s__Bacteroides_fragilis"                                                                         
+[152] "PWY-6703: preQ0 biosynthesis|g__Parabacteroides.s__Parabacteroides_johnsonii"                                                                
+[153] "HISTSYN-PWY: L-histidine biosynthesis|g__Bacteroides.s__Bacteroides_cellulosilyticus"                                                        
+[154] "DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Parabacteroides.s__Parabacteroides_johnsonii"                                        
+[155] "PWY-6700: queuosine biosynthesis I (de novo)|g__Parabacteroides.s__Parabacteroides_johnsonii"                                                
+[156] "PWY-5097: L-lysine biosynthesis VI|g__Parabacteroides.s__Parabacteroides_johnsonii"                                                          
+[157] "PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Parabacteroides.s__Parabacteroides_johnsonii"                            
+[158] "PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Parabacteroides.s__Parabacteroides_johnsonii"                            
+[159] "NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Lactobacillus.s__Lactobacillus_salivarius"                             
+[160] "VALSYN-PWY: L-valine biosynthesis|g__Parabacteroides.s__Parabacteroides_johnsonii"                                                           
+[161] "COMPLETE-ARO-PWY: superpathway of aromatic amino acid biosynthesis|g__Parabacteroides.s__Parabacteroides_johnsonii"                          
+[162] "HISTSYN-PWY: L-histidine biosynthesis|g__Parabacteroides.s__Parabacteroides_johnsonii"                                                       
+[163] "PWY-7237: myo-, chiro- and scyllo-inositol degradation|g__Bacteroides.s__Bacteroides_cellulosilyticus"                                       
+[164] "HISDEG-PWY: L-histidine degradation I|g__Parabacteroides.s__Parabacteroides_johnsonii"                                                       
+[165] "ARGSYN-PWY: L-arginine biosynthesis I (via L-ornithine)|g__Gallibacterium.s__Gallibacterium_anatis"                                          
+[166] "PWY-8178: pentose phosphate pathway (non-oxidative branch) II|g__Gallibacterium.s__Gallibacterium_anatis"                                    
+[167] "PWY-6609: adenine and adenosine salvage III|g__Parabacteroides.s__Parabacteroides_johnsonii"                                                 
+Running DESeq2 for stratified_pathway...
+Overall DESeq2 (LRT) results for stratified_pathway:
+[1] Pathway        log2FoldChange pvalue         padj           p.adj         
+<0 rows> (or 0-length row.names)
+
+✅ Overall DESeq2 (LRT) results saved to humann3_publication_results_deseq2/stratified_pathway_deseq2_overall_results.csv
+
+Pairwise DESeq2 results for stratified_pathway:
+                                                                                                           Pathway       comparison
+1      OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Lactobacillus.s__Lactobacillus_salivarius         OH_vs_NC
+2      OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Lactobacillus.s__Lactobacillus_salivarius     OH_SBP_vs_NC
+3      OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Lactobacillus.s__Lactobacillus_salivarius      OH_WM_vs_NC
+4                              PWY-6609: adenine and adenosine salvage III|g__Enterococcus.s__Enterococcus_cecorum      OH_WM_vs_NC
+5      OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Lactobacillus.s__Lactobacillus_salivarius         PC_vs_NC
+6      OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Lactobacillus.s__Lactobacillus_salivarius     SH_SBP_vs_NC
+7  NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Lactobacillus.s__Lactobacillus_salivarius     SH_SBP_vs_NC
+8                              PWY-6609: adenine and adenosine salvage III|g__Enterococcus.s__Enterococcus_cecorum      SH_WM_vs_NC
+9      OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Lactobacillus.s__Lactobacillus_salivarius      SH_WM_vs_NC
+10                             PWY-6609: adenine and adenosine salvage III|g__Enterococcus.s__Enterococcus_cecorum      OH_WM_vs_OH
+11 NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Lactobacillus.s__Lactobacillus_salivarius         PC_vs_OH
+12     OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Lactobacillus.s__Lactobacillus_salivarius         SH_vs_OH
+13 NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Lactobacillus.s__Lactobacillus_salivarius     SH_SBP_vs_OH
+14                             PWY-6609: adenine and adenosine salvage III|g__Enterococcus.s__Enterococcus_cecorum      SH_WM_vs_OH
+15                             PWY-6609: adenine and adenosine salvage III|g__Enterococcus.s__Enterococcus_cecorum  OH_WM_vs_OH_SBP
+16 NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Lactobacillus.s__Lactobacillus_salivarius     PC_vs_OH_SBP
+17     OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Lactobacillus.s__Lactobacillus_salivarius     SH_vs_OH_SBP
+18 NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Lactobacillus.s__Lactobacillus_salivarius SH_SBP_vs_OH_SBP
+19                             PWY-6609: adenine and adenosine salvage III|g__Enterococcus.s__Enterococcus_cecorum  SH_WM_vs_OH_SBP
+20                             PWY-6609: adenine and adenosine salvage III|g__Enterococcus.s__Enterococcus_cecorum      PC_vs_OH_WM
+21 NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Lactobacillus.s__Lactobacillus_salivarius      PC_vs_OH_WM
+22     OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Lactobacillus.s__Lactobacillus_salivarius      SH_vs_OH_WM
+23                             PWY-6609: adenine and adenosine salvage III|g__Enterococcus.s__Enterococcus_cecorum      SH_vs_OH_WM
+24                             PWY-6609: adenine and adenosine salvage III|g__Enterococcus.s__Enterococcus_cecorum  SH_SBP_vs_OH_WM
+25 NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Lactobacillus.s__Lactobacillus_salivarius  SH_SBP_vs_OH_WM
+26     OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Lactobacillus.s__Lactobacillus_salivarius         SH_vs_PC
+27 NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Lactobacillus.s__Lactobacillus_salivarius         SH_vs_PC
+28                             PWY-6609: adenine and adenosine salvage III|g__Enterococcus.s__Enterococcus_cecorum      SH_WM_vs_PC
+29 NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Lactobacillus.s__Lactobacillus_salivarius      SH_WM_vs_PC
+30     OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Lactobacillus.s__Lactobacillus_salivarius     SH_SBP_vs_SH
+31 NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Lactobacillus.s__Lactobacillus_salivarius     SH_SBP_vs_SH
+32     OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Lactobacillus.s__Lactobacillus_salivarius      SH_WM_vs_SH
+33                             PWY-6609: adenine and adenosine salvage III|g__Enterococcus.s__Enterococcus_cecorum      SH_WM_vs_SH
+34                             PWY-6609: adenine and adenosine salvage III|g__Enterococcus.s__Enterococcus_cecorum  SH_WM_vs_SH_SBP
+35 NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Lactobacillus.s__Lactobacillus_salivarius  SH_WM_vs_SH_SBP
+   log2FoldChange       pvalue         padj        p.adj
+1        18.00083 3.202611e-12 5.348361e-10 5.348361e-10
+2        18.32558 2.424481e-13 4.048883e-11 4.048883e-11
+3        20.30079 4.687955e-16 7.828885e-14 7.828885e-14
+4       -21.58196 4.552990e-13 3.801747e-11 3.801747e-11
+5        18.46331 4.760937e-12 7.950765e-10 7.950765e-10
+6        19.39934 8.791312e-15 1.468149e-12 1.468149e-12
+7        19.88105 4.345502e-04 3.628494e-02 3.628494e-02
+8       -20.01368 1.919030e-11 3.204779e-09 3.204779e-09
+9        16.31800 1.177683e-10 9.833651e-09 9.833651e-09
+10      -22.89716 6.064703e-14 1.012805e-11 1.012805e-11
+11       25.87426 3.080112e-05 5.143788e-03 5.143788e-03
+12      -47.88225 2.777359e-72 4.638189e-70 4.638189e-70
+13       27.06928 3.401402e-06 5.680342e-04 5.680342e-04
+14      -21.32888 2.699802e-12 4.508669e-10 4.508669e-10
+15      -20.83803 2.215820e-12 3.700419e-10 3.700419e-10
+16       27.00082 7.904566e-06 1.320063e-03 1.320063e-03
+17      -48.20700 1.263240e-77 2.109611e-75 2.109611e-75
+18       28.19584 6.063540e-07 1.012611e-04 1.012611e-04
+19      -19.26975 8.479591e-11 1.416092e-08 1.416092e-08
+20       23.71085 5.794512e-14 9.676835e-12 9.676835e-12
+21       26.57100 1.099439e-05 9.180316e-04 9.180316e-04
+22      -50.18220 4.318440e-84 7.211795e-82 7.211795e-82
+23       23.86682 4.627435e-15 3.863908e-13 3.863908e-13
+24       23.14947 5.392472e-15 9.005428e-13 9.005428e-13
+25       27.76602 8.963538e-07 7.484554e-05 7.484554e-05
+26      -48.34472 2.903839e-69 4.849411e-67 4.849411e-67
+27      -25.78406 3.282408e-05 2.740810e-03 2.740810e-03
+28      -22.14256 2.287316e-12 3.819818e-10 3.819818e-10
+29      -26.77204 9.427785e-06 7.872201e-04 7.872201e-04
+30       49.28075 4.193029e-81 7.002359e-79 7.002359e-79
+31       26.97908 3.665787e-06 3.060932e-04 3.060932e-04
+32       46.19941 6.995798e-70 1.168298e-67 1.168298e-67
+33      -22.29854 2.448474e-13 2.044476e-11 2.044476e-11
+34      -21.58118 3.150473e-13 5.261289e-11 5.261289e-11
+35      -27.96706 7.471044e-07 6.238321e-05 6.238321e-05
+
+✅ Pairwise DESeq2 results saved to humann3_publication_results_deseq2/stratified_pathway_deseq2_pairwise_results.csv
+
+
+# Publication-Quality Visualizations (Significant Pathways from DESeq2)
+Visualizations are generated for the top significant pathways from the DESeq2 overall results (unstratified).
+No statistically significant unstratified pathways found (DESeq2 padj <= 0.05). Skipping visualization of significant unstratified pathways.
+
+# Taxa Contributions to Differentially Abundant Pathways
+This section identifies taxa contributing to pathways found differentially abundant by DESeq2.
+
+## A. Top Taxa Contributing to Significant Unstratified Pathways (Overall Functional Shifts)
+No statistically significant unstratified pathways found (DESeq2 padj <= 0.05) to analyze for taxa contributions.
+
+## B. Significant Stratified Pathways and their Responsible Taxa (Taxon-Specific Functional Shifts)
+No statistically significant stratified pathways found (DESeq2 padj <= 0.05) to list.
+
+--- Analysis Complete ---
+All results have been written to 'humann3_publication_results_deseq2/humann3_analysis_results.txt' and plots to the 'humann3_publication_results_deseq2' directory.
