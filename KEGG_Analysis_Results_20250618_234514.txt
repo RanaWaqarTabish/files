@@ -1,0 +1,206 @@
+=== KEGG PATHWAY ANALYSIS ===
+Date: 2025-06-19 04:39:06
+User: RanaWaqarTabish
+
+Data loaded:
+- KOs: 7029
+- Samples: 70
+
+After filtering:
+- KOs retained: 6125
+- Samples: 70
+
+Treatment groups: Low_Ca_Coarse_Particle, Low_Ca_Fine_Particle, Negative_Control, Reduced_Ca_Coarse_Particle, Reduced_Ca_Fine_Particle, Standard_Ca_Coarse_Particle, Standard_Ca_Fine_Particle
+
+Data converted to integer matrix for DESeq2
+
+Running DESeq2 analysis...
+DESeq2 analysis completed
+
+=== DIFFERENTIAL ABUNDANCE RESULTS ===
+
+Comparison 1 of 10: Standard_Ca_Fine_Particle vs Negative_Control
+Significant KOs: 1
+Insufficient KOs for KEGG enrichment (need ≥5, have 1)
+
+================================================================================
+
+Comparison 2 of 10: Reduced_Ca_Fine_Particle vs Standard_Ca_Fine_Particle
+Significant KOs: 1
+Insufficient KOs for KEGG enrichment (need ≥5, have 1)
+
+================================================================================
+
+Comparison 3 of 10: Low_Ca_Fine_Particle vs Reduced_Ca_Fine_Particle
+Significant KOs: 22
+
+Performing KEGG enrichment analysis...
+Enriched KEGG Pathways (2 total):
+      ID       Description Count FoldEnrichment qvalue_formatted
+ ko01320      Sulfur cycle     3          55.18         4.38e-04
+ ko00920 Sulfur metabolism     3          22.24         3.30e-03
+
+================================================================================
+
+Comparison 4 of 10: Low_Ca_Fine_Particle vs Standard_Ca_Fine_Particle
+Significant KOs: 118
+
+Performing KEGG enrichment analysis...
+Enriched KEGG Pathways (12 total):
+      ID                              Description Count FoldEnrichment qvalue_formatted
+ ko00561                  Glycerolipid metabolism     7          15.87         1.51e-05
+ ko00051          Fructose and mannose metabolism     6          11.23         4.51e-04
+ ko01230              Biosynthesis of amino acids     7           6.19         2.46e-03
+ ko00500            Starch and sucrose metabolism     4           8.12         2.19e-02
+ ko00680                       Methane metabolism     5           5.49         2.55e-02
+ ko00270       Cysteine and methionine metabolism     4           6.72         2.90e-02
+ ko00360                 Phenylalanine metabolism     3           8.61         4.28e-02
+ ko00350                      Tyrosine metabolism     3           7.59         4.96e-02
+ ko01200                        Carbon metabolism     6           3.42         4.96e-02
+ ko00040 Pentose and glucuronate interconversions     3           7.17         4.96e-02
+ ko00564           Glycerophospholipid metabolism     3           5.52         9.13e-02
+ ko00340                     Histidine metabolism     2           9.16         9.79e-02
+
+================================================================================
+
+Comparison 5 of 10: Reduced_Ca_Coarse_Particle vs Standard_Ca_Coarse_Particle
+Significant KOs: 156
+
+Performing KEGG enrichment analysis...
+Enriched KEGG Pathways (24 total):
+      ID                                 Description Count FoldEnrichment qvalue_formatted
+ ko00720              Other carbon fixation pathways    15          27.39         2.10e-16
+ ko01200                           Carbon metabolism    17           9.97         1.27e-11
+ ko01210             2-Oxocarboxylic acid metabolism     6          11.68         1.78e-04
+ ko00020                   Citrate cycle (TCA cycle)     5          15.78         1.78e-04
+ ko00640                       Propanoate metabolism     5          10.62         9.62e-04
+ ko00650                        Butanoate metabolism     5           9.69         1.24e-03
+ ko00280  Valine, leucine and isoleucine degradation     4          12.53         1.92e-03
+ ko04980          Cobalamin transport and metabolism     2          26.16         1.49e-02
+ ko00620                         Pyruvate metabolism     4           6.69         1.55e-02
+ ko00220                       Arginine biosynthesis     3           9.85         1.57e-02
+ ko00250 Alanine, aspartate and glutamate metabolism     3           9.43         1.60e-02
+ ko02060             Phosphotransferase system (PTS)     3           9.17         1.60e-02
+ ko00633                    Nitrotoluene degradation     2          19.34         1.67e-02
+ ko02030                        Bacterial chemotaxis     2          17.10         1.98e-02
+ ko00430          Taurine and hypotaurine metabolism     2          15.34         2.29e-02
+ ko00680                          Methane metabolism     4           4.54         3.36e-02
+ ko00010                Glycolysis / Gluconeogenesis     3           6.17         3.36e-02
+ ko00630     Glyoxylate and dicarboxylate metabolism     3           5.59         4.12e-02
+ ko01232                       Nucleotide metabolism     3           5.37         4.34e-02
+ ko00340                        Histidine metabolism     2           9.46         4.34e-02
+ ko00920                           Sulfur metabolism     3           5.12         4.46e-02
+ ko01230                 Biosynthesis of amino acids     4           3.69         4.87e-02
+ ko01240                   Biosynthesis of cofactors     5           2.91         5.65e-02
+ ko00910                         Nitrogen metabolism     2           6.45         7.36e-02
+
+================================================================================
+
+Comparison 6 of 10: Low_Ca_Coarse_Particle vs Reduced_Ca_Coarse_Particle
+Significant KOs: 573
+
+Performing KEGG enrichment analysis...
+Enriched KEGG Pathways (21 total):
+      ID                                         Description Count FoldEnrichment qvalue_formatted
+ ko00280          Valine, leucine and isoleucine degradation    11           8.89         3.68e-06
+ ko00650                                Butanoate metabolism    13           6.54         4.55e-06
+ ko01230                         Biosynthesis of amino acids    16           3.81         1.70e-04
+ ko02024                                      Quorum sensing    17           3.45         2.44e-04
+ ko00330                     Arginine and proline metabolism    10           4.99         6.44e-04
+ ko01240                           Biosynthesis of cofactors    19           2.87         6.44e-04
+ ko00260            Glycine, serine and threonine metabolism     9           4.70         1.84e-03
+ ko00071                              Fatty acid degradation     6           5.74         7.51e-03
+ ko01200                                   Carbon metabolism    16           2.44         1.07e-02
+ ko00630             Glyoxylate and dicarboxylate metabolism     8           3.89         1.07e-02
+ ko00340                                Histidine metabolism     5           6.10         1.19e-02
+ ko00400 Phenylalanine, tyrosine and tryptophan biosynthesis     6           4.65         1.51e-02
+ ko00785                              Lipoic acid metabolism     4           7.40         1.51e-02
+ ko00380                               Tryptophan metabolism     6           4.25         2.06e-02
+ ko01212                               Fatty acid metabolism     6           4.10         2.30e-02
+ ko00190                           Oxidative phosphorylation    10           2.56         3.71e-02
+ ko00511                            Other glycan degradation     3           7.83         3.71e-02
+ ko00270                  Cysteine and methionine metabolism     7           3.14         3.96e-02
+ ko00640                               Propanoate metabolism     6           3.31         5.09e-02
+ ko00550                          Peptidoglycan biosynthesis     4           4.17         7.44e-02
+ ko00790                                 Folate biosynthesis     5           3.42         7.44e-02
+
+================================================================================
+
+Comparison 7 of 10: Low_Ca_Coarse_Particle vs Standard_Ca_Coarse_Particle
+Significant KOs: 296
+
+Performing KEGG enrichment analysis...
+Enriched KEGG Pathways (19 total):
+      ID                                Description Count FoldEnrichment qvalue_formatted
+ ko02024                             Quorum sensing    16           6.08         4.75e-07
+ ko00720             Other carbon fixation pathways     9           8.06         4.40e-05
+ ko01200                          Carbon metabolism    15           4.30         4.40e-05
+ ko00280 Valine, leucine and isoleucine degradation     6           9.09         7.56e-04
+ ko01210            2-Oxocarboxylic acid metabolism     7           6.73         1.05e-03
+ ko00190                  Oxidative phosphorylation     9           4.36         2.44e-03
+ ko00330            Arginine and proline metabolism     6           5.61         6.09e-03
+ ko00380                      Tryptophan metabolism     5           6.73         7.07e-03
+ ko00640                      Propanoate metabolism     5           5.24         1.77e-02
+ ko00785                     Lipoic acid metabolism     3          10.64         1.77e-02
+ ko00020                  Citrate cycle (TCA cycle)     4           6.15         2.12e-02
+ ko00650                       Butanoate metabolism     5           4.78         2.12e-02
+ ko00630    Glyoxylate and dicarboxylate metabolism     5           4.62         2.26e-02
+ ko00270         Cysteine and methionine metabolism     5           4.26         2.93e-02
+ ko01230                Biosynthesis of amino acids     7           3.15         2.93e-02
+ ko00340                       Histidine metabolism     3           7.02         3.58e-02
+ ko00561                    Glycerolipid metabolism     4           4.58         4.07e-02
+ ko00670                  One carbon pool by folate     3           5.08         7.60e-02
+ ko01240                  Biosynthesis of cofactors     8           2.27         8.10e-02
+
+================================================================================
+
+Comparison 8 of 10: Standard_Ca_Coarse_Particle vs Standard_Ca_Fine_Particle
+Significant KOs: 6
+
+Performing KEGG enrichment analysis...
+Enriched KEGG Pathways (5 total):
+      ID                                         Description Count FoldEnrichment qvalue_formatted
+ ko00571                Lipoarabinomannan (LAM) biosynthesis     1         171.13         6.15e-03
+ ko00984                                 Steroid degradation     1          55.72         8.57e-03
+ ko00522 Biosynthesis of 12-, 14- and 16-membered macrolides     1          40.61         8.57e-03
+ ko00500                       Starch and sucrose metabolism     1          22.60         1.09e-02
+ ko01052                        Type I polyketide structures     1          18.86         1.09e-02
+
+================================================================================
+
+Comparison 9 of 10: Reduced_Ca_Coarse_Particle vs Reduced_Ca_Fine_Particle
+Significant KOs: 16
+
+Performing KEGG enrichment analysis...
+No significantly enriched KEGG pathways found
+
+================================================================================
+
+Comparison 10 of 10: Low_Ca_Coarse_Particle vs Low_Ca_Fine_Particle
+Significant KOs: 219
+
+Performing KEGG enrichment analysis...
+Enriched KEGG Pathways (5 total):
+      ID                        Description Count FoldEnrichment qvalue_formatted
+ ko00190          Oxidative phosphorylation    10           8.33         1.57e-05
+ ko00270 Cysteine and methionine metabolism     5           7.29         1.56e-02
+ ko01230        Biosynthesis of amino acids     6           4.64         2.57e-02
+ ko00340               Histidine metabolism     3          11.90         2.57e-02
+ ko00330    Arginine and proline metabolism     4           6.49         3.42e-02
+
+================================================================================
+
+=== ANALYSIS SUMMARY ===
+Analysis completed at: 2025-06-19 04:39:06
+Parameters used:
+- Min count threshold: 10
+- Min samples: 3
+- Alpha level: 0.05
+- FDR correction: 0.05
+- Log2FC threshold: 1
+- Total comparisons: 10
+- Comparisons with significant KOs: 10
+- Successful KEGG enrichments: 7
+- Total unique significant KOs: 791
+
+Analysis by: RanaWaqarTabish
